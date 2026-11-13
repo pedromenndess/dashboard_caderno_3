@@ -1,0 +1,29 @@
+{
+  "versao": "2026-11-12_v01",
+  "status": "aprovado",
+  "fonte_externa_disponivel": false,
+  "municipios": 224,
+  "linhas": {
+    "ivel": 224,
+    "continuidade": 672,
+    "inclusao_tarifaria": 672,
+    "dependencia_tarifaria": 672,
+    "indicadores_municipais": 3360,
+    "geografia": 224
+  },
+  "periodos_municipais": [
+    2023,
+    2024,
+    2025
+  ],
+  "checagens": [
+    "chaves únicas",
+    "224 municípios",
+    "códigos IBGE com sete caracteres",
+    "períodos esperados",
+    "escala do IVEL entre 0 e 100",
+    "D2 de referência completo e entre 0 e 100",
+    "correspondência integral com a geografia",
+    "hashes das cópias importadas idênticos ao manifesto"
+  ]
+}

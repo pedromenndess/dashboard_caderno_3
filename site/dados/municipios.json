@@ -1,0 +1,1122 @@
+[
+  {
+    "codigo_ibge": "2200053",
+    "municipio": "Acauã",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2200103",
+    "municipio": "Agricolândia",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200202",
+    "municipio": "Água Branca",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200251",
+    "municipio": "Alagoinha do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2200277",
+    "municipio": "Alegrete do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2200301",
+    "municipio": "Alto Longá",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200400",
+    "municipio": "Altos",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200459",
+    "municipio": "Alvorada do Gurguéia",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2200509",
+    "municipio": "Amarante",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200608",
+    "municipio": "Angical do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2200707",
+    "municipio": "Anísio de Abreu",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2200806",
+    "municipio": "Antônio Almeida",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2200905",
+    "municipio": "Aroazes",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2200954",
+    "municipio": "Aroeiras do Itaim",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2201002",
+    "municipio": "Arraial",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2201051",
+    "municipio": "Assunção do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2201101",
+    "municipio": "Avelino Lopes",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2201150",
+    "municipio": "Baixa Grande do Ribeiro",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2201176",
+    "municipio": "Barra D'Alcântara",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2201200",
+    "municipio": "Barras",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2201309",
+    "municipio": "Barreiras do Piauí",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2201408",
+    "municipio": "Barro Duro",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2201507",
+    "municipio": "Batalha",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2201556",
+    "municipio": "Bela Vista do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2201572",
+    "municipio": "Belém do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2201606",
+    "municipio": "Beneditinos",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2201705",
+    "municipio": "Bertolínia",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2201739",
+    "municipio": "Betânia do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2201770",
+    "municipio": "Boa Hora",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2201804",
+    "municipio": "Bocaina",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2201903",
+    "municipio": "Bom Jesus",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2201919",
+    "municipio": "Bom Princípio do Piauí",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2201929",
+    "municipio": "Bonfim do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2201945",
+    "municipio": "Boqueirão do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2201960",
+    "municipio": "Brasileira",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2201988",
+    "municipio": "Brejo do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2202000",
+    "municipio": "Buriti dos Lopes",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202026",
+    "municipio": "Buriti dos Montes",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202059",
+    "municipio": "Cabeceiras do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202075",
+    "municipio": "Cajazeiras do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2202083",
+    "municipio": "Cajueiro da Praia",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202091",
+    "municipio": "Caldeirão Grande do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2202109",
+    "municipio": "Campinas do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2202117",
+    "municipio": "Campo Alegre do Fidalgo",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2202133",
+    "municipio": "Campo Grande do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2202174",
+    "municipio": "Campo Largo do Piauí",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2202208",
+    "municipio": "Campo Maior",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202251",
+    "municipio": "Canavieira",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2202307",
+    "municipio": "Canto do Buriti",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2202406",
+    "municipio": "Capitão de Campos",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202455",
+    "municipio": "Capitão Gervásio Oliveira",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2202505",
+    "municipio": "Caracol",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2202539",
+    "municipio": "Caraúbas do Piauí",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202554",
+    "municipio": "Caridade do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2202604",
+    "municipio": "Castelo do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202653",
+    "municipio": "Caxingó",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202703",
+    "municipio": "Cocal",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202711",
+    "municipio": "Cocal de Telha",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2202729",
+    "municipio": "Cocal dos Alves",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2202737",
+    "municipio": "Coivaras",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2202752",
+    "municipio": "Colônia do Gurguéia",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2202778",
+    "municipio": "Colônia do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2202802",
+    "municipio": "Conceição do Canindé",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2202851",
+    "municipio": "Coronel José Dias",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2202901",
+    "municipio": "Corrente",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203008",
+    "municipio": "Cristalândia do Piauí",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203107",
+    "municipio": "Cristino Castro",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203206",
+    "municipio": "Curimatá",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203230",
+    "municipio": "Currais",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203255",
+    "municipio": "Curralinhos",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2203271",
+    "municipio": "Curral Novo do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2203305",
+    "municipio": "Demerval Lobão",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2203354",
+    "municipio": "Dirceu Arcoverde",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2203404",
+    "municipio": "Dom Expedito Lopes",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2203420",
+    "municipio": "Domingos Mourão",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2203453",
+    "municipio": "Dom Inocêncio",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2203503",
+    "municipio": "Elesbão Veloso",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2203602",
+    "municipio": "Eliseu Martins",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2203701",
+    "municipio": "Esperantina",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2203750",
+    "municipio": "Fartura do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2203800",
+    "municipio": "Flores do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2203859",
+    "municipio": "Floresta do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2203909",
+    "municipio": "Floriano",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2204006",
+    "municipio": "Francinópolis",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2204105",
+    "municipio": "Francisco Ayres",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2204154",
+    "municipio": "Francisco Macedo",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2204204",
+    "municipio": "Francisco Santos",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2204303",
+    "municipio": "Fronteiras",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2204352",
+    "municipio": "Geminiano",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2204402",
+    "municipio": "Gilbués",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2204501",
+    "municipio": "Guadalupe",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2204550",
+    "municipio": "Guaribas",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2204600",
+    "municipio": "Hugo Napoleão",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2204659",
+    "municipio": "Ilha Grande",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2204709",
+    "municipio": "Inhuma",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2204808",
+    "municipio": "Ipiranga do Piauí",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2204907",
+    "municipio": "Isaías Coelho",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2205003",
+    "municipio": "Itainópolis",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2205102",
+    "municipio": "Itaueira",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2205151",
+    "municipio": "Jacobina do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2205201",
+    "municipio": "Jaicós",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2205250",
+    "municipio": "Jardim do Mulato",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2205276",
+    "municipio": "Jatobá do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2205300",
+    "municipio": "Jerumenha",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2205359",
+    "municipio": "João Costa",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2205409",
+    "municipio": "Joaquim Pires",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2205458",
+    "municipio": "Joca Marques",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2205508",
+    "municipio": "José de Freitas",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2205516",
+    "municipio": "Juazeiro do Piauí",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2205524",
+    "municipio": "Júlio Borges",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2205532",
+    "municipio": "Jurema",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2205540",
+    "municipio": "Lagoinha do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2205557",
+    "municipio": "Lagoa Alegre",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2205565",
+    "municipio": "Lagoa do Barro do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2205573",
+    "municipio": "Lagoa de São Francisco",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2205581",
+    "municipio": "Lagoa do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2205599",
+    "municipio": "Lagoa do Sítio",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2205607",
+    "municipio": "Landri Sales",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2205706",
+    "municipio": "Luís Correia",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2205805",
+    "municipio": "Luzilândia",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2205854",
+    "municipio": "Madeiro",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2205904",
+    "municipio": "Manoel Emídio",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2205953",
+    "municipio": "Marcolândia",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2206001",
+    "municipio": "Marcos Parente",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2206050",
+    "municipio": "Massapê do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2206100",
+    "municipio": "Matias Olímpio",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2206209",
+    "municipio": "Miguel Alves",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2206308",
+    "municipio": "Miguel Leão",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2206357",
+    "municipio": "Milton Brandão",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2206407",
+    "municipio": "Monsenhor Gil",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2206506",
+    "municipio": "Monsenhor Hipólito",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2206605",
+    "municipio": "Monte Alegre do Piauí",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2206654",
+    "municipio": "Morro Cabeça no Tempo",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2206670",
+    "municipio": "Morro do Chapéu do Piauí",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2206696",
+    "municipio": "Murici dos Portelas",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2206704",
+    "municipio": "Nazaré do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2206720",
+    "municipio": "Nazária",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2206753",
+    "municipio": "Nossa Senhora de Nazaré",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2206803",
+    "municipio": "Nossa Senhora dos Remédios",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2206902",
+    "municipio": "Novo Oriente do Piauí",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2206951",
+    "municipio": "Novo Santo Antônio",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2207009",
+    "municipio": "Oeiras",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2207108",
+    "municipio": "Olho D'Água do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2207207",
+    "municipio": "Padre Marcos",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2207306",
+    "municipio": "Paes Landim",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2207355",
+    "municipio": "Pajeú do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2207405",
+    "municipio": "Palmeira do Piauí",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2207504",
+    "municipio": "Palmeirais",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2207553",
+    "municipio": "Paquetá",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2207603",
+    "municipio": "Parnaguá",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2207702",
+    "municipio": "Parnaíba",
+    "territorio_desenvolvimento": "Planície Litorânea"
+  },
+  {
+    "codigo_ibge": "2207751",
+    "municipio": "Passagem Franca do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2207777",
+    "municipio": "Patos do Piauí",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2207793",
+    "municipio": "Pau D'Arco do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2207801",
+    "municipio": "Paulistana",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2207850",
+    "municipio": "Pavussu",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2207900",
+    "municipio": "Pedro II",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2207934",
+    "municipio": "Pedro Laurentino",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2207959",
+    "municipio": "Nova Santa Rita",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2208007",
+    "municipio": "Picos",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2208106",
+    "municipio": "Pimenteiras",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2208205",
+    "municipio": "Pio IX",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2208304",
+    "municipio": "Piracuruca",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2208403",
+    "municipio": "Piripiri",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2208502",
+    "municipio": "Porto",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2208551",
+    "municipio": "Porto Alegre do Piauí",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2208601",
+    "municipio": "Prata do Piauí",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2208650",
+    "municipio": "Queimada Nova",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2208700",
+    "municipio": "Redenção do Gurguéia",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2208809",
+    "municipio": "Regeneração",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2208858",
+    "municipio": "Riacho Frio",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2208874",
+    "municipio": "Ribeira do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2208908",
+    "municipio": "Ribeiro Gonçalves",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2209005",
+    "municipio": "Rio Grande do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2209104",
+    "municipio": "Santa Cruz do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209153",
+    "municipio": "Santa Cruz dos Milagres",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2209203",
+    "municipio": "Santa Filomena",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2209302",
+    "municipio": "Santa Luz",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2209351",
+    "municipio": "Santana do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2209377",
+    "municipio": "Santa Rosa do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209401",
+    "municipio": "Santo Antônio de Lisboa",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2209450",
+    "municipio": "Santo Antônio dos Milagres",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2209500",
+    "municipio": "Santo Inácio do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209559",
+    "municipio": "São Braz do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2209609",
+    "municipio": "São Félix do Piauí",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2209658",
+    "municipio": "São Francisco de Assis do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209708",
+    "municipio": "São Francisco do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209757",
+    "municipio": "São Gonçalo do Gurguéia",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2209807",
+    "municipio": "São Gonçalo do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2209856",
+    "municipio": "São João da Canabrava",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2209872",
+    "municipio": "São João da Fronteira",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2209906",
+    "municipio": "São João da Serra",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2209955",
+    "municipio": "São João da Varjota",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2209971",
+    "municipio": "São João do Arraial",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2210003",
+    "municipio": "São João do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2210052",
+    "municipio": "São José do Divino",
+    "territorio_desenvolvimento": "Cocais"
+  },
+  {
+    "codigo_ibge": "2210102",
+    "municipio": "São José do Peixe",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2210201",
+    "municipio": "São José do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2210300",
+    "municipio": "São Julião",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2210359",
+    "municipio": "São Lourenço do Piauí",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2210375",
+    "municipio": "São Luis do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2210383",
+    "municipio": "São Miguel da Baixa Grande",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2210391",
+    "municipio": "São Miguel do Fidalgo",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2210409",
+    "municipio": "São Miguel do Tapuio",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2210508",
+    "municipio": "São Pedro do Piauí",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2210607",
+    "municipio": "São Raimundo Nonato",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2210623",
+    "municipio": "Sebastião Barros",
+    "territorio_desenvolvimento": "Chapada das Mangabeiras"
+  },
+  {
+    "codigo_ibge": "2210631",
+    "municipio": "Sebastião Leal",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2210656",
+    "municipio": "Sigefredo Pacheco",
+    "territorio_desenvolvimento": "Carnaubais"
+  },
+  {
+    "codigo_ibge": "2210706",
+    "municipio": "Simões",
+    "territorio_desenvolvimento": "Chapada do Vale do Rio Itaim"
+  },
+  {
+    "codigo_ibge": "2210805",
+    "municipio": "Simplício Mendes",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2210904",
+    "municipio": "Socorro do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2210938",
+    "municipio": "Sussuapara",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2210953",
+    "municipio": "Tamboril do Piauí",
+    "territorio_desenvolvimento": "Vale dos Rios Piauí e Itaueiras"
+  },
+  {
+    "codigo_ibge": "2210979",
+    "municipio": "Tanque do Piauí",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  },
+  {
+    "codigo_ibge": "2211001",
+    "municipio": "Teresina",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2211100",
+    "municipio": "União",
+    "territorio_desenvolvimento": "Entre Rios"
+  },
+  {
+    "codigo_ibge": "2211209",
+    "municipio": "Uruçuí",
+    "territorio_desenvolvimento": "Tabuleiros do Alto Parnaíba"
+  },
+  {
+    "codigo_ibge": "2211308",
+    "municipio": "Valença do Piauí",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2211357",
+    "municipio": "Várzea Branca",
+    "territorio_desenvolvimento": "Serra da Capivara"
+  },
+  {
+    "codigo_ibge": "2211407",
+    "municipio": "Várzea Grande",
+    "territorio_desenvolvimento": "Vale do Sambito"
+  },
+  {
+    "codigo_ibge": "2211506",
+    "municipio": "Vera Mendes",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2211605",
+    "municipio": "Vila Nova do Piauí",
+    "territorio_desenvolvimento": "Vale do Rio Guaribas"
+  },
+  {
+    "codigo_ibge": "2211704",
+    "municipio": "Wall Ferraz",
+    "territorio_desenvolvimento": "Vale do Canindé"
+  }
+]

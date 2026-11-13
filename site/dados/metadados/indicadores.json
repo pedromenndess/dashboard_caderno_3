@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ivel",
+    "rotulo": "Índice de Vulnerabilidade Elétrica",
+    "unidade": "pontos",
+    "periodos": [
+      "2025"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores maiores representam maior vulnerabilidade elétrica relativa.",
+    "fonte": "Resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "qualidade_servico",
+    "rotulo": "Qualidade do serviço",
+    "unidade": "pontos",
+    "periodos": [
+      "2025"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores maiores representam condição relativamente mais desfavorável.",
+    "fonte": "ANEEL, resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "insuficiencia_renda",
+    "rotulo": "Insuficiência de renda",
+    "unidade": "pontos",
+    "periodos": [
+      "2022"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores maiores representam maior insuficiência de renda relativa.",
+    "fonte": "IBGE, Censo Demográfico 2022; resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "dependencia_tarifaria_ivel",
+    "rotulo": "Dependência tarifária — dimensão do IVEL",
+    "unidade": "pontos",
+    "periodos": [
+      "2025"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores maiores representam maior dependência tarifária relativa.",
+    "fonte": "Resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "continuidade_d2",
+    "rotulo": "Continuidade do fornecimento",
+    "unidade": "pontos",
+    "periodos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores maiores representam condição relativamente mais desfavorável.",
+    "fonte": "ANEEL, resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "continuidade_d2_referencia",
+    "rotulo": "Continuidade do fornecimento — referência consolidada",
+    "unidade": "pontos",
+    "periodos": [
+      "2023-2025"
+    ],
+    "escala": "0 a 100",
+    "sentido": "Valores menores representam condição relativamente mais favorável.",
+    "fonte": "ANEEL, indicador normalizado com pesos de 50% para DEC e FEC; resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "cobertura_tarifa_social",
+    "rotulo": "Cobertura estimada da Tarifa Social",
+    "unidade": "%",
+    "periodos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "escala": "percentual",
+    "sentido": "Razão estimada entre unidades beneficiárias e famílias potencialmente elegíveis.",
+    "fonte": "MDS e Equatorial Piauí/AGRESPI; resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "dependencia_tarifaria",
+    "rotulo": "Dependência tarifária",
+    "unidade": "%",
+    "periodos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "escala": "percentual",
+    "sentido": "Participação das unidades beneficiárias no total de unidades residenciais.",
+    "fonte": "ANEEL e Equatorial Piauí/AGRESPI; resultado aprovado do Caderno 3."
+  },
+  {
+    "id": "luz_para_todos_domicilios",
+    "rotulo": "Domicílios beneficiados pelo Luz para Todos",
+    "unidade": "domicílios",
+    "periodos": [
+      "2023-2025"
+    ],
+    "escala": "quantidade",
+    "sentido": "Quantidade acumulada de domicílios beneficiados no período.",
+    "fonte": "Ministério de Minas e Energia; resultado aprovado do Caderno 3."
+  }
+]

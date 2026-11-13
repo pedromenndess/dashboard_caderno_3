@@ -1,0 +1,22 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Cópias locais das fontes selecionadas
+dados/origem/
+
+# Bases de trabalho e controles internos; o navegador usa somente site/dados
+dados/preparados/
+dados/controle_importacao.json
+dados/controle_validacao.json
+
+# Arquivos temporários
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+.preview_*/

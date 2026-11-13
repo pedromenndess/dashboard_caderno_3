@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Painel interativo social e elétrico do Caderno 3 do PEEPI.">
+    <title>Painel Social e Elétrico do Piauí</title>
+    <link rel="icon" href="recursos/logo_seplan.png" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css?v=20261113-02">
+    <script src="bibliotecas/plotly-4.1.1.min.js" charset="utf-8"></script>
+    <script src="js/painel.js?v=20261113-02" defer></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__linha">
+        <div class="titulo-principal">
+          <span class="titulo-principal__selo">PEEPI · Caderno 3</span>
+          <h1>Painel Social e Elétrico do Piauí</h1>
+          <p>Indicadores municipais e estaduais</p>
+        </div>
+        <div class="marca-oficial">
+          <img src="recursos/logo_seplan.png" alt="Secretaria do Planejamento e Governo do Piauí">
+        </div>
+      </div>
+
+      <div class="filtros" aria-label="Filtros do painel">
+        <label class="campo campo--ano" for="filtro-ano">
+          <span>Ano</span>
+          <select id="filtro-ano">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025" selected>2025</option>
+          </select>
+        </label>
+
+        <div id="campo-municipio" class="campo campo--municipio">
+          <label for="filtro-municipio">Município</label>
+          <div class="busca">
+            <input
+              id="filtro-municipio"
+              type="search"
+              placeholder="Digite o nome do município"
+              autocomplete="off"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-controls="sugestoes-municipio"
+            >
+            <button id="limpar-municipio" type="button" title="Selecionar todos os municípios" aria-label="Selecionar todos os municípios">×</button>
+          </div>
+          <div id="sugestoes-municipio" class="sugestoes" role="listbox"></div>
+        </div>
+
+        <div class="filtro-resumo" aria-live="polite">
+          <span>Seleção</span>
+          <strong id="resumo-selecao">Carregando dados…</strong>
+        </div>
+      </div>
+    </header>
+
+    <nav class="abas" aria-label="Seções do painel">
+      <button class="aba-botao ativo" type="button" data-aba="geral">Visão geral</button>
+      <button class="aba-botao" type="button" data-aba="qualidade">Qualidade</button>
+      <button class="aba-botao" type="button" data-aba="tarifa">Inclusão tarifária</button>
+      <button class="aba-botao aba-botao--destaque" type="button" data-aba="ivel">IVEL</button>
+    </nav>
+
+    <main class="conteudo">
+      <div id="mensagem-erro" class="mensagem-erro" hidden></div>
+
+      <section id="aba-geral" class="painel-aba ativo" aria-labelledby="titulo-geral">
+        <div class="secao-titulo">
+          <div>
+            <span class="rotulo-secao">Piauí</span>
+            <h2 id="titulo-geral">Visão geral</h2>
+          </div>
+          <span class="referencia">Referências: 2022–2025</span>
+        </div>
+
+        <div class="cartoes cartoes--quatro">
+          <article class="cartao-indicador">
+            <span>População</span>
+            <strong id="geral-populacao">—</strong>
+            <small>Censo 2022</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>Unidades residenciais</span>
+            <strong id="geral-unidades">—</strong>
+            <small id="geral-unidades-ano">—</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>Unidades residenciais de baixa renda</span>
+            <strong id="geral-baixa-renda">—</strong>
+            <small id="geral-baixa-renda-ano">—</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>Moradores com energia</span>
+            <strong id="geral-acesso">—</strong>
+            <small id="geral-acesso-ano">—</small>
+          </article>
+        </div>
+
+        <div class="grade-graficos grade-graficos--dois">
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Unidades consumidoras residenciais</h3>
+              <span>2023–2025</span>
+            </div>
+            <div id="grafico-unidades" class="grafico grafico--medio"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Acesso à energia elétrica</h3>
+              <span>Brasil, Nordeste e Piauí</span>
+            </div>
+            <div id="grafico-acesso" class="grafico grafico--medio"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Disponibilidade parcial ou irregular</h3>
+              <span>2025</span>
+            </div>
+            <div id="grafico-disponibilidade" class="grafico grafico--medio"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Domicílios sem equipamentos eletrônicos</h3>
+              <span>Piauí · 2025</span>
+            </div>
+            <div id="grafico-fruicao" class="grafico grafico--medio"></div>
+          </article>
+        </div>
+
+        <p class="fonte">Fontes: IBGE, PNAD Contínua e ANEEL. Elaboração: SUMER/SEPLAN.</p>
+      </section>
+
+      <section id="aba-qualidade" class="painel-aba" aria-labelledby="titulo-qualidade" hidden>
+        <div class="secao-titulo">
+          <div>
+            <span class="rotulo-secao">Indicadores municipais</span>
+            <h2 id="titulo-qualidade">Qualidade e continuidade</h2>
+          </div>
+          <span class="referencia" id="qualidade-referencia">Referência: 2023–2025</span>
+        </div>
+
+        <div class="cartoes cartoes--quatro">
+          <article class="cartao-indicador cartao-indicador--azul">
+            <span>Indicador D2 de referência</span>
+            <strong id="qualidade-d2">—</strong>
+            <small id="qualidade-classe">—</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>DEC de referência</span>
+            <strong id="qualidade-dec">—</strong>
+            <small>horas</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>FEC de referência</span>
+            <strong id="qualidade-fec">—</strong>
+            <small>interrupções</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>Posição estadual</span>
+            <strong id="qualidade-posicao">—</strong>
+            <small>menor valor = melhor posição</small>
+          </article>
+        </div>
+
+        <div class="grade-graficos grade-graficos--mapa">
+          <article class="bloco-grafico bloco-grafico--mapa">
+            <div class="bloco-grafico__titulo">
+              <h3>D2 de referência por município</h3>
+              <span>Clique em um município</span>
+            </div>
+            <div id="mapa-qualidade" class="grafico grafico--mapa"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3 id="qualidade-serie-titulo">Série municipal</h3>
+              <span id="qualidade-municipio">—</span>
+            </div>
+            <div id="grafico-serie-qualidade" class="grafico grafico--medio"></div>
+          </article>
+        </div>
+
+        <div class="grade-graficos">
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Menores valores do D2 de referência</h3>
+              <span id="qualidade-ranking-ano">2023–2025</span>
+            </div>
+            <div id="grafico-ranking-qualidade" class="grafico grafico--alto"></div>
+          </article>
+        </div>
+
+        <p class="fonte">Fonte: ANEEL — indicadores DEC/FEC (2023–2025). Elaboração: SUMER/SEPLAN.</p>
+      </section>
+
+      <section id="aba-tarifa" class="painel-aba" aria-labelledby="titulo-tarifa" hidden>
+        <div class="secao-titulo">
+          <div>
+            <span class="rotulo-secao">Proteção econômica</span>
+            <h2 id="titulo-tarifa">Inclusão tarifária</h2>
+          </div>
+          <span class="referencia" id="tarifa-referencia">Ano: 2025</span>
+        </div>
+
+        <div class="cartoes cartoes--quatro">
+          <article class="cartao-indicador cartao-indicador--azul">
+            <span>Beneficiários da Tarifa Social</span>
+            <strong id="tarifa-beneficiarias">—</strong>
+            <small id="tarifa-beneficiarias-ano">—</small>
+          </article>
+          <article class="cartao-indicador cartao-indicador--verde">
+            <span class="rotulo-com-ajuda">
+              Cobertura estimada
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="Cobertura estimada da Tarifa Social: razão estimada entre as unidades consumidoras beneficiárias e as famílias potencialmente elegíveis."
+                data-ajuda="Razão estimada entre as unidades consumidoras beneficiárias da Tarifa Social e as famílias potencialmente elegíveis."
+              >!</button>
+            </span>
+            <strong id="tarifa-cobertura">—</strong>
+            <small id="tarifa-cobertura-recorte">município selecionado</small>
+          </article>
+          <article class="cartao-indicador cartao-indicador--vermelho">
+            <span class="rotulo-com-ajuda">
+              Dependência tarifária
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="Dependência tarifária: participação das unidades consumidoras beneficiárias da Tarifa Social no total de unidades consumidoras residenciais."
+                data-ajuda="Participação das unidades consumidoras beneficiárias da Tarifa Social no total de unidades consumidoras residenciais."
+              >!</button>
+            </span>
+            <strong id="tarifa-dependencia">—</strong>
+            <small id="tarifa-dependencia-recorte">município selecionado</small>
+          </article>
+          <article class="cartao-indicador">
+            <span>Famílias elegíveis</span>
+            <strong id="tarifa-elegiveis">—</strong>
+            <small id="tarifa-elegiveis-ano">—</small>
+          </article>
+        </div>
+
+        <div class="controle-grafico">
+          <label for="indicador-tarifa">Indicador do mapa</label>
+          <select id="indicador-tarifa">
+            <option value="cobertura">Cobertura estimada da Tarifa Social</option>
+            <option value="dependencia">Dependência tarifária</option>
+          </select>
+        </div>
+
+        <div class="grade-graficos grade-graficos--mapa">
+          <article class="bloco-grafico bloco-grafico--mapa">
+            <div class="bloco-grafico__titulo">
+              <h3 id="tarifa-mapa-titulo">Cobertura estimada da Tarifa Social</h3>
+              <span>Clique em um município</span>
+            </div>
+            <div id="mapa-tarifa" class="grafico grafico--mapa"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3 id="tarifa-serie-titulo">Série municipal</h3>
+              <span id="tarifa-municipio">—</span>
+            </div>
+            <div id="grafico-serie-tarifa" class="grafico grafico--medio"></div>
+          </article>
+        </div>
+
+        <div class="grade-graficos grade-graficos--dois">
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Ranking municipal</h3>
+              <span id="tarifa-ranking-subtitulo">Cobertura · 2025</span>
+            </div>
+            <div id="grafico-ranking-tarifa" class="grafico grafico--alto"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Síntese estadual</h3>
+              <span>2025</span>
+            </div>
+            <div class="quadro-estadual">
+              <div><span>Famílias elegíveis</span><strong id="estado-elegiveis">—</strong></div>
+              <div><span>Unidades beneficiárias</span><strong id="estado-beneficiarias">—</strong></div>
+              <div><span>Cobertura estimada</span><strong id="estado-cobertura">—</strong></div>
+              <div><span>Dependência tarifária</span><strong id="estado-dependencia">—</strong></div>
+            </div>
+            <div id="grafico-suspensoes" class="grafico grafico--pequeno"></div>
+          </article>
+        </div>
+
+        <p class="fonte">Fontes: MDS, ANEEL e Equatorial Piauí/AGRESPI (2023–2025). Elaboração: SUMER/SEPLAN.</p>
+      </section>
+
+      <section id="aba-ivel" class="painel-aba" aria-labelledby="titulo-ivel" hidden>
+        <div class="secao-titulo">
+          <div>
+            <span class="rotulo-secao">Principal produto do Caderno 3</span>
+            <h2 id="titulo-ivel">Índice de Vulnerabilidade Elétrica — IVEL</h2>
+          </div>
+          <span class="referencia">Referência: 2025</span>
+        </div>
+
+        <div class="ivel-destaque">
+          <article class="perfil-ivel">
+            <div class="perfil-ivel__cabecalho">
+              <div>
+                <span id="ivel-posicao">—</span>
+                <h3 id="ivel-municipio">—</h3>
+                <small id="ivel-territorio">—</small>
+              </div>
+              <div class="ivel-nota">
+                <strong id="ivel-valor">—</strong>
+                <span id="ivel-classe">—</span>
+              </div>
+            </div>
+            <div id="grafico-radar-ivel" class="grafico grafico--radar"></div>
+            <div class="dimensoes-ivel">
+              <div class="dimensao dimensao--azul">
+                <span>Qualidade do serviço</span>
+                <strong id="ivel-qualidade">—</strong>
+              </div>
+              <div class="dimensao dimensao--vermelha">
+                <span>Insuficiência de renda</span>
+                <strong id="ivel-renda">—</strong>
+              </div>
+              <div class="dimensao dimensao--verde">
+                <span>Dependência tarifária</span>
+                <strong id="ivel-dependencia">—</strong>
+              </div>
+            </div>
+            <div class="perfil-rotulo">
+              <span>Perfil</span>
+              <strong id="ivel-perfil">—</strong>
+            </div>
+          </article>
+
+          <article class="bloco-grafico bloco-grafico--mapa">
+            <div class="bloco-grafico__titulo">
+              <h3>Distribuição municipal do IVEL</h3>
+              <span>Clique em um município</span>
+            </div>
+            <div class="legenda-ivel" aria-label="Classificação do IVEL">
+              <span><i class="legenda-ivel__cor legenda-ivel__cor--muito-baixa"></i>Muito baixa</span>
+              <span><i class="legenda-ivel__cor legenda-ivel__cor--baixa"></i>Baixa</span>
+              <span><i class="legenda-ivel__cor legenda-ivel__cor--media"></i>Média</span>
+              <span><i class="legenda-ivel__cor legenda-ivel__cor--alta"></i>Alta</span>
+              <span><i class="legenda-ivel__cor legenda-ivel__cor--muito-alta"></i>Muito alta</span>
+            </div>
+            <div id="mapa-ivel" class="grafico grafico--mapa-ivel"></div>
+          </article>
+        </div>
+
+        <div class="grade-graficos">
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Maiores valores do IVEL</h3>
+              <span>2025</span>
+            </div>
+            <div id="grafico-ranking-ivel" class="grafico grafico--alto"></div>
+          </article>
+        </div>
+
+        <p class="fonte">
+          Fonte: IVEL (SUMER/SEPLAN), com dados da ANEEL (2025), IBGE — Censo Demográfico (2022) e Equatorial Piauí/AGRESPI (2025).
+        </p>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <span>Plano Estadual de Energia do Piauí — Caderno 3</span>
+      <span id="versao-dados">Base de dados</span>
+    </footer>
+
+    <div id="carregamento" class="carregamento" aria-live="polite">
+      <div class="carregamento__marca"></div>
+      <strong>Preparando o painel…</strong>
+    </div>
+  </body>
+</html>

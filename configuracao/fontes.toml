@@ -1,0 +1,123 @@
+[projeto]
+versao_dados = "2026-11-12_v01"
+municipios_esperados = 224
+
+[origem]
+caderno_3 = "H:/Meu Drive/SUMER/Caderno_3"
+
+# A malha municipal é a única fonte de 01_dados_brutos. Ela fornece apenas
+# a geometria necessária aos mapas; os indicadores vêm de 02 e 05.
+
+[[arquivos]]
+id = "malha_municipal"
+grupo = "geografia"
+origem = "01_dados_brutos/PI_Municipios_2022.zip"
+destino = "geografia/PI_Municipios_2022.zip"
+
+[[arquivos]]
+id = "populacao_piaui"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_03_contexto_demografico/3.1_populacao_residente_piaui.xlsx"
+destino = "produtos/contexto/populacao_residente_piaui.xlsx"
+
+[[arquivos]]
+id = "unidades_consumidoras"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_03_contexto_demografico/3.2_unidades_consumidoras_residenciais.xlsx"
+destino = "produtos/contexto/unidades_consumidoras_residenciais.xlsx"
+
+[[arquivos]]
+id = "acesso_energia"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_04_acesso_cobertura/4.1_moradores_em_domicilios_com_energia_eletrica.xlsx"
+destino = "produtos/acesso/moradores_com_energia.xlsx"
+
+[[arquivos]]
+id = "acesso_urbano_rural"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_04_acesso_cobertura/4.2_energia_rural_urbana.xlsx"
+destino = "produtos/acesso/energia_urbana_rural.xlsx"
+
+[[arquivos]]
+id = "luz_para_todos_municipal"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_04_acesso_cobertura/6.3_luz_para_todos_mapa.xlsx"
+destino = "produtos/acesso/luz_para_todos_municipal.xlsx"
+
+[[arquivos]]
+id = "continuidade_municipal"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_7_decfec/7.4_D2_continuidade_municipal.xlsx"
+destino = "produtos/qualidade/continuidade_municipal.xlsx"
+
+[[arquivos]]
+id = "reclamacoes_anuais"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_7_decfec/7.6_reclamacoes_ouvidoria_por_ano.xlsx"
+destino = "produtos/reclamacoes/reclamacoes_anuais.xlsx"
+
+[[arquivos]]
+id = "reclamacoes_tipologias"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_7_decfec/7.7_top_10_tipologias_reclamacoes.xlsx"
+destino = "produtos/reclamacoes/reclamacoes_tipologias.xlsx"
+
+[[arquivos]]
+id = "inclusao_tarifaria"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_08_inclusao_tarifaria/8.5_inclusao_tarifaria.xlsx"
+destino = "produtos/tarifa/inclusao_tarifaria.xlsx"
+
+[[arquivos]]
+id = "dependencia_tarifaria"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_08_inclusao_tarifaria/8.6_D4_dependencia_tarifaria.xlsx"
+destino = "produtos/tarifa/dependencia_tarifaria.xlsx"
+
+[[arquivos]]
+id = "evolucao_inclusao_tarifaria"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_08_inclusao_tarifaria/8.7_evolucao_inclusao_tarifaria.xlsx"
+destino = "produtos/tarifa/evolucao_inclusao_tarifaria.xlsx"
+
+[[arquivos]]
+id = "suspensoes"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_08_inclusao_tarifaria/8.9_registros_suspensao.xlsx"
+destino = "produtos/tarifa/suspensoes.xlsx"
+
+[[arquivos]]
+id = "ivel_dimensoes"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_09_ivel/9.1_dimensoes_ivel.xlsx"
+destino = "produtos/ivel/dimensoes_ivel.xlsx"
+
+[[arquivos]]
+id = "ivel_municipal"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_09_ivel/9.2_ivel_municipal_2025.xlsx"
+destino = "produtos/ivel/ivel_municipal_2025.xlsx"
+
+[[arquivos]]
+id = "ivel_classificacao"
+grupo = "produto_final"
+origem = "05_resultados/tabelas/capitulo_09_ivel/9.3_classificacao_ivel.xlsx"
+destino = "produtos/ivel/classificacao_ivel.xlsx"
+
+[[arquivos]]
+id = "disponibilidade_comparativo"
+grupo = "intermediario_selecionado"
+origem = "02_dados_intermediarios/Disponibilidade_comparativo.xlsx"
+destino = "intermediarios/disponibilidade_comparativo.xlsx"
+
+[[arquivos]]
+id = "disponibilidade_urbano_rural"
+grupo = "intermediario_selecionado"
+origem = "02_dados_intermediarios/Disponibilidade_ruralurbana_comp.xlsx"
+destino = "intermediarios/disponibilidade_urbano_rural.xlsx"
+
+[[arquivos]]
+id = "fruicao_comparativo"
+grupo = "intermediario_selecionado"
+origem = "02_dados_intermediarios/Fruicao_comparativo.xlsx"
+destino = "intermediarios/fruicao_comparativo.xlsx"

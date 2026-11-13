@@ -1,0 +1,469 @@
+{
+  "populacao_2022": [
+    {
+      "categoria": "População urbana",
+      "quantidade": 2271384,
+      "percentual": 69.44
+    },
+    {
+      "categoria": "População rural",
+      "quantidade": 999815,
+      "percentual": 30.56
+    },
+    {
+      "categoria": "População total",
+      "quantidade": 3271199,
+      "percentual": 100.0
+    }
+  ],
+  "unidades_consumidoras": [
+    {
+      "ano": 2023,
+      "unidades_residenciais": 1261009,
+      "unidades_baixa_renda": 556182,
+      "percentual_baixa_renda": 44.106108679636705
+    },
+    {
+      "ano": 2024,
+      "unidades_residenciais": 1299696,
+      "unidades_baixa_renda": 550545,
+      "percentual_baixa_renda": 42.35952099567899
+    },
+    {
+      "ano": 2025,
+      "unidades_residenciais": 1343336,
+      "unidades_baixa_renda": 547881,
+      "percentual_baixa_renda": 40.78510514123049
+    }
+  ],
+  "acesso_energia": [
+    {
+      "recorte": "Brasil",
+      "ano": 2023,
+      "percentual": 99.8
+    },
+    {
+      "recorte": "Nordeste",
+      "ano": 2023,
+      "percentual": 99.7
+    },
+    {
+      "recorte": "Piauí",
+      "ano": 2023,
+      "percentual": 99.5
+    },
+    {
+      "recorte": "Brasil",
+      "ano": 2024,
+      "percentual": 99.8
+    },
+    {
+      "recorte": "Nordeste",
+      "ano": 2024,
+      "percentual": 99.8
+    },
+    {
+      "recorte": "Piauí",
+      "ano": 2024,
+      "percentual": 99.6
+    },
+    {
+      "recorte": "Brasil",
+      "ano": 2025,
+      "percentual": 99.9
+    },
+    {
+      "recorte": "Nordeste",
+      "ano": 2025,
+      "percentual": 99.8
+    },
+    {
+      "recorte": "Piauí",
+      "ano": 2025,
+      "percentual": 99.8
+    }
+  ],
+  "disponibilidade_2025": [
+    {
+      "recorte": "Piauí",
+      "indicador": "Diariamente, em tempo integral",
+      "estimativa_domicilios": 1131939,
+      "percentual": 97.8,
+      "erro_padrao": 0.5,
+      "ic95_inferior": 96.8,
+      "ic95_superior": 98.9,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Diariamente, em tempo integral",
+      "estimativa_domicilios": 20329578,
+      "percentual": 98.7,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 98.5,
+      "ic95_superior": 98.9,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Diariamente, em tempo integral",
+      "estimativa_domicilios": 77364188,
+      "percentual": 98.3,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 98.2,
+      "ic95_superior": 98.5,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Diariamente, por algumas horas",
+      "estimativa_domicilios": 14908,
+      "percentual": 1.3,
+      "erro_padrao": 0.4,
+      "ic95_inferior": 0.5,
+      "ic95_superior": 2.1,
+      "observacao_precisao": "Baixa precisão: CV > 30%"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Diariamente, por algumas horas",
+      "estimativa_domicilios": 166733,
+      "percentual": 0.8,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 0.7,
+      "ic95_superior": 1.0,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Diariamente, por algumas horas",
+      "estimativa_domicilios": 729126,
+      "percentual": 0.9,
+      "erro_padrao": 0.0,
+      "ic95_inferior": 0.8,
+      "ic95_superior": 1.0,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Outra frequência",
+      "estimativa_domicilios": 10061,
+      "percentual": 0.9,
+      "erro_padrao": 0.4,
+      "ic95_inferior": 0.0,
+      "ic95_superior": 1.7,
+      "observacao_precisao": "Baixa precisão: CV > 30%"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Outra frequência",
+      "estimativa_domicilios": 107255,
+      "percentual": 0.5,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 0.4,
+      "ic95_superior": 0.7,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Outra frequência",
+      "estimativa_domicilios": 598848,
+      "percentual": 0.8,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 0.7,
+      "ic95_superior": 0.9,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Disponibilidade parcial ou irregular",
+      "estimativa_domicilios": 24969,
+      "percentual": 2.2,
+      "erro_padrao": 0.5,
+      "ic95_inferior": 1.1,
+      "ic95_superior": 3.2,
+      "observacao_precisao": "Atenção: CV > 15% e <= 30%"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Disponibilidade parcial ou irregular",
+      "estimativa_domicilios": 273988,
+      "percentual": 1.3,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 1.1,
+      "ic95_superior": 1.5,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Disponibilidade parcial ou irregular",
+      "estimativa_domicilios": 1327974,
+      "percentual": 1.7,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 1.5,
+      "ic95_superior": 1.8,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    }
+  ],
+  "fruicao_2025": [
+    {
+      "recorte": "Piauí",
+      "indicador": "Domicílios sem geladeira",
+      "estimativa_domicilios": 24180,
+      "percentual": 2.1,
+      "erro_padrao": 0.4,
+      "ic95_inferior": 1.4,
+      "ic95_superior": 2.8,
+      "observacao_precisao": "Atenção: CV > 15% e <= 30%"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Domicílios sem geladeira",
+      "estimativa_domicilios": 486081,
+      "percentual": 2.3,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 2.1,
+      "ic95_superior": 2.5,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Domicílios sem geladeira",
+      "estimativa_domicilios": 1231475,
+      "percentual": 1.6,
+      "erro_padrao": 0.0,
+      "ic95_inferior": 1.5,
+      "ic95_superior": 1.6,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Domicílios sem máquina de lavar",
+      "estimativa_domicilios": 749580,
+      "percentual": 64.2,
+      "erro_padrao": 1.5,
+      "ic95_inferior": 61.3,
+      "ic95_superior": 67.1,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Domicílios sem máquina de lavar",
+      "estimativa_domicilios": 11928029,
+      "percentual": 57.4,
+      "erro_padrao": 0.4,
+      "ic95_inferior": 56.5,
+      "ic95_superior": 58.3,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Domicílios sem máquina de lavar",
+      "estimativa_domicilios": 22135926,
+      "percentual": 27.9,
+      "erro_padrao": 0.2,
+      "ic95_inferior": 27.5,
+      "ic95_superior": 28.4,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Domicílios sem televisão",
+      "estimativa_domicilios": 97313,
+      "percentual": 8.3,
+      "erro_padrao": 0.6,
+      "ic95_inferior": 7.2,
+      "ic95_superior": 9.5,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Domicílios sem televisão",
+      "estimativa_domicilios": 1637087,
+      "percentual": 7.9,
+      "erro_padrao": 0.2,
+      "ic95_inferior": 7.5,
+      "ic95_superior": 8.2,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Domicílios sem televisão",
+      "estimativa_domicilios": 4828633,
+      "percentual": 6.1,
+      "erro_padrao": 0.1,
+      "ic95_inferior": 5.9,
+      "ic95_superior": 6.3,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Piauí",
+      "indicador": "Domicílios sem microcomputador",
+      "estimativa_domicilios": 888075,
+      "percentual": 76.1,
+      "erro_padrao": 1.4,
+      "ic95_inferior": 73.3,
+      "ic95_superior": 78.8,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Nordeste",
+      "indicador": "Domicílios sem microcomputador",
+      "estimativa_domicilios": 15393431,
+      "percentual": 74.1,
+      "erro_padrao": 0.4,
+      "ic95_inferior": 73.3,
+      "ic95_superior": 74.8,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    },
+    {
+      "recorte": "Brasil",
+      "indicador": "Domicílios sem microcomputador",
+      "estimativa_domicilios": 48141280,
+      "percentual": 60.7,
+      "erro_padrao": 0.3,
+      "ic95_inferior": 60.1,
+      "ic95_superior": 61.3,
+      "observacao_precisao": "Boa precisão (CV <= 15%)"
+    }
+  ],
+  "reclamacoes": [
+    {
+      "ano": 2023,
+      "manifestacoes_recebidas": 1948390.0,
+      "procedentes": 689083.0,
+      "improcedentes": 159358.0,
+      "canal": "SAC"
+    },
+    {
+      "ano": 2024,
+      "manifestacoes_recebidas": 2067875.0,
+      "procedentes": 752653.0,
+      "improcedentes": 167071.0,
+      "canal": "SAC"
+    },
+    {
+      "ano": 2025,
+      "manifestacoes_recebidas": 2001183.0,
+      "procedentes": 739392.0,
+      "improcedentes": 140292.0,
+      "canal": "SAC"
+    },
+    {
+      "ano": 2023,
+      "manifestacoes_recebidas": 101686.0,
+      "procedentes": 64577.0,
+      "improcedentes": 8370.0,
+      "canal": "Ouvidoria"
+    },
+    {
+      "ano": 2024,
+      "manifestacoes_recebidas": 28890.0,
+      "procedentes": 7668.0,
+      "improcedentes": 3046.0,
+      "canal": "Ouvidoria"
+    },
+    {
+      "ano": 2025,
+      "manifestacoes_recebidas": 26795.0,
+      "procedentes": 8131.0,
+      "improcedentes": 3053.0,
+      "canal": "Ouvidoria"
+    }
+  ],
+  "suspensoes": [
+    {
+      "categoria": "Residencial total",
+      "ano_2024": 218820.0,
+      "ano_2025": 217183.0,
+      "variacao_percentual": -0.7481034640343663
+    },
+    {
+      "categoria": "Residencial de baixa renda",
+      "ano_2024": 93729.0,
+      "ano_2025": 86786.0,
+      "variacao_percentual": -7.407525952480021
+    }
+  ],
+  "tarifa_social_2025": {
+    "familias_elegiveis": 701486,
+    "unidades_beneficiarias": 525041,
+    "cobertura_estimada_percentual": 74.84696772280559,
+    "unidades_residenciais": 1343336,
+    "dependencia_estadual_percentual": 39.08486037744838
+  },
+  "ivel_2025": {
+    "media": 47.84640687606083,
+    "mediana": 48.94316231203429,
+    "limite_classe_muito_alta": 58.54,
+    "classificacoes": [
+      {
+        "classificacao": "Muito baixa",
+        "faixa": "Até 38,50",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Baixa",
+        "faixa": "Mais de 38,50 a 45,81",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Média",
+        "faixa": "Mais de 45,81 a 51,55",
+        "municipios": 44
+      },
+      {
+        "classificacao": "Alta",
+        "faixa": "Mais de 51,55 a 58,54",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Muito alta",
+        "faixa": "Acima de 58,54",
+        "municipios": 45
+      }
+    ],
+    "contagem_classes": [
+      {
+        "classificacao": "Alta",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Baixa",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Muito alta",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Muito baixa",
+        "municipios": 45
+      },
+      {
+        "classificacao": "Média",
+        "municipios": 44
+      }
+    ],
+    "dimensoes": [
+      {
+        "dimensao": "Qualidade do serviço",
+        "indicador": "Qualidade do serviço da energia elétrica",
+        "referencia": "2025",
+        "peso": "1/3"
+      },
+      {
+        "dimensao": "Dependência tarifária",
+        "indicador": "Participação das UCs beneficiárias da TSEE no total de UCs residenciais",
+        "referencia": "2025",
+        "peso": "1/3"
+      },
+      {
+        "dimensao": "Insuficiência de renda",
+        "indicador": "Rendimento domiciliar médio mensal per capita",
+        "referencia": "Censo 2022",
+        "peso": "1/3"
+      }
+    ]
+  }
+}

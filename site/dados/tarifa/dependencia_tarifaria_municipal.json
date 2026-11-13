@@ -1,0 +1,5378 @@
+[
+  {
+    "codigo_ibge": "2200053",
+    "municipio": "Acauã",
+    "ano": 2023,
+    "unidades_residenciais": 1982,
+    "unidades_beneficiarias": 1304,
+    "dependencia_tarifaria_percentual": 65.79212916246216
+  },
+  {
+    "codigo_ibge": "2200053",
+    "municipio": "Acauã",
+    "ano": 2024,
+    "unidades_residenciais": 2441,
+    "unidades_beneficiarias": 1332,
+    "dependencia_tarifaria_percentual": 54.56780008193364
+  },
+  {
+    "codigo_ibge": "2200053",
+    "municipio": "Acauã",
+    "ano": 2025,
+    "unidades_residenciais": 2564,
+    "unidades_beneficiarias": 1306,
+    "dependencia_tarifaria_percentual": 50.93603744149766
+  },
+  {
+    "codigo_ibge": "2200103",
+    "municipio": "Agricolândia",
+    "ano": 2023,
+    "unidades_residenciais": 2140,
+    "unidades_beneficiarias": 1045,
+    "dependencia_tarifaria_percentual": 48.83177570093459
+  },
+  {
+    "codigo_ibge": "2200103",
+    "municipio": "Agricolândia",
+    "ano": 2024,
+    "unidades_residenciais": 2217,
+    "unidades_beneficiarias": 1027,
+    "dependencia_tarifaria_percentual": 46.32386107352278
+  },
+  {
+    "codigo_ibge": "2200103",
+    "municipio": "Agricolândia",
+    "ano": 2025,
+    "unidades_residenciais": 2268,
+    "unidades_beneficiarias": 970,
+    "dependencia_tarifaria_percentual": 42.7689594356261
+  },
+  {
+    "codigo_ibge": "2200202",
+    "municipio": "Água Branca",
+    "ano": 2023,
+    "unidades_residenciais": 7286,
+    "unidades_beneficiarias": 2834,
+    "dependencia_tarifaria_percentual": 38.89651386220148
+  },
+  {
+    "codigo_ibge": "2200202",
+    "municipio": "Água Branca",
+    "ano": 2024,
+    "unidades_residenciais": 7487,
+    "unidades_beneficiarias": 2846,
+    "dependencia_tarifaria_percentual": 38.01255509549886
+  },
+  {
+    "codigo_ibge": "2200202",
+    "municipio": "Água Branca",
+    "ano": 2025,
+    "unidades_residenciais": 7706,
+    "unidades_beneficiarias": 2812,
+    "dependencia_tarifaria_percentual": 36.49104593822995
+  },
+  {
+    "codigo_ibge": "2200251",
+    "municipio": "Alagoinha do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2653,
+    "unidades_beneficiarias": 1555,
+    "dependencia_tarifaria_percentual": 58.61289106671692
+  },
+  {
+    "codigo_ibge": "2200251",
+    "municipio": "Alagoinha do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 3082,
+    "unidades_beneficiarias": 1460,
+    "dependencia_tarifaria_percentual": 47.37183646982479
+  },
+  {
+    "codigo_ibge": "2200251",
+    "municipio": "Alagoinha do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 3160,
+    "unidades_beneficiarias": 1422,
+    "dependencia_tarifaria_percentual": 45.0
+  },
+  {
+    "codigo_ibge": "2200277",
+    "municipio": "Alegrete do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1967,
+    "unidades_beneficiarias": 1007,
+    "dependencia_tarifaria_percentual": 51.19471276054905
+  },
+  {
+    "codigo_ibge": "2200277",
+    "municipio": "Alegrete do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1928,
+    "unidades_beneficiarias": 931,
+    "dependencia_tarifaria_percentual": 48.28838174273859
+  },
+  {
+    "codigo_ibge": "2200277",
+    "municipio": "Alegrete do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1990,
+    "unidades_beneficiarias": 902,
+    "dependencia_tarifaria_percentual": 45.32663316582914
+  },
+  {
+    "codigo_ibge": "2200301",
+    "municipio": "Alto Longá",
+    "ano": 2023,
+    "unidades_residenciais": 5032,
+    "unidades_beneficiarias": 2244,
+    "dependencia_tarifaria_percentual": 44.5945945945946
+  },
+  {
+    "codigo_ibge": "2200301",
+    "municipio": "Alto Longá",
+    "ano": 2024,
+    "unidades_residenciais": 5164,
+    "unidades_beneficiarias": 2282,
+    "dependencia_tarifaria_percentual": 44.19054996127033
+  },
+  {
+    "codigo_ibge": "2200301",
+    "municipio": "Alto Longá",
+    "ano": 2025,
+    "unidades_residenciais": 5551,
+    "unidades_beneficiarias": 2301,
+    "dependencia_tarifaria_percentual": 41.45199063231851
+  },
+  {
+    "codigo_ibge": "2200400",
+    "municipio": "Altos",
+    "ano": 2023,
+    "unidades_residenciais": 19341,
+    "unidades_beneficiarias": 7581,
+    "dependencia_tarifaria_percentual": 39.19652551574376
+  },
+  {
+    "codigo_ibge": "2200400",
+    "municipio": "Altos",
+    "ano": 2024,
+    "unidades_residenciais": 20604,
+    "unidades_beneficiarias": 7762,
+    "dependencia_tarifaria_percentual": 37.67229664142885
+  },
+  {
+    "codigo_ibge": "2200400",
+    "municipio": "Altos",
+    "ano": 2025,
+    "unidades_residenciais": 21883,
+    "unidades_beneficiarias": 7744,
+    "dependencia_tarifaria_percentual": 35.38820088653293
+  },
+  {
+    "codigo_ibge": "2200459",
+    "municipio": "Alvorada do Gurguéia",
+    "ano": 2023,
+    "unidades_residenciais": 1787,
+    "unidades_beneficiarias": 834,
+    "dependencia_tarifaria_percentual": 46.67039731393397
+  },
+  {
+    "codigo_ibge": "2200459",
+    "municipio": "Alvorada do Gurguéia",
+    "ano": 2024,
+    "unidades_residenciais": 1763,
+    "unidades_beneficiarias": 823,
+    "dependencia_tarifaria_percentual": 46.68179239931934
+  },
+  {
+    "codigo_ibge": "2200459",
+    "municipio": "Alvorada do Gurguéia",
+    "ano": 2025,
+    "unidades_residenciais": 1836,
+    "unidades_beneficiarias": 810,
+    "dependencia_tarifaria_percentual": 44.11764705882353
+  },
+  {
+    "codigo_ibge": "2200509",
+    "municipio": "Amarante",
+    "ano": 2023,
+    "unidades_residenciais": 6347,
+    "unidades_beneficiarias": 3033,
+    "dependencia_tarifaria_percentual": 47.78635575862612
+  },
+  {
+    "codigo_ibge": "2200509",
+    "municipio": "Amarante",
+    "ano": 2024,
+    "unidades_residenciais": 6507,
+    "unidades_beneficiarias": 3024,
+    "dependencia_tarifaria_percentual": 46.47302904564315
+  },
+  {
+    "codigo_ibge": "2200509",
+    "municipio": "Amarante",
+    "ano": 2025,
+    "unidades_residenciais": 6663,
+    "unidades_beneficiarias": 2689,
+    "dependencia_tarifaria_percentual": 40.35719645805193
+  },
+  {
+    "codigo_ibge": "2200608",
+    "municipio": "Angical do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 3159,
+    "unidades_beneficiarias": 1721,
+    "dependencia_tarifaria_percentual": 54.4792655903767
+  },
+  {
+    "codigo_ibge": "2200608",
+    "municipio": "Angical do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 3284,
+    "unidades_beneficiarias": 1685,
+    "dependencia_tarifaria_percentual": 51.30937880633374
+  },
+  {
+    "codigo_ibge": "2200608",
+    "municipio": "Angical do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 3407,
+    "unidades_beneficiarias": 1601,
+    "dependencia_tarifaria_percentual": 46.99148811270913
+  },
+  {
+    "codigo_ibge": "2200707",
+    "municipio": "Anísio de Abreu",
+    "ano": 2023,
+    "unidades_residenciais": 3894,
+    "unidades_beneficiarias": 1775,
+    "dependencia_tarifaria_percentual": 45.582948125321
+  },
+  {
+    "codigo_ibge": "2200707",
+    "municipio": "Anísio de Abreu",
+    "ano": 2024,
+    "unidades_residenciais": 4008,
+    "unidades_beneficiarias": 1757,
+    "dependencia_tarifaria_percentual": 43.83732534930139
+  },
+  {
+    "codigo_ibge": "2200707",
+    "municipio": "Anísio de Abreu",
+    "ano": 2025,
+    "unidades_residenciais": 4068,
+    "unidades_beneficiarias": 1764,
+    "dependencia_tarifaria_percentual": 43.36283185840708
+  },
+  {
+    "codigo_ibge": "2200806",
+    "municipio": "Antônio Almeida",
+    "ano": 2023,
+    "unidades_residenciais": 1274,
+    "unidades_beneficiarias": 412,
+    "dependencia_tarifaria_percentual": 32.33908948194662
+  },
+  {
+    "codigo_ibge": "2200806",
+    "municipio": "Antônio Almeida",
+    "ano": 2024,
+    "unidades_residenciais": 1355,
+    "unidades_beneficiarias": 457,
+    "dependencia_tarifaria_percentual": 33.72693726937269
+  },
+  {
+    "codigo_ibge": "2200806",
+    "municipio": "Antônio Almeida",
+    "ano": 2025,
+    "unidades_residenciais": 1365,
+    "unidades_beneficiarias": 459,
+    "dependencia_tarifaria_percentual": 33.62637362637363
+  },
+  {
+    "codigo_ibge": "2200905",
+    "municipio": "Aroazes",
+    "ano": 2023,
+    "unidades_residenciais": 2094,
+    "unidades_beneficiarias": 1161,
+    "dependencia_tarifaria_percentual": 55.44412607449857
+  },
+  {
+    "codigo_ibge": "2200905",
+    "municipio": "Aroazes",
+    "ano": 2024,
+    "unidades_residenciais": 2096,
+    "unidades_beneficiarias": 1075,
+    "dependencia_tarifaria_percentual": 51.28816793893129
+  },
+  {
+    "codigo_ibge": "2200905",
+    "municipio": "Aroazes",
+    "ano": 2025,
+    "unidades_residenciais": 2179,
+    "unidades_beneficiarias": 1047,
+    "dependencia_tarifaria_percentual": 48.04956402019275
+  },
+  {
+    "codigo_ibge": "2200954",
+    "municipio": "Aroeiras do Itaim",
+    "ano": 2023,
+    "unidades_residenciais": 957,
+    "unidades_beneficiarias": 503,
+    "dependencia_tarifaria_percentual": 52.56008359456635
+  },
+  {
+    "codigo_ibge": "2200954",
+    "municipio": "Aroeiras do Itaim",
+    "ano": 2024,
+    "unidades_residenciais": 1047,
+    "unidades_beneficiarias": 543,
+    "dependencia_tarifaria_percentual": 51.86246418338109
+  },
+  {
+    "codigo_ibge": "2200954",
+    "municipio": "Aroeiras do Itaim",
+    "ano": 2025,
+    "unidades_residenciais": 1087,
+    "unidades_beneficiarias": 527,
+    "dependencia_tarifaria_percentual": 48.48206071757129
+  },
+  {
+    "codigo_ibge": "2201002",
+    "municipio": "Arraial",
+    "ano": 2023,
+    "unidades_residenciais": 1871,
+    "unidades_beneficiarias": 958,
+    "dependencia_tarifaria_percentual": 51.20256547300909
+  },
+  {
+    "codigo_ibge": "2201002",
+    "municipio": "Arraial",
+    "ano": 2024,
+    "unidades_residenciais": 1946,
+    "unidades_beneficiarias": 938,
+    "dependencia_tarifaria_percentual": 48.20143884892087
+  },
+  {
+    "codigo_ibge": "2201002",
+    "municipio": "Arraial",
+    "ano": 2025,
+    "unidades_residenciais": 2028,
+    "unidades_beneficiarias": 909,
+    "dependencia_tarifaria_percentual": 44.82248520710059
+  },
+  {
+    "codigo_ibge": "2201051",
+    "municipio": "Assunção do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2607,
+    "unidades_beneficiarias": 1366,
+    "dependencia_tarifaria_percentual": 52.39739163789798
+  },
+  {
+    "codigo_ibge": "2201051",
+    "municipio": "Assunção do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2731,
+    "unidades_beneficiarias": 1427,
+    "dependencia_tarifaria_percentual": 52.25192237275723
+  },
+  {
+    "codigo_ibge": "2201051",
+    "municipio": "Assunção do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2913,
+    "unidades_beneficiarias": 1404,
+    "dependencia_tarifaria_percentual": 48.19773429454171
+  },
+  {
+    "codigo_ibge": "2201101",
+    "municipio": "Avelino Lopes",
+    "ano": 2023,
+    "unidades_residenciais": 4343,
+    "unidades_beneficiarias": 1898,
+    "dependencia_tarifaria_percentual": 43.70250978586231
+  },
+  {
+    "codigo_ibge": "2201101",
+    "municipio": "Avelino Lopes",
+    "ano": 2024,
+    "unidades_residenciais": 4276,
+    "unidades_beneficiarias": 1828,
+    "dependencia_tarifaria_percentual": 42.75023386342376
+  },
+  {
+    "codigo_ibge": "2201101",
+    "municipio": "Avelino Lopes",
+    "ano": 2025,
+    "unidades_residenciais": 4317,
+    "unidades_beneficiarias": 1719,
+    "dependencia_tarifaria_percentual": 39.819318971508
+  },
+  {
+    "codigo_ibge": "2201150",
+    "municipio": "Baixa Grande do Ribeiro",
+    "ano": 2023,
+    "unidades_residenciais": 5145,
+    "unidades_beneficiarias": 1850,
+    "dependencia_tarifaria_percentual": 35.95724003887269
+  },
+  {
+    "codigo_ibge": "2201150",
+    "municipio": "Baixa Grande do Ribeiro",
+    "ano": 2024,
+    "unidades_residenciais": 5462,
+    "unidades_beneficiarias": 1887,
+    "dependencia_tarifaria_percentual": 34.54778469425118
+  },
+  {
+    "codigo_ibge": "2201150",
+    "municipio": "Baixa Grande do Ribeiro",
+    "ano": 2025,
+    "unidades_residenciais": 5856,
+    "unidades_beneficiarias": 1925,
+    "dependencia_tarifaria_percentual": 32.87226775956284
+  },
+  {
+    "codigo_ibge": "2201176",
+    "municipio": "Barra D'Alcântara",
+    "ano": 2023,
+    "unidades_residenciais": 1664,
+    "unidades_beneficiarias": 921,
+    "dependencia_tarifaria_percentual": 55.34855769230769
+  },
+  {
+    "codigo_ibge": "2201176",
+    "municipio": "Barra D'Alcântara",
+    "ano": 2024,
+    "unidades_residenciais": 1713,
+    "unidades_beneficiarias": 891,
+    "dependencia_tarifaria_percentual": 52.01401050788091
+  },
+  {
+    "codigo_ibge": "2201176",
+    "municipio": "Barra D'Alcântara",
+    "ano": 2025,
+    "unidades_residenciais": 1735,
+    "unidades_beneficiarias": 842,
+    "dependencia_tarifaria_percentual": 48.53025936599424
+  },
+  {
+    "codigo_ibge": "2201200",
+    "municipio": "Barras",
+    "ano": 2023,
+    "unidades_residenciais": 16377,
+    "unidades_beneficiarias": 10521,
+    "dependencia_tarifaria_percentual": 64.24253526286866
+  },
+  {
+    "codigo_ibge": "2201200",
+    "municipio": "Barras",
+    "ano": 2024,
+    "unidades_residenciais": 16851,
+    "unidades_beneficiarias": 10715,
+    "dependencia_tarifaria_percentual": 63.58673075781853
+  },
+  {
+    "codigo_ibge": "2201200",
+    "municipio": "Barras",
+    "ano": 2025,
+    "unidades_residenciais": 17571,
+    "unidades_beneficiarias": 10349,
+    "dependencia_tarifaria_percentual": 58.89818450856525
+  },
+  {
+    "codigo_ibge": "2201309",
+    "municipio": "Barreiras do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 899,
+    "unidades_beneficiarias": 422,
+    "dependencia_tarifaria_percentual": 46.94104560622915
+  },
+  {
+    "codigo_ibge": "2201309",
+    "municipio": "Barreiras do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 907,
+    "unidades_beneficiarias": 366,
+    "dependencia_tarifaria_percentual": 40.35281146637266
+  },
+  {
+    "codigo_ibge": "2201309",
+    "municipio": "Barreiras do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 901,
+    "unidades_beneficiarias": 348,
+    "dependencia_tarifaria_percentual": 38.6237513873474
+  },
+  {
+    "codigo_ibge": "2201408",
+    "municipio": "Barro Duro",
+    "ano": 2023,
+    "unidades_residenciais": 2517,
+    "unidades_beneficiarias": 1135,
+    "dependencia_tarifaria_percentual": 45.09336511720302
+  },
+  {
+    "codigo_ibge": "2201408",
+    "municipio": "Barro Duro",
+    "ano": 2024,
+    "unidades_residenciais": 2613,
+    "unidades_beneficiarias": 1100,
+    "dependencia_tarifaria_percentual": 42.09720627631076
+  },
+  {
+    "codigo_ibge": "2201408",
+    "municipio": "Barro Duro",
+    "ano": 2025,
+    "unidades_residenciais": 2725,
+    "unidades_beneficiarias": 1009,
+    "dependencia_tarifaria_percentual": 37.02752293577981
+  },
+  {
+    "codigo_ibge": "2201507",
+    "municipio": "Batalha",
+    "ano": 2023,
+    "unidades_residenciais": 9488,
+    "unidades_beneficiarias": 4876,
+    "dependencia_tarifaria_percentual": 51.3912310286678
+  },
+  {
+    "codigo_ibge": "2201507",
+    "municipio": "Batalha",
+    "ano": 2024,
+    "unidades_residenciais": 9840,
+    "unidades_beneficiarias": 5066,
+    "dependencia_tarifaria_percentual": 51.48373983739838
+  },
+  {
+    "codigo_ibge": "2201507",
+    "municipio": "Batalha",
+    "ano": 2025,
+    "unidades_residenciais": 10359,
+    "unidades_beneficiarias": 5245,
+    "dependencia_tarifaria_percentual": 50.63230041509799
+  },
+  {
+    "codigo_ibge": "2201556",
+    "municipio": "Bela Vista do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1408,
+    "unidades_beneficiarias": 892,
+    "dependencia_tarifaria_percentual": 63.35227272727273
+  },
+  {
+    "codigo_ibge": "2201556",
+    "municipio": "Bela Vista do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1557,
+    "unidades_beneficiarias": 880,
+    "dependencia_tarifaria_percentual": 56.5189466923571
+  },
+  {
+    "codigo_ibge": "2201556",
+    "municipio": "Bela Vista do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1622,
+    "unidades_beneficiarias": 870,
+    "dependencia_tarifaria_percentual": 53.63748458692972
+  },
+  {
+    "codigo_ibge": "2201572",
+    "municipio": "Belém do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1335,
+    "unidades_beneficiarias": 741,
+    "dependencia_tarifaria_percentual": 55.50561797752809
+  },
+  {
+    "codigo_ibge": "2201572",
+    "municipio": "Belém do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1455,
+    "unidades_beneficiarias": 768,
+    "dependencia_tarifaria_percentual": 52.78350515463918
+  },
+  {
+    "codigo_ibge": "2201572",
+    "municipio": "Belém do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1528,
+    "unidades_beneficiarias": 727,
+    "dependencia_tarifaria_percentual": 47.57853403141361
+  },
+  {
+    "codigo_ibge": "2201606",
+    "municipio": "Beneditinos",
+    "ano": 2023,
+    "unidades_residenciais": 4045,
+    "unidades_beneficiarias": 2196,
+    "dependencia_tarifaria_percentual": 54.28924598269469
+  },
+  {
+    "codigo_ibge": "2201606",
+    "municipio": "Beneditinos",
+    "ano": 2024,
+    "unidades_residenciais": 4331,
+    "unidades_beneficiarias": 2214,
+    "dependencia_tarifaria_percentual": 51.11983375663819
+  },
+  {
+    "codigo_ibge": "2201606",
+    "municipio": "Beneditinos",
+    "ano": 2025,
+    "unidades_residenciais": 4498,
+    "unidades_beneficiarias": 2213,
+    "dependencia_tarifaria_percentual": 49.19964428634949
+  },
+  {
+    "codigo_ibge": "2201705",
+    "municipio": "Bertolínia",
+    "ano": 2023,
+    "unidades_residenciais": 2088,
+    "unidades_beneficiarias": 838,
+    "dependencia_tarifaria_percentual": 40.13409961685824
+  },
+  {
+    "codigo_ibge": "2201705",
+    "municipio": "Bertolínia",
+    "ano": 2024,
+    "unidades_residenciais": 2086,
+    "unidades_beneficiarias": 859,
+    "dependencia_tarifaria_percentual": 41.17929050814957
+  },
+  {
+    "codigo_ibge": "2201705",
+    "municipio": "Bertolínia",
+    "ano": 2025,
+    "unidades_residenciais": 2112,
+    "unidades_beneficiarias": 789,
+    "dependencia_tarifaria_percentual": 37.35795454545455
+  },
+  {
+    "codigo_ibge": "2201739",
+    "municipio": "Betânia do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 3215,
+    "unidades_beneficiarias": 1219,
+    "dependencia_tarifaria_percentual": 37.91601866251944
+  },
+  {
+    "codigo_ibge": "2201739",
+    "municipio": "Betânia do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2532,
+    "unidades_beneficiarias": 1202,
+    "dependencia_tarifaria_percentual": 47.47235387045814
+  },
+  {
+    "codigo_ibge": "2201739",
+    "municipio": "Betânia do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2626,
+    "unidades_beneficiarias": 1209,
+    "dependencia_tarifaria_percentual": 46.03960396039604
+  },
+  {
+    "codigo_ibge": "2201770",
+    "municipio": "Boa Hora",
+    "ano": 2023,
+    "unidades_residenciais": 2234,
+    "unidades_beneficiarias": 1349,
+    "dependencia_tarifaria_percentual": 60.38495971351835
+  },
+  {
+    "codigo_ibge": "2201770",
+    "municipio": "Boa Hora",
+    "ano": 2024,
+    "unidades_residenciais": 2367,
+    "unidades_beneficiarias": 1378,
+    "dependencia_tarifaria_percentual": 58.21715251373046
+  },
+  {
+    "codigo_ibge": "2201770",
+    "municipio": "Boa Hora",
+    "ano": 2025,
+    "unidades_residenciais": 2515,
+    "unidades_beneficiarias": 1358,
+    "dependencia_tarifaria_percentual": 53.99602385685884
+  },
+  {
+    "codigo_ibge": "2201804",
+    "municipio": "Bocaina",
+    "ano": 2023,
+    "unidades_residenciais": 1722,
+    "unidades_beneficiarias": 862,
+    "dependencia_tarifaria_percentual": 50.05807200929152
+  },
+  {
+    "codigo_ibge": "2201804",
+    "municipio": "Bocaina",
+    "ano": 2024,
+    "unidades_residenciais": 1973,
+    "unidades_beneficiarias": 909,
+    "dependencia_tarifaria_percentual": 46.07197161682717
+  },
+  {
+    "codigo_ibge": "2201804",
+    "municipio": "Bocaina",
+    "ano": 2025,
+    "unidades_residenciais": 2042,
+    "unidades_beneficiarias": 884,
+    "dependencia_tarifaria_percentual": 43.29089128305583
+  },
+  {
+    "codigo_ibge": "2201903",
+    "municipio": "Bom Jesus",
+    "ano": 2023,
+    "unidades_residenciais": 11919,
+    "unidades_beneficiarias": 5204,
+    "dependencia_tarifaria_percentual": 43.66138098833795
+  },
+  {
+    "codigo_ibge": "2201903",
+    "municipio": "Bom Jesus",
+    "ano": 2024,
+    "unidades_residenciais": 12545,
+    "unidades_beneficiarias": 4954,
+    "dependencia_tarifaria_percentual": 39.48983658828219
+  },
+  {
+    "codigo_ibge": "2201903",
+    "municipio": "Bom Jesus",
+    "ano": 2025,
+    "unidades_residenciais": 13154,
+    "unidades_beneficiarias": 4718,
+    "dependencia_tarifaria_percentual": 35.86741675535959
+  },
+  {
+    "codigo_ibge": "2201919",
+    "municipio": "Bom Princípio do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2166,
+    "unidades_beneficiarias": 1312,
+    "dependencia_tarifaria_percentual": 60.5724838411819
+  },
+  {
+    "codigo_ibge": "2201919",
+    "municipio": "Bom Princípio do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2202,
+    "unidades_beneficiarias": 1367,
+    "dependencia_tarifaria_percentual": 62.07992733878292
+  },
+  {
+    "codigo_ibge": "2201919",
+    "municipio": "Bom Princípio do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2285,
+    "unidades_beneficiarias": 1360,
+    "dependencia_tarifaria_percentual": 59.51859956236324
+  },
+  {
+    "codigo_ibge": "2201929",
+    "municipio": "Bonfim do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2176,
+    "unidades_beneficiarias": 1121,
+    "dependencia_tarifaria_percentual": 51.51654411764706
+  },
+  {
+    "codigo_ibge": "2201929",
+    "municipio": "Bonfim do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2246,
+    "unidades_beneficiarias": 1142,
+    "dependencia_tarifaria_percentual": 50.84594835262689
+  },
+  {
+    "codigo_ibge": "2201929",
+    "municipio": "Bonfim do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2276,
+    "unidades_beneficiarias": 1121,
+    "dependencia_tarifaria_percentual": 49.2530755711775
+  },
+  {
+    "codigo_ibge": "2201945",
+    "municipio": "Boqueirão do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2363,
+    "unidades_beneficiarias": 1216,
+    "dependencia_tarifaria_percentual": 51.46000846381719
+  },
+  {
+    "codigo_ibge": "2201945",
+    "municipio": "Boqueirão do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2410,
+    "unidades_beneficiarias": 1275,
+    "dependencia_tarifaria_percentual": 52.9045643153527
+  },
+  {
+    "codigo_ibge": "2201945",
+    "municipio": "Boqueirão do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2554,
+    "unidades_beneficiarias": 1291,
+    "dependencia_tarifaria_percentual": 50.54815974941269
+  },
+  {
+    "codigo_ibge": "2201960",
+    "municipio": "Brasileira",
+    "ano": 2023,
+    "unidades_residenciais": 3257,
+    "unidades_beneficiarias": 1700,
+    "dependencia_tarifaria_percentual": 52.19527172244397
+  },
+  {
+    "codigo_ibge": "2201960",
+    "municipio": "Brasileira",
+    "ano": 2024,
+    "unidades_residenciais": 3410,
+    "unidades_beneficiarias": 1675,
+    "dependencia_tarifaria_percentual": 49.12023460410558
+  },
+  {
+    "codigo_ibge": "2201960",
+    "municipio": "Brasileira",
+    "ano": 2025,
+    "unidades_residenciais": 3515,
+    "unidades_beneficiarias": 1746,
+    "dependencia_tarifaria_percentual": 49.6728307254623
+  },
+  {
+    "codigo_ibge": "2201988",
+    "municipio": "Brejo do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1326,
+    "unidades_beneficiarias": 807,
+    "dependencia_tarifaria_percentual": 60.85972850678733
+  },
+  {
+    "codigo_ibge": "2201988",
+    "municipio": "Brejo do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1621,
+    "unidades_beneficiarias": 799,
+    "dependencia_tarifaria_percentual": 49.29056138186304
+  },
+  {
+    "codigo_ibge": "2201988",
+    "municipio": "Brejo do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1675,
+    "unidades_beneficiarias": 786,
+    "dependencia_tarifaria_percentual": 46.92537313432836
+  },
+  {
+    "codigo_ibge": "2202000",
+    "municipio": "Buriti dos Lopes",
+    "ano": 2023,
+    "unidades_residenciais": 6978,
+    "unidades_beneficiarias": 3896,
+    "dependencia_tarifaria_percentual": 55.83261679564345
+  },
+  {
+    "codigo_ibge": "2202000",
+    "municipio": "Buriti dos Lopes",
+    "ano": 2024,
+    "unidades_residenciais": 7082,
+    "unidades_beneficiarias": 3882,
+    "dependencia_tarifaria_percentual": 54.8150240045185
+  },
+  {
+    "codigo_ibge": "2202000",
+    "municipio": "Buriti dos Lopes",
+    "ano": 2025,
+    "unidades_residenciais": 7260,
+    "unidades_beneficiarias": 3792,
+    "dependencia_tarifaria_percentual": 52.23140495867769
+  },
+  {
+    "codigo_ibge": "2202026",
+    "municipio": "Buriti dos Montes",
+    "ano": 2023,
+    "unidades_residenciais": 2621,
+    "unidades_beneficiarias": 1391,
+    "dependencia_tarifaria_percentual": 53.07134681419306
+  },
+  {
+    "codigo_ibge": "2202026",
+    "municipio": "Buriti dos Montes",
+    "ano": 2024,
+    "unidades_residenciais": 2640,
+    "unidades_beneficiarias": 1389,
+    "dependencia_tarifaria_percentual": 52.61363636363636
+  },
+  {
+    "codigo_ibge": "2202026",
+    "municipio": "Buriti dos Montes",
+    "ano": 2025,
+    "unidades_residenciais": 2794,
+    "unidades_beneficiarias": 1356,
+    "dependencia_tarifaria_percentual": 48.53256979241231
+  },
+  {
+    "codigo_ibge": "2202059",
+    "municipio": "Cabeceiras do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 3174,
+    "unidades_beneficiarias": 1874,
+    "dependencia_tarifaria_percentual": 59.04221802142408
+  },
+  {
+    "codigo_ibge": "2202059",
+    "municipio": "Cabeceiras do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 3292,
+    "unidades_beneficiarias": 1903,
+    "dependencia_tarifaria_percentual": 57.80680437424058
+  },
+  {
+    "codigo_ibge": "2202059",
+    "municipio": "Cabeceiras do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 3463,
+    "unidades_beneficiarias": 1864,
+    "dependencia_tarifaria_percentual": 53.82616228703436
+  },
+  {
+    "codigo_ibge": "2202075",
+    "municipio": "Cajazeiras do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1118,
+    "unidades_beneficiarias": 564,
+    "dependencia_tarifaria_percentual": 50.44722719141323
+  },
+  {
+    "codigo_ibge": "2202075",
+    "municipio": "Cajazeiras do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1164,
+    "unidades_beneficiarias": 578,
+    "dependencia_tarifaria_percentual": 49.65635738831615
+  },
+  {
+    "codigo_ibge": "2202075",
+    "municipio": "Cajazeiras do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1239,
+    "unidades_beneficiarias": 546,
+    "dependencia_tarifaria_percentual": 44.06779661016949
+  },
+  {
+    "codigo_ibge": "2202083",
+    "municipio": "Cajueiro da Praia",
+    "ano": 2023,
+    "unidades_residenciais": 3859,
+    "unidades_beneficiarias": 1266,
+    "dependencia_tarifaria_percentual": 32.80642653537186
+  },
+  {
+    "codigo_ibge": "2202083",
+    "municipio": "Cajueiro da Praia",
+    "ano": 2024,
+    "unidades_residenciais": 4286,
+    "unidades_beneficiarias": 1332,
+    "dependencia_tarifaria_percentual": 31.07792813812412
+  },
+  {
+    "codigo_ibge": "2202083",
+    "municipio": "Cajueiro da Praia",
+    "ano": 2025,
+    "unidades_residenciais": 4564,
+    "unidades_beneficiarias": 1295,
+    "dependencia_tarifaria_percentual": 28.37423312883436
+  },
+  {
+    "codigo_ibge": "2202091",
+    "municipio": "Caldeirão Grande do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2388,
+    "unidades_beneficiarias": 1118,
+    "dependencia_tarifaria_percentual": 46.81742043551089
+  },
+  {
+    "codigo_ibge": "2202091",
+    "municipio": "Caldeirão Grande do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2437,
+    "unidades_beneficiarias": 1165,
+    "dependencia_tarifaria_percentual": 47.80467788264259
+  },
+  {
+    "codigo_ibge": "2202091",
+    "municipio": "Caldeirão Grande do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2544,
+    "unidades_beneficiarias": 1111,
+    "dependencia_tarifaria_percentual": 43.67138364779874
+  },
+  {
+    "codigo_ibge": "2202109",
+    "municipio": "Campinas do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2102,
+    "unidades_beneficiarias": 934,
+    "dependencia_tarifaria_percentual": 44.43387250237868
+  },
+  {
+    "codigo_ibge": "2202109",
+    "municipio": "Campinas do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2116,
+    "unidades_beneficiarias": 912,
+    "dependencia_tarifaria_percentual": 43.10018903591683
+  },
+  {
+    "codigo_ibge": "2202109",
+    "municipio": "Campinas do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2201,
+    "unidades_beneficiarias": 915,
+    "dependencia_tarifaria_percentual": 41.57201272149023
+  },
+  {
+    "codigo_ibge": "2202117",
+    "municipio": "Campo Alegre do Fidalgo",
+    "ano": 2023,
+    "unidades_residenciais": 1603,
+    "unidades_beneficiarias": 951,
+    "dependencia_tarifaria_percentual": 59.32626325639426
+  },
+  {
+    "codigo_ibge": "2202117",
+    "municipio": "Campo Alegre do Fidalgo",
+    "ano": 2024,
+    "unidades_residenciais": 1739,
+    "unidades_beneficiarias": 940,
+    "dependencia_tarifaria_percentual": 54.05405405405406
+  },
+  {
+    "codigo_ibge": "2202117",
+    "municipio": "Campo Alegre do Fidalgo",
+    "ano": 2025,
+    "unidades_residenciais": 1793,
+    "unidades_beneficiarias": 936,
+    "dependencia_tarifaria_percentual": 52.20301171221416
+  },
+  {
+    "codigo_ibge": "2202133",
+    "municipio": "Campo Grande do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2175,
+    "unidades_beneficiarias": 1160,
+    "dependencia_tarifaria_percentual": 53.33333333333334
+  },
+  {
+    "codigo_ibge": "2202133",
+    "municipio": "Campo Grande do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2341,
+    "unidades_beneficiarias": 1199,
+    "dependencia_tarifaria_percentual": 51.21742844938061
+  },
+  {
+    "codigo_ibge": "2202133",
+    "municipio": "Campo Grande do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2455,
+    "unidades_beneficiarias": 1148,
+    "dependencia_tarifaria_percentual": 46.76171079429735
+  },
+  {
+    "codigo_ibge": "2202174",
+    "municipio": "Campo Largo do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2285,
+    "unidades_beneficiarias": 1372,
+    "dependencia_tarifaria_percentual": 60.0437636761488
+  },
+  {
+    "codigo_ibge": "2202174",
+    "municipio": "Campo Largo do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2398,
+    "unidades_beneficiarias": 1393,
+    "dependencia_tarifaria_percentual": 58.09007506255212
+  },
+  {
+    "codigo_ibge": "2202174",
+    "municipio": "Campo Largo do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2518,
+    "unidades_beneficiarias": 1418,
+    "dependencia_tarifaria_percentual": 56.3145353455123
+  },
+  {
+    "codigo_ibge": "2202208",
+    "municipio": "Campo Maior",
+    "ano": 2023,
+    "unidades_residenciais": 18603,
+    "unidades_beneficiarias": 8490,
+    "dependencia_tarifaria_percentual": 45.63780035478149
+  },
+  {
+    "codigo_ibge": "2202208",
+    "municipio": "Campo Maior",
+    "ano": 2024,
+    "unidades_residenciais": 18845,
+    "unidades_beneficiarias": 8657,
+    "dependencia_tarifaria_percentual": 45.93791456619793
+  },
+  {
+    "codigo_ibge": "2202208",
+    "municipio": "Campo Maior",
+    "ano": 2025,
+    "unidades_residenciais": 19709,
+    "unidades_beneficiarias": 8227,
+    "dependencia_tarifaria_percentual": 41.74235121010706
+  },
+  {
+    "codigo_ibge": "2202251",
+    "municipio": "Canavieira",
+    "ano": 2023,
+    "unidades_residenciais": 1090,
+    "unidades_beneficiarias": 481,
+    "dependencia_tarifaria_percentual": 44.12844036697248
+  },
+  {
+    "codigo_ibge": "2202251",
+    "municipio": "Canavieira",
+    "ano": 2024,
+    "unidades_residenciais": 1154,
+    "unidades_beneficiarias": 489,
+    "dependencia_tarifaria_percentual": 42.37435008665511
+  },
+  {
+    "codigo_ibge": "2202251",
+    "municipio": "Canavieira",
+    "ano": 2025,
+    "unidades_residenciais": 1165,
+    "unidades_beneficiarias": 470,
+    "dependencia_tarifaria_percentual": 40.34334763948497
+  },
+  {
+    "codigo_ibge": "2202307",
+    "municipio": "Canto do Buriti",
+    "ano": 2023,
+    "unidades_residenciais": 8470,
+    "unidades_beneficiarias": 3785,
+    "dependencia_tarifaria_percentual": 44.68713105076741
+  },
+  {
+    "codigo_ibge": "2202307",
+    "municipio": "Canto do Buriti",
+    "ano": 2024,
+    "unidades_residenciais": 8452,
+    "unidades_beneficiarias": 3901,
+    "dependencia_tarifaria_percentual": 46.15475627070516
+  },
+  {
+    "codigo_ibge": "2202307",
+    "municipio": "Canto do Buriti",
+    "ano": 2025,
+    "unidades_residenciais": 8603,
+    "unidades_beneficiarias": 3840,
+    "dependencia_tarifaria_percentual": 44.63559223526677
+  },
+  {
+    "codigo_ibge": "2202406",
+    "municipio": "Capitão de Campos",
+    "ano": 2023,
+    "unidades_residenciais": 4288,
+    "unidades_beneficiarias": 2492,
+    "dependencia_tarifaria_percentual": 58.11567164179105
+  },
+  {
+    "codigo_ibge": "2202406",
+    "municipio": "Capitão de Campos",
+    "ano": 2024,
+    "unidades_residenciais": 4597,
+    "unidades_beneficiarias": 2589,
+    "dependencia_tarifaria_percentual": 56.31933869915162
+  },
+  {
+    "codigo_ibge": "2202406",
+    "municipio": "Capitão de Campos",
+    "ano": 2025,
+    "unidades_residenciais": 4770,
+    "unidades_beneficiarias": 2595,
+    "dependencia_tarifaria_percentual": 54.40251572327044
+  },
+  {
+    "codigo_ibge": "2202455",
+    "municipio": "Capitão Gervásio Oliveira",
+    "ano": 2023,
+    "unidades_residenciais": 1576,
+    "unidades_beneficiarias": 781,
+    "dependencia_tarifaria_percentual": 49.55583756345177
+  },
+  {
+    "codigo_ibge": "2202455",
+    "municipio": "Capitão Gervásio Oliveira",
+    "ano": 2024,
+    "unidades_residenciais": 1688,
+    "unidades_beneficiarias": 764,
+    "dependencia_tarifaria_percentual": 45.26066350710901
+  },
+  {
+    "codigo_ibge": "2202455",
+    "municipio": "Capitão Gervásio Oliveira",
+    "ano": 2025,
+    "unidades_residenciais": 1740,
+    "unidades_beneficiarias": 727,
+    "dependencia_tarifaria_percentual": 41.7816091954023
+  },
+  {
+    "codigo_ibge": "2202505",
+    "municipio": "Caracol",
+    "ano": 2023,
+    "unidades_residenciais": 3526,
+    "unidades_beneficiarias": 1655,
+    "dependencia_tarifaria_percentual": 46.93703913783324
+  },
+  {
+    "codigo_ibge": "2202505",
+    "municipio": "Caracol",
+    "ano": 2024,
+    "unidades_residenciais": 3654,
+    "unidades_beneficiarias": 1612,
+    "dependencia_tarifaria_percentual": 44.11603721948549
+  },
+  {
+    "codigo_ibge": "2202505",
+    "municipio": "Caracol",
+    "ano": 2025,
+    "unidades_residenciais": 3755,
+    "unidades_beneficiarias": 1626,
+    "dependencia_tarifaria_percentual": 43.30226364846871
+  },
+  {
+    "codigo_ibge": "2202539",
+    "municipio": "Caraúbas do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1782,
+    "unidades_beneficiarias": 1151,
+    "dependencia_tarifaria_percentual": 64.59034792368126
+  },
+  {
+    "codigo_ibge": "2202539",
+    "municipio": "Caraúbas do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1917,
+    "unidades_beneficiarias": 1130,
+    "dependencia_tarifaria_percentual": 58.94627021387585
+  },
+  {
+    "codigo_ibge": "2202539",
+    "municipio": "Caraúbas do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2006,
+    "unidades_beneficiarias": 1101,
+    "dependencia_tarifaria_percentual": 54.88534396809571
+  },
+  {
+    "codigo_ibge": "2202554",
+    "municipio": "Caridade do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1695,
+    "unidades_beneficiarias": 1042,
+    "dependencia_tarifaria_percentual": 61.47492625368731
+  },
+  {
+    "codigo_ibge": "2202554",
+    "municipio": "Caridade do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1894,
+    "unidades_beneficiarias": 1078,
+    "dependencia_tarifaria_percentual": 56.91657866948258
+  },
+  {
+    "codigo_ibge": "2202554",
+    "municipio": "Caridade do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1978,
+    "unidades_beneficiarias": 1031,
+    "dependencia_tarifaria_percentual": 52.12335692618807
+  },
+  {
+    "codigo_ibge": "2202604",
+    "municipio": "Castelo do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 7204,
+    "unidades_beneficiarias": 3766,
+    "dependencia_tarifaria_percentual": 52.2765130483065
+  },
+  {
+    "codigo_ibge": "2202604",
+    "municipio": "Castelo do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 7535,
+    "unidades_beneficiarias": 3752,
+    "dependencia_tarifaria_percentual": 49.79429329794293
+  },
+  {
+    "codigo_ibge": "2202604",
+    "municipio": "Castelo do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 7845,
+    "unidades_beneficiarias": 3645,
+    "dependencia_tarifaria_percentual": 46.46271510516252
+  },
+  {
+    "codigo_ibge": "2202653",
+    "municipio": "Caxingó",
+    "ano": 2023,
+    "unidades_residenciais": 1795,
+    "unidades_beneficiarias": 1148,
+    "dependencia_tarifaria_percentual": 63.95543175487465
+  },
+  {
+    "codigo_ibge": "2202653",
+    "municipio": "Caxingó",
+    "ano": 2024,
+    "unidades_residenciais": 1961,
+    "unidades_beneficiarias": 1185,
+    "dependencia_tarifaria_percentual": 60.42835288118307
+  },
+  {
+    "codigo_ibge": "2202653",
+    "municipio": "Caxingó",
+    "ano": 2025,
+    "unidades_residenciais": 2040,
+    "unidades_beneficiarias": 1160,
+    "dependencia_tarifaria_percentual": 56.86274509803921
+  },
+  {
+    "codigo_ibge": "2202703",
+    "municipio": "Cocal",
+    "ano": 2023,
+    "unidades_residenciais": 10196,
+    "unidades_beneficiarias": 5577,
+    "dependencia_tarifaria_percentual": 54.69792075323656
+  },
+  {
+    "codigo_ibge": "2202703",
+    "municipio": "Cocal",
+    "ano": 2024,
+    "unidades_residenciais": 10646,
+    "unidades_beneficiarias": 5901,
+    "dependencia_tarifaria_percentual": 55.42926920909261
+  },
+  {
+    "codigo_ibge": "2202703",
+    "municipio": "Cocal",
+    "ano": 2025,
+    "unidades_residenciais": 11164,
+    "unidades_beneficiarias": 6016,
+    "dependencia_tarifaria_percentual": 53.88749552131853
+  },
+  {
+    "codigo_ibge": "2202711",
+    "municipio": "Cocal de Telha",
+    "ano": 2023,
+    "unidades_residenciais": 1963,
+    "unidades_beneficiarias": 1099,
+    "dependencia_tarifaria_percentual": 55.98573611818644
+  },
+  {
+    "codigo_ibge": "2202711",
+    "municipio": "Cocal de Telha",
+    "ano": 2024,
+    "unidades_residenciais": 2046,
+    "unidades_beneficiarias": 1082,
+    "dependencia_tarifaria_percentual": 52.88367546432062
+  },
+  {
+    "codigo_ibge": "2202711",
+    "municipio": "Cocal de Telha",
+    "ano": 2025,
+    "unidades_residenciais": 2099,
+    "unidades_beneficiarias": 1045,
+    "dependencia_tarifaria_percentual": 49.78561219628395
+  },
+  {
+    "codigo_ibge": "2202729",
+    "municipio": "Cocal dos Alves",
+    "ano": 2023,
+    "unidades_residenciais": 2533,
+    "unidades_beneficiarias": 1507,
+    "dependencia_tarifaria_percentual": 59.49467035136202
+  },
+  {
+    "codigo_ibge": "2202729",
+    "municipio": "Cocal dos Alves",
+    "ano": 2024,
+    "unidades_residenciais": 2799,
+    "unidades_beneficiarias": 1475,
+    "dependencia_tarifaria_percentual": 52.69739192568774
+  },
+  {
+    "codigo_ibge": "2202729",
+    "municipio": "Cocal dos Alves",
+    "ano": 2025,
+    "unidades_residenciais": 2852,
+    "unidades_beneficiarias": 1451,
+    "dependencia_tarifaria_percentual": 50.8765778401122
+  },
+  {
+    "codigo_ibge": "2202737",
+    "municipio": "Coivaras",
+    "ano": 2023,
+    "unidades_residenciais": 1509,
+    "unidades_beneficiarias": 756,
+    "dependencia_tarifaria_percentual": 50.09940357852882
+  },
+  {
+    "codigo_ibge": "2202737",
+    "municipio": "Coivaras",
+    "ano": 2024,
+    "unidades_residenciais": 1525,
+    "unidades_beneficiarias": 734,
+    "dependencia_tarifaria_percentual": 48.1311475409836
+  },
+  {
+    "codigo_ibge": "2202737",
+    "municipio": "Coivaras",
+    "ano": 2025,
+    "unidades_residenciais": 1622,
+    "unidades_beneficiarias": 735,
+    "dependencia_tarifaria_percentual": 45.31442663378545
+  },
+  {
+    "codigo_ibge": "2202752",
+    "municipio": "Colônia do Gurguéia",
+    "ano": 2023,
+    "unidades_residenciais": 2418,
+    "unidades_beneficiarias": 1145,
+    "dependencia_tarifaria_percentual": 47.35318444995864
+  },
+  {
+    "codigo_ibge": "2202752",
+    "municipio": "Colônia do Gurguéia",
+    "ano": 2024,
+    "unidades_residenciais": 2452,
+    "unidades_beneficiarias": 1272,
+    "dependencia_tarifaria_percentual": 51.87601957585645
+  },
+  {
+    "codigo_ibge": "2202752",
+    "municipio": "Colônia do Gurguéia",
+    "ano": 2025,
+    "unidades_residenciais": 2509,
+    "unidades_beneficiarias": 1195,
+    "dependencia_tarifaria_percentual": 47.62853726584297
+  },
+  {
+    "codigo_ibge": "2202778",
+    "municipio": "Colônia do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2380,
+    "unidades_beneficiarias": 1358,
+    "dependencia_tarifaria_percentual": 57.05882352941176
+  },
+  {
+    "codigo_ibge": "2202778",
+    "municipio": "Colônia do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2469,
+    "unidades_beneficiarias": 1374,
+    "dependencia_tarifaria_percentual": 55.65006075334144
+  },
+  {
+    "codigo_ibge": "2202778",
+    "municipio": "Colônia do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2548,
+    "unidades_beneficiarias": 1322,
+    "dependencia_tarifaria_percentual": 51.88383045525903
+  },
+  {
+    "codigo_ibge": "2202802",
+    "municipio": "Conceição do Canindé",
+    "ano": 2023,
+    "unidades_residenciais": 2054,
+    "unidades_beneficiarias": 978,
+    "dependencia_tarifaria_percentual": 47.61441090555014
+  },
+  {
+    "codigo_ibge": "2202802",
+    "municipio": "Conceição do Canindé",
+    "ano": 2024,
+    "unidades_residenciais": 2167,
+    "unidades_beneficiarias": 1001,
+    "dependencia_tarifaria_percentual": 46.19289340101523
+  },
+  {
+    "codigo_ibge": "2202802",
+    "municipio": "Conceição do Canindé",
+    "ano": 2025,
+    "unidades_residenciais": 2226,
+    "unidades_beneficiarias": 1026,
+    "dependencia_tarifaria_percentual": 46.09164420485175
+  },
+  {
+    "codigo_ibge": "2202851",
+    "municipio": "Coronel José Dias",
+    "ano": 2023,
+    "unidades_residenciais": 1303,
+    "unidades_beneficiarias": 723,
+    "dependencia_tarifaria_percentual": 55.48733691481197
+  },
+  {
+    "codigo_ibge": "2202851",
+    "municipio": "Coronel José Dias",
+    "ano": 2024,
+    "unidades_residenciais": 1448,
+    "unidades_beneficiarias": 711,
+    "dependencia_tarifaria_percentual": 49.10220994475138
+  },
+  {
+    "codigo_ibge": "2202851",
+    "municipio": "Coronel José Dias",
+    "ano": 2025,
+    "unidades_residenciais": 1560,
+    "unidades_beneficiarias": 762,
+    "dependencia_tarifaria_percentual": 48.84615384615385
+  },
+  {
+    "codigo_ibge": "2202901",
+    "municipio": "Corrente",
+    "ano": 2023,
+    "unidades_residenciais": 10164,
+    "unidades_beneficiarias": 4005,
+    "dependencia_tarifaria_percentual": 39.40377804014167
+  },
+  {
+    "codigo_ibge": "2202901",
+    "municipio": "Corrente",
+    "ano": 2024,
+    "unidades_residenciais": 10511,
+    "unidades_beneficiarias": 3971,
+    "dependencia_tarifaria_percentual": 37.77946912758063
+  },
+  {
+    "codigo_ibge": "2202901",
+    "municipio": "Corrente",
+    "ano": 2025,
+    "unidades_residenciais": 10892,
+    "unidades_beneficiarias": 3796,
+    "dependencia_tarifaria_percentual": 34.85126698494308
+  },
+  {
+    "codigo_ibge": "2203008",
+    "municipio": "Cristalândia do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2687,
+    "unidades_beneficiarias": 934,
+    "dependencia_tarifaria_percentual": 34.75995534052847
+  },
+  {
+    "codigo_ibge": "2203008",
+    "municipio": "Cristalândia do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2813,
+    "unidades_beneficiarias": 973,
+    "dependencia_tarifaria_percentual": 34.58940632776395
+  },
+  {
+    "codigo_ibge": "2203008",
+    "municipio": "Cristalândia do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2907,
+    "unidades_beneficiarias": 991,
+    "dependencia_tarifaria_percentual": 34.09012727898177
+  },
+  {
+    "codigo_ibge": "2203107",
+    "municipio": "Cristino Castro",
+    "ano": 2023,
+    "unidades_residenciais": 3856,
+    "unidades_beneficiarias": 1737,
+    "dependencia_tarifaria_percentual": 45.04668049792532
+  },
+  {
+    "codigo_ibge": "2203107",
+    "municipio": "Cristino Castro",
+    "ano": 2024,
+    "unidades_residenciais": 3880,
+    "unidades_beneficiarias": 1678,
+    "dependencia_tarifaria_percentual": 43.24742268041237
+  },
+  {
+    "codigo_ibge": "2203107",
+    "municipio": "Cristino Castro",
+    "ano": 2025,
+    "unidades_residenciais": 4043,
+    "unidades_beneficiarias": 1618,
+    "dependencia_tarifaria_percentual": 40.01978728666832
+  },
+  {
+    "codigo_ibge": "2203206",
+    "municipio": "Curimatá",
+    "ano": 2023,
+    "unidades_residenciais": 4267,
+    "unidades_beneficiarias": 1699,
+    "dependencia_tarifaria_percentual": 39.81720178111085
+  },
+  {
+    "codigo_ibge": "2203206",
+    "municipio": "Curimatá",
+    "ano": 2024,
+    "unidades_residenciais": 4473,
+    "unidades_beneficiarias": 1816,
+    "dependencia_tarifaria_percentual": 40.59915045830539
+  },
+  {
+    "codigo_ibge": "2203206",
+    "municipio": "Curimatá",
+    "ano": 2025,
+    "unidades_residenciais": 4606,
+    "unidades_beneficiarias": 1859,
+    "dependencia_tarifaria_percentual": 40.36039947894051
+  },
+  {
+    "codigo_ibge": "2203230",
+    "municipio": "Currais",
+    "ano": 2023,
+    "unidades_residenciais": 1600,
+    "unidades_beneficiarias": 760,
+    "dependencia_tarifaria_percentual": 47.5
+  },
+  {
+    "codigo_ibge": "2203230",
+    "municipio": "Currais",
+    "ano": 2024,
+    "unidades_residenciais": 1656,
+    "unidades_beneficiarias": 715,
+    "dependencia_tarifaria_percentual": 43.17632850241546
+  },
+  {
+    "codigo_ibge": "2203230",
+    "municipio": "Currais",
+    "ano": 2025,
+    "unidades_residenciais": 1773,
+    "unidades_beneficiarias": 686,
+    "dependencia_tarifaria_percentual": 38.69148336153413
+  },
+  {
+    "codigo_ibge": "2203255",
+    "municipio": "Curralinhos",
+    "ano": 2023,
+    "unidades_residenciais": 1733,
+    "unidades_beneficiarias": 847,
+    "dependencia_tarifaria_percentual": 48.87478361223312
+  },
+  {
+    "codigo_ibge": "2203255",
+    "municipio": "Curralinhos",
+    "ano": 2024,
+    "unidades_residenciais": 1800,
+    "unidades_beneficiarias": 826,
+    "dependencia_tarifaria_percentual": 45.88888888888889
+  },
+  {
+    "codigo_ibge": "2203255",
+    "municipio": "Curralinhos",
+    "ano": 2025,
+    "unidades_residenciais": 1882,
+    "unidades_beneficiarias": 810,
+    "dependencia_tarifaria_percentual": 43.03931987247609
+  },
+  {
+    "codigo_ibge": "2203271",
+    "municipio": "Curral Novo do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1882,
+    "unidades_beneficiarias": 910,
+    "dependencia_tarifaria_percentual": 48.35281615302869
+  },
+  {
+    "codigo_ibge": "2203271",
+    "municipio": "Curral Novo do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1818,
+    "unidades_beneficiarias": 979,
+    "dependencia_tarifaria_percentual": 53.85038503850384
+  },
+  {
+    "codigo_ibge": "2203271",
+    "municipio": "Curral Novo do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1907,
+    "unidades_beneficiarias": 1003,
+    "dependencia_tarifaria_percentual": 52.59570005243839
+  },
+  {
+    "codigo_ibge": "2203305",
+    "municipio": "Demerval Lobão",
+    "ano": 2023,
+    "unidades_residenciais": 7459,
+    "unidades_beneficiarias": 3677,
+    "dependencia_tarifaria_percentual": 49.29615229923582
+  },
+  {
+    "codigo_ibge": "2203305",
+    "municipio": "Demerval Lobão",
+    "ano": 2024,
+    "unidades_residenciais": 7708,
+    "unidades_beneficiarias": 3644,
+    "dependencia_tarifaria_percentual": 47.27555786196159
+  },
+  {
+    "codigo_ibge": "2203305",
+    "municipio": "Demerval Lobão",
+    "ano": 2025,
+    "unidades_residenciais": 8112,
+    "unidades_beneficiarias": 3480,
+    "dependencia_tarifaria_percentual": 42.89940828402367
+  },
+  {
+    "codigo_ibge": "2203354",
+    "municipio": "Dirceu Arcoverde",
+    "ano": 2023,
+    "unidades_residenciais": 2171,
+    "unidades_beneficiarias": 961,
+    "dependencia_tarifaria_percentual": 44.26531552280055
+  },
+  {
+    "codigo_ibge": "2203354",
+    "municipio": "Dirceu Arcoverde",
+    "ano": 2024,
+    "unidades_residenciais": 2208,
+    "unidades_beneficiarias": 943,
+    "dependencia_tarifaria_percentual": 42.70833333333333
+  },
+  {
+    "codigo_ibge": "2203354",
+    "municipio": "Dirceu Arcoverde",
+    "ano": 2025,
+    "unidades_residenciais": 2415,
+    "unidades_beneficiarias": 966,
+    "dependencia_tarifaria_percentual": 40.0
+  },
+  {
+    "codigo_ibge": "2203404",
+    "municipio": "Dom Expedito Lopes",
+    "ano": 2023,
+    "unidades_residenciais": 2840,
+    "unidades_beneficiarias": 1224,
+    "dependencia_tarifaria_percentual": 43.09859154929578
+  },
+  {
+    "codigo_ibge": "2203404",
+    "municipio": "Dom Expedito Lopes",
+    "ano": 2024,
+    "unidades_residenciais": 2764,
+    "unidades_beneficiarias": 1215,
+    "dependencia_tarifaria_percentual": 43.95803183791606
+  },
+  {
+    "codigo_ibge": "2203404",
+    "municipio": "Dom Expedito Lopes",
+    "ano": 2025,
+    "unidades_residenciais": 2842,
+    "unidades_beneficiarias": 1167,
+    "dependencia_tarifaria_percentual": 41.06263194933145
+  },
+  {
+    "codigo_ibge": "2203420",
+    "municipio": "Domingos Mourão",
+    "ano": 2023,
+    "unidades_residenciais": 1554,
+    "unidades_beneficiarias": 786,
+    "dependencia_tarifaria_percentual": 50.57915057915058
+  },
+  {
+    "codigo_ibge": "2203420",
+    "municipio": "Domingos Mourão",
+    "ano": 2024,
+    "unidades_residenciais": 1622,
+    "unidades_beneficiarias": 807,
+    "dependencia_tarifaria_percentual": 49.75339087546239
+  },
+  {
+    "codigo_ibge": "2203420",
+    "municipio": "Domingos Mourão",
+    "ano": 2025,
+    "unidades_residenciais": 1681,
+    "unidades_beneficiarias": 812,
+    "dependencia_tarifaria_percentual": 48.30458060678168
+  },
+  {
+    "codigo_ibge": "2203453",
+    "municipio": "Dom Inocêncio",
+    "ano": 2023,
+    "unidades_residenciais": 3326,
+    "unidades_beneficiarias": 1607,
+    "dependencia_tarifaria_percentual": 48.31629585087192
+  },
+  {
+    "codigo_ibge": "2203453",
+    "municipio": "Dom Inocêncio",
+    "ano": 2024,
+    "unidades_residenciais": 3398,
+    "unidades_beneficiarias": 1723,
+    "dependencia_tarifaria_percentual": 50.70629782224838
+  },
+  {
+    "codigo_ibge": "2203453",
+    "municipio": "Dom Inocêncio",
+    "ano": 2025,
+    "unidades_residenciais": 3757,
+    "unidades_beneficiarias": 1712,
+    "dependencia_tarifaria_percentual": 45.56827255789194
+  },
+  {
+    "codigo_ibge": "2203503",
+    "municipio": "Elesbão Veloso",
+    "ano": 2023,
+    "unidades_residenciais": 5433,
+    "unidades_beneficiarias": 2382,
+    "dependencia_tarifaria_percentual": 43.84318056322473
+  },
+  {
+    "codigo_ibge": "2203503",
+    "municipio": "Elesbão Veloso",
+    "ano": 2024,
+    "unidades_residenciais": 5640,
+    "unidades_beneficiarias": 2338,
+    "dependencia_tarifaria_percentual": 41.45390070921986
+  },
+  {
+    "codigo_ibge": "2203503",
+    "municipio": "Elesbão Veloso",
+    "ano": 2025,
+    "unidades_residenciais": 5747,
+    "unidades_beneficiarias": 2241,
+    "dependencia_tarifaria_percentual": 38.99425787367322
+  },
+  {
+    "codigo_ibge": "2203602",
+    "municipio": "Eliseu Martins",
+    "ano": 2023,
+    "unidades_residenciais": 1924,
+    "unidades_beneficiarias": 803,
+    "dependencia_tarifaria_percentual": 41.73596673596673
+  },
+  {
+    "codigo_ibge": "2203602",
+    "municipio": "Eliseu Martins",
+    "ano": 2024,
+    "unidades_residenciais": 1939,
+    "unidades_beneficiarias": 818,
+    "dependencia_tarifaria_percentual": 42.18669417225374
+  },
+  {
+    "codigo_ibge": "2203602",
+    "municipio": "Eliseu Martins",
+    "ano": 2025,
+    "unidades_residenciais": 1947,
+    "unidades_beneficiarias": 761,
+    "dependencia_tarifaria_percentual": 39.08577298407807
+  },
+  {
+    "codigo_ibge": "2203701",
+    "municipio": "Esperantina",
+    "ano": 2023,
+    "unidades_residenciais": 15033,
+    "unidades_beneficiarias": 7421,
+    "dependencia_tarifaria_percentual": 49.36473092529768
+  },
+  {
+    "codigo_ibge": "2203701",
+    "municipio": "Esperantina",
+    "ano": 2024,
+    "unidades_residenciais": 15564,
+    "unidades_beneficiarias": 7391,
+    "dependencia_tarifaria_percentual": 47.48779234130044
+  },
+  {
+    "codigo_ibge": "2203701",
+    "municipio": "Esperantina",
+    "ano": 2025,
+    "unidades_residenciais": 16024,
+    "unidades_beneficiarias": 7257,
+    "dependencia_tarifaria_percentual": 45.28831752371443
+  },
+  {
+    "codigo_ibge": "2203750",
+    "municipio": "Fartura do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1911,
+    "unidades_beneficiarias": 850,
+    "dependencia_tarifaria_percentual": 44.47933019361591
+  },
+  {
+    "codigo_ibge": "2203750",
+    "municipio": "Fartura do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1964,
+    "unidades_beneficiarias": 864,
+    "dependencia_tarifaria_percentual": 43.9918533604888
+  },
+  {
+    "codigo_ibge": "2203750",
+    "municipio": "Fartura do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2009,
+    "unidades_beneficiarias": 859,
+    "dependencia_tarifaria_percentual": 42.75759084121453
+  },
+  {
+    "codigo_ibge": "2203800",
+    "municipio": "Flores do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1811,
+    "unidades_beneficiarias": 887,
+    "dependencia_tarifaria_percentual": 48.97846493649917
+  },
+  {
+    "codigo_ibge": "2203800",
+    "municipio": "Flores do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1837,
+    "unidades_beneficiarias": 886,
+    "dependencia_tarifaria_percentual": 48.23081110506261
+  },
+  {
+    "codigo_ibge": "2203800",
+    "municipio": "Flores do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1893,
+    "unidades_beneficiarias": 904,
+    "dependencia_tarifaria_percentual": 47.75488642366614
+  },
+  {
+    "codigo_ibge": "2203859",
+    "municipio": "Floresta do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 922,
+    "unidades_beneficiarias": 458,
+    "dependencia_tarifaria_percentual": 49.67462039045553
+  },
+  {
+    "codigo_ibge": "2203859",
+    "municipio": "Floresta do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 915,
+    "unidades_beneficiarias": 464,
+    "dependencia_tarifaria_percentual": 50.7103825136612
+  },
+  {
+    "codigo_ibge": "2203859",
+    "municipio": "Floresta do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 947,
+    "unidades_beneficiarias": 441,
+    "dependencia_tarifaria_percentual": 46.56810982048574
+  },
+  {
+    "codigo_ibge": "2203909",
+    "municipio": "Floriano",
+    "ano": 2023,
+    "unidades_residenciais": 25715,
+    "unidades_beneficiarias": 9435,
+    "dependencia_tarifaria_percentual": 36.69064748201439
+  },
+  {
+    "codigo_ibge": "2203909",
+    "municipio": "Floriano",
+    "ano": 2024,
+    "unidades_residenciais": 26310,
+    "unidades_beneficiarias": 9338,
+    "dependencia_tarifaria_percentual": 35.49220828582288
+  },
+  {
+    "codigo_ibge": "2203909",
+    "municipio": "Floriano",
+    "ano": 2025,
+    "unidades_residenciais": 26859,
+    "unidades_beneficiarias": 8895,
+    "dependencia_tarifaria_percentual": 33.11739081871998
+  },
+  {
+    "codigo_ibge": "2204006",
+    "municipio": "Francinópolis",
+    "ano": 2023,
+    "unidades_residenciais": 1867,
+    "unidades_beneficiarias": 937,
+    "dependencia_tarifaria_percentual": 50.18746652383503
+  },
+  {
+    "codigo_ibge": "2204006",
+    "municipio": "Francinópolis",
+    "ano": 2024,
+    "unidades_residenciais": 1947,
+    "unidades_beneficiarias": 944,
+    "dependencia_tarifaria_percentual": 48.48484848484848
+  },
+  {
+    "codigo_ibge": "2204006",
+    "municipio": "Francinópolis",
+    "ano": 2025,
+    "unidades_residenciais": 2037,
+    "unidades_beneficiarias": 888,
+    "dependencia_tarifaria_percentual": 43.59351988217968
+  },
+  {
+    "codigo_ibge": "2204105",
+    "municipio": "Francisco Ayres",
+    "ano": 2023,
+    "unidades_residenciais": 1834,
+    "unidades_beneficiarias": 784,
+    "dependencia_tarifaria_percentual": 42.74809160305343
+  },
+  {
+    "codigo_ibge": "2204105",
+    "municipio": "Francisco Ayres",
+    "ano": 2024,
+    "unidades_residenciais": 1876,
+    "unidades_beneficiarias": 793,
+    "dependencia_tarifaria_percentual": 42.27078891257996
+  },
+  {
+    "codigo_ibge": "2204105",
+    "municipio": "Francisco Ayres",
+    "ano": 2025,
+    "unidades_residenciais": 1911,
+    "unidades_beneficiarias": 750,
+    "dependencia_tarifaria_percentual": 39.24646781789639
+  },
+  {
+    "codigo_ibge": "2204154",
+    "municipio": "Francisco Macedo",
+    "ano": 2023,
+    "unidades_residenciais": 1139,
+    "unidades_beneficiarias": 639,
+    "dependencia_tarifaria_percentual": 56.10184372256365
+  },
+  {
+    "codigo_ibge": "2204154",
+    "municipio": "Francisco Macedo",
+    "ano": 2024,
+    "unidades_residenciais": 1298,
+    "unidades_beneficiarias": 629,
+    "dependencia_tarifaria_percentual": 48.45916795069338
+  },
+  {
+    "codigo_ibge": "2204154",
+    "municipio": "Francisco Macedo",
+    "ano": 2025,
+    "unidades_residenciais": 1352,
+    "unidades_beneficiarias": 611,
+    "dependencia_tarifaria_percentual": 45.19230769230769
+  },
+  {
+    "codigo_ibge": "2204204",
+    "municipio": "Francisco Santos",
+    "ano": 2023,
+    "unidades_residenciais": 3820,
+    "unidades_beneficiarias": 1431,
+    "dependencia_tarifaria_percentual": 37.46073298429319
+  },
+  {
+    "codigo_ibge": "2204204",
+    "municipio": "Francisco Santos",
+    "ano": 2024,
+    "unidades_residenciais": 3787,
+    "unidades_beneficiarias": 1407,
+    "dependencia_tarifaria_percentual": 37.15341959334565
+  },
+  {
+    "codigo_ibge": "2204204",
+    "municipio": "Francisco Santos",
+    "ano": 2025,
+    "unidades_residenciais": 3880,
+    "unidades_beneficiarias": 1320,
+    "dependencia_tarifaria_percentual": 34.02061855670103
+  },
+  {
+    "codigo_ibge": "2204303",
+    "municipio": "Fronteiras",
+    "ano": 2023,
+    "unidades_residenciais": 4580,
+    "unidades_beneficiarias": 2254,
+    "dependencia_tarifaria_percentual": 49.21397379912663
+  },
+  {
+    "codigo_ibge": "2204303",
+    "municipio": "Fronteiras",
+    "ano": 2024,
+    "unidades_residenciais": 4465,
+    "unidades_beneficiarias": 2209,
+    "dependencia_tarifaria_percentual": 49.47368421052632
+  },
+  {
+    "codigo_ibge": "2204303",
+    "municipio": "Fronteiras",
+    "ano": 2025,
+    "unidades_residenciais": 4607,
+    "unidades_beneficiarias": 2061,
+    "dependencia_tarifaria_percentual": 44.73627089212069
+  },
+  {
+    "codigo_ibge": "2204352",
+    "municipio": "Geminiano",
+    "ano": 2023,
+    "unidades_residenciais": 2644,
+    "unidades_beneficiarias": 1470,
+    "dependencia_tarifaria_percentual": 55.59757942511347
+  },
+  {
+    "codigo_ibge": "2204352",
+    "municipio": "Geminiano",
+    "ano": 2024,
+    "unidades_residenciais": 2177,
+    "unidades_beneficiarias": 1508,
+    "dependencia_tarifaria_percentual": 69.26963711529628
+  },
+  {
+    "codigo_ibge": "2204352",
+    "municipio": "Geminiano",
+    "ano": 2025,
+    "unidades_residenciais": 2271,
+    "unidades_beneficiarias": 1444,
+    "dependencia_tarifaria_percentual": 63.58432408630559
+  },
+  {
+    "codigo_ibge": "2204402",
+    "municipio": "Gilbués",
+    "ano": 2023,
+    "unidades_residenciais": 3787,
+    "unidades_beneficiarias": 1632,
+    "dependencia_tarifaria_percentual": 43.09479799313441
+  },
+  {
+    "codigo_ibge": "2204402",
+    "municipio": "Gilbués",
+    "ano": 2024,
+    "unidades_residenciais": 3938,
+    "unidades_beneficiarias": 1654,
+    "dependencia_tarifaria_percentual": 42.00101574403251
+  },
+  {
+    "codigo_ibge": "2204402",
+    "municipio": "Gilbués",
+    "ano": 2025,
+    "unidades_residenciais": 4038,
+    "unidades_beneficiarias": 1733,
+    "dependencia_tarifaria_percentual": 42.9172857850421
+  },
+  {
+    "codigo_ibge": "2204501",
+    "municipio": "Guadalupe",
+    "ano": 2023,
+    "unidades_residenciais": 3858,
+    "unidades_beneficiarias": 1685,
+    "dependencia_tarifaria_percentual": 43.67547952306895
+  },
+  {
+    "codigo_ibge": "2204501",
+    "municipio": "Guadalupe",
+    "ano": 2024,
+    "unidades_residenciais": 3972,
+    "unidades_beneficiarias": 1604,
+    "dependencia_tarifaria_percentual": 40.38267875125881
+  },
+  {
+    "codigo_ibge": "2204501",
+    "municipio": "Guadalupe",
+    "ano": 2025,
+    "unidades_residenciais": 4100,
+    "unidades_beneficiarias": 1670,
+    "dependencia_tarifaria_percentual": 40.73170731707317
+  },
+  {
+    "codigo_ibge": "2204550",
+    "municipio": "Guaribas",
+    "ano": 2023,
+    "unidades_residenciais": 1329,
+    "unidades_beneficiarias": 775,
+    "dependencia_tarifaria_percentual": 58.3145221971407
+  },
+  {
+    "codigo_ibge": "2204550",
+    "municipio": "Guaribas",
+    "ano": 2024,
+    "unidades_residenciais": 1351,
+    "unidades_beneficiarias": 809,
+    "dependencia_tarifaria_percentual": 59.88156920799408
+  },
+  {
+    "codigo_ibge": "2204550",
+    "municipio": "Guaribas",
+    "ano": 2025,
+    "unidades_residenciais": 1441,
+    "unidades_beneficiarias": 828,
+    "dependencia_tarifaria_percentual": 57.46009715475364
+  },
+  {
+    "codigo_ibge": "2204600",
+    "municipio": "Hugo Napoleão",
+    "ano": 2023,
+    "unidades_residenciais": 1636,
+    "unidades_beneficiarias": 760,
+    "dependencia_tarifaria_percentual": 46.45476772616136
+  },
+  {
+    "codigo_ibge": "2204600",
+    "municipio": "Hugo Napoleão",
+    "ano": 2024,
+    "unidades_residenciais": 1630,
+    "unidades_beneficiarias": 760,
+    "dependencia_tarifaria_percentual": 46.62576687116564
+  },
+  {
+    "codigo_ibge": "2204600",
+    "municipio": "Hugo Napoleão",
+    "ano": 2025,
+    "unidades_residenciais": 1699,
+    "unidades_beneficiarias": 723,
+    "dependencia_tarifaria_percentual": 42.55444379046498
+  },
+  {
+    "codigo_ibge": "2204659",
+    "municipio": "Ilha Grande",
+    "ano": 2023,
+    "unidades_residenciais": 3014,
+    "unidades_beneficiarias": 1604,
+    "dependencia_tarifaria_percentual": 53.21831453218314
+  },
+  {
+    "codigo_ibge": "2204659",
+    "municipio": "Ilha Grande",
+    "ano": 2024,
+    "unidades_residenciais": 3141,
+    "unidades_beneficiarias": 1669,
+    "dependencia_tarifaria_percentual": 53.13594396688952
+  },
+  {
+    "codigo_ibge": "2204659",
+    "municipio": "Ilha Grande",
+    "ano": 2025,
+    "unidades_residenciais": 3197,
+    "unidades_beneficiarias": 1634,
+    "dependencia_tarifaria_percentual": 51.11041601501407
+  },
+  {
+    "codigo_ibge": "2204709",
+    "municipio": "Inhuma",
+    "ano": 2023,
+    "unidades_residenciais": 5800,
+    "unidades_beneficiarias": 2964,
+    "dependencia_tarifaria_percentual": 51.10344827586207
+  },
+  {
+    "codigo_ibge": "2204709",
+    "municipio": "Inhuma",
+    "ano": 2024,
+    "unidades_residenciais": 6048,
+    "unidades_beneficiarias": 2909,
+    "dependencia_tarifaria_percentual": 48.09854497354497
+  },
+  {
+    "codigo_ibge": "2204709",
+    "municipio": "Inhuma",
+    "ano": 2025,
+    "unidades_residenciais": 6174,
+    "unidades_beneficiarias": 2787,
+    "dependencia_tarifaria_percentual": 45.14091350826045
+  },
+  {
+    "codigo_ibge": "2204808",
+    "municipio": "Ipiranga do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 3616,
+    "unidades_beneficiarias": 1723,
+    "dependencia_tarifaria_percentual": 47.64933628318584
+  },
+  {
+    "codigo_ibge": "2204808",
+    "municipio": "Ipiranga do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 3730,
+    "unidades_beneficiarias": 1794,
+    "dependencia_tarifaria_percentual": 48.09651474530831
+  },
+  {
+    "codigo_ibge": "2204808",
+    "municipio": "Ipiranga do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 3883,
+    "unidades_beneficiarias": 1717,
+    "dependencia_tarifaria_percentual": 44.21838784445017
+  },
+  {
+    "codigo_ibge": "2204907",
+    "municipio": "Isaías Coelho",
+    "ano": 2023,
+    "unidades_residenciais": 2820,
+    "unidades_beneficiarias": 1472,
+    "dependencia_tarifaria_percentual": 52.19858156028369
+  },
+  {
+    "codigo_ibge": "2204907",
+    "municipio": "Isaías Coelho",
+    "ano": 2024,
+    "unidades_residenciais": 3124,
+    "unidades_beneficiarias": 1499,
+    "dependencia_tarifaria_percentual": 47.98335467349552
+  },
+  {
+    "codigo_ibge": "2204907",
+    "municipio": "Isaías Coelho",
+    "ano": 2025,
+    "unidades_residenciais": 3233,
+    "unidades_beneficiarias": 1577,
+    "dependencia_tarifaria_percentual": 48.77822455923291
+  },
+  {
+    "codigo_ibge": "2205003",
+    "municipio": "Itainópolis",
+    "ano": 2023,
+    "unidades_residenciais": 4378,
+    "unidades_beneficiarias": 2146,
+    "dependencia_tarifaria_percentual": 49.01781635449977
+  },
+  {
+    "codigo_ibge": "2205003",
+    "municipio": "Itainópolis",
+    "ano": 2024,
+    "unidades_residenciais": 4674,
+    "unidades_beneficiarias": 2113,
+    "dependencia_tarifaria_percentual": 45.20753102267865
+  },
+  {
+    "codigo_ibge": "2205003",
+    "municipio": "Itainópolis",
+    "ano": 2025,
+    "unidades_residenciais": 4777,
+    "unidades_beneficiarias": 2032,
+    "dependencia_tarifaria_percentual": 42.53715721163911
+  },
+  {
+    "codigo_ibge": "2205102",
+    "municipio": "Itaueira",
+    "ano": 2023,
+    "unidades_residenciais": 4015,
+    "unidades_beneficiarias": 1863,
+    "dependencia_tarifaria_percentual": 46.40099626400996
+  },
+  {
+    "codigo_ibge": "2205102",
+    "municipio": "Itaueira",
+    "ano": 2024,
+    "unidades_residenciais": 4089,
+    "unidades_beneficiarias": 1888,
+    "dependencia_tarifaria_percentual": 46.17265835167522
+  },
+  {
+    "codigo_ibge": "2205102",
+    "municipio": "Itaueira",
+    "ano": 2025,
+    "unidades_residenciais": 4252,
+    "unidades_beneficiarias": 1817,
+    "dependencia_tarifaria_percentual": 42.73283160865476
+  },
+  {
+    "codigo_ibge": "2205151",
+    "municipio": "Jacobina do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2162,
+    "unidades_beneficiarias": 1068,
+    "dependencia_tarifaria_percentual": 49.39870490286771
+  },
+  {
+    "codigo_ibge": "2205151",
+    "municipio": "Jacobina do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2224,
+    "unidades_beneficiarias": 1086,
+    "dependencia_tarifaria_percentual": 48.83093525179856
+  },
+  {
+    "codigo_ibge": "2205151",
+    "municipio": "Jacobina do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2337,
+    "unidades_beneficiarias": 1081,
+    "dependencia_tarifaria_percentual": 46.2558836114677
+  },
+  {
+    "codigo_ibge": "2205201",
+    "municipio": "Jaicós",
+    "ano": 2023,
+    "unidades_residenciais": 7959,
+    "unidades_beneficiarias": 3799,
+    "dependencia_tarifaria_percentual": 47.73212715165221
+  },
+  {
+    "codigo_ibge": "2205201",
+    "municipio": "Jaicós",
+    "ano": 2024,
+    "unidades_residenciais": 8453,
+    "unidades_beneficiarias": 3788,
+    "dependencia_tarifaria_percentual": 44.81249260617533
+  },
+  {
+    "codigo_ibge": "2205201",
+    "municipio": "Jaicós",
+    "ano": 2025,
+    "unidades_residenciais": 8797,
+    "unidades_beneficiarias": 3830,
+    "dependencia_tarifaria_percentual": 43.53756962600887
+  },
+  {
+    "codigo_ibge": "2205250",
+    "municipio": "Jardim do Mulato",
+    "ano": 2023,
+    "unidades_residenciais": 1527,
+    "unidades_beneficiarias": 820,
+    "dependencia_tarifaria_percentual": 53.70006548788474
+  },
+  {
+    "codigo_ibge": "2205250",
+    "municipio": "Jardim do Mulato",
+    "ano": 2024,
+    "unidades_residenciais": 1696,
+    "unidades_beneficiarias": 802,
+    "dependencia_tarifaria_percentual": 47.2877358490566
+  },
+  {
+    "codigo_ibge": "2205250",
+    "municipio": "Jardim do Mulato",
+    "ano": 2025,
+    "unidades_residenciais": 1754,
+    "unidades_beneficiarias": 783,
+    "dependencia_tarifaria_percentual": 44.64082098061574
+  },
+  {
+    "codigo_ibge": "2205276",
+    "municipio": "Jatobá do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1475,
+    "unidades_beneficiarias": 897,
+    "dependencia_tarifaria_percentual": 60.8135593220339
+  },
+  {
+    "codigo_ibge": "2205276",
+    "municipio": "Jatobá do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1552,
+    "unidades_beneficiarias": 925,
+    "dependencia_tarifaria_percentual": 59.60051546391752
+  },
+  {
+    "codigo_ibge": "2205276",
+    "municipio": "Jatobá do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1624,
+    "unidades_beneficiarias": 940,
+    "dependencia_tarifaria_percentual": 57.88177339901478
+  },
+  {
+    "codigo_ibge": "2205300",
+    "municipio": "Jerumenha",
+    "ano": 2023,
+    "unidades_residenciais": 1756,
+    "unidades_beneficiarias": 830,
+    "dependencia_tarifaria_percentual": 47.26651480637813
+  },
+  {
+    "codigo_ibge": "2205300",
+    "municipio": "Jerumenha",
+    "ano": 2024,
+    "unidades_residenciais": 1854,
+    "unidades_beneficiarias": 817,
+    "dependencia_tarifaria_percentual": 44.06688241639698
+  },
+  {
+    "codigo_ibge": "2205300",
+    "municipio": "Jerumenha",
+    "ano": 2025,
+    "unidades_residenciais": 1914,
+    "unidades_beneficiarias": 790,
+    "dependencia_tarifaria_percentual": 41.27481713688611
+  },
+  {
+    "codigo_ibge": "2205359",
+    "municipio": "João Costa",
+    "ano": 2023,
+    "unidades_residenciais": 960,
+    "unidades_beneficiarias": 487,
+    "dependencia_tarifaria_percentual": 50.72916666666667
+  },
+  {
+    "codigo_ibge": "2205359",
+    "municipio": "João Costa",
+    "ano": 2024,
+    "unidades_residenciais": 1015,
+    "unidades_beneficiarias": 483,
+    "dependencia_tarifaria_percentual": 47.58620689655172
+  },
+  {
+    "codigo_ibge": "2205359",
+    "municipio": "João Costa",
+    "ano": 2025,
+    "unidades_residenciais": 1065,
+    "unidades_beneficiarias": 481,
+    "dependencia_tarifaria_percentual": 45.16431924882629
+  },
+  {
+    "codigo_ibge": "2205409",
+    "municipio": "Joaquim Pires",
+    "ano": 2023,
+    "unidades_residenciais": 4497,
+    "unidades_beneficiarias": 2641,
+    "dependencia_tarifaria_percentual": 58.72804091616634
+  },
+  {
+    "codigo_ibge": "2205409",
+    "municipio": "Joaquim Pires",
+    "ano": 2024,
+    "unidades_residenciais": 4603,
+    "unidades_beneficiarias": 2603,
+    "dependencia_tarifaria_percentual": 56.55007603736694
+  },
+  {
+    "codigo_ibge": "2205409",
+    "municipio": "Joaquim Pires",
+    "ano": 2025,
+    "unidades_residenciais": 4754,
+    "unidades_beneficiarias": 2568,
+    "dependencia_tarifaria_percentual": 54.01766933108961
+  },
+  {
+    "codigo_ibge": "2205458",
+    "municipio": "Joca Marques",
+    "ano": 2023,
+    "unidades_residenciais": 1597,
+    "unidades_beneficiarias": 1213,
+    "dependencia_tarifaria_percentual": 75.95491546649968
+  },
+  {
+    "codigo_ibge": "2205458",
+    "municipio": "Joca Marques",
+    "ano": 2024,
+    "unidades_residenciais": 1722,
+    "unidades_beneficiarias": 1241,
+    "dependencia_tarifaria_percentual": 72.06736353077817
+  },
+  {
+    "codigo_ibge": "2205458",
+    "municipio": "Joca Marques",
+    "ano": 2025,
+    "unidades_residenciais": 1766,
+    "unidades_beneficiarias": 1228,
+    "dependencia_tarifaria_percentual": 69.5356738391846
+  },
+  {
+    "codigo_ibge": "2205508",
+    "municipio": "José de Freitas",
+    "ano": 2023,
+    "unidades_residenciais": 13488,
+    "unidades_beneficiarias": 6523,
+    "dependencia_tarifaria_percentual": 48.36150652431791
+  },
+  {
+    "codigo_ibge": "2205508",
+    "municipio": "José de Freitas",
+    "ano": 2024,
+    "unidades_residenciais": 14112,
+    "unidades_beneficiarias": 6776,
+    "dependencia_tarifaria_percentual": 48.01587301587302
+  },
+  {
+    "codigo_ibge": "2205508",
+    "municipio": "José de Freitas",
+    "ano": 2025,
+    "unidades_residenciais": 14630,
+    "unidades_beneficiarias": 6662,
+    "dependencia_tarifaria_percentual": 45.53656869446343
+  },
+  {
+    "codigo_ibge": "2205516",
+    "municipio": "Juazeiro do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1570,
+    "unidades_beneficiarias": 1010,
+    "dependencia_tarifaria_percentual": 64.3312101910828
+  },
+  {
+    "codigo_ibge": "2205516",
+    "municipio": "Juazeiro do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1873,
+    "unidades_beneficiarias": 1001,
+    "dependencia_tarifaria_percentual": 53.44367325146824
+  },
+  {
+    "codigo_ibge": "2205516",
+    "municipio": "Juazeiro do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1948,
+    "unidades_beneficiarias": 987,
+    "dependencia_tarifaria_percentual": 50.66735112936345
+  },
+  {
+    "codigo_ibge": "2205524",
+    "municipio": "Júlio Borges",
+    "ano": 2023,
+    "unidades_residenciais": 1807,
+    "unidades_beneficiarias": 824,
+    "dependencia_tarifaria_percentual": 45.60044272274488
+  },
+  {
+    "codigo_ibge": "2205524",
+    "municipio": "Júlio Borges",
+    "ano": 2024,
+    "unidades_residenciais": 1793,
+    "unidades_beneficiarias": 813,
+    "dependencia_tarifaria_percentual": 45.34300055772448
+  },
+  {
+    "codigo_ibge": "2205524",
+    "municipio": "Júlio Borges",
+    "ano": 2025,
+    "unidades_residenciais": 1940,
+    "unidades_beneficiarias": 785,
+    "dependencia_tarifaria_percentual": 40.4639175257732
+  },
+  {
+    "codigo_ibge": "2205532",
+    "municipio": "Jurema",
+    "ano": 2023,
+    "unidades_residenciais": 1861,
+    "unidades_beneficiarias": 1232,
+    "dependencia_tarifaria_percentual": 66.2009672219237
+  },
+  {
+    "codigo_ibge": "2205532",
+    "municipio": "Jurema",
+    "ano": 2024,
+    "unidades_residenciais": 1927,
+    "unidades_beneficiarias": 1242,
+    "dependencia_tarifaria_percentual": 64.45251686559419
+  },
+  {
+    "codigo_ibge": "2205532",
+    "municipio": "Jurema",
+    "ano": 2025,
+    "unidades_residenciais": 1957,
+    "unidades_beneficiarias": 1212,
+    "dependencia_tarifaria_percentual": 61.93152784874808
+  },
+  {
+    "codigo_ibge": "2205540",
+    "municipio": "Lagoinha do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1311,
+    "unidades_beneficiarias": 567,
+    "dependencia_tarifaria_percentual": 43.24942791762014
+  },
+  {
+    "codigo_ibge": "2205540",
+    "municipio": "Lagoinha do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1353,
+    "unidades_beneficiarias": 565,
+    "dependencia_tarifaria_percentual": 41.7590539541759
+  },
+  {
+    "codigo_ibge": "2205540",
+    "municipio": "Lagoinha do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1416,
+    "unidades_beneficiarias": 555,
+    "dependencia_tarifaria_percentual": 39.19491525423729
+  },
+  {
+    "codigo_ibge": "2205557",
+    "municipio": "Lagoa Alegre",
+    "ano": 2023,
+    "unidades_residenciais": 2741,
+    "unidades_beneficiarias": 1685,
+    "dependencia_tarifaria_percentual": 61.47391462969719
+  },
+  {
+    "codigo_ibge": "2205557",
+    "municipio": "Lagoa Alegre",
+    "ano": 2024,
+    "unidades_residenciais": 2878,
+    "unidades_beneficiarias": 1701,
+    "dependencia_tarifaria_percentual": 59.10354412786657
+  },
+  {
+    "codigo_ibge": "2205557",
+    "municipio": "Lagoa Alegre",
+    "ano": 2025,
+    "unidades_residenciais": 3020,
+    "unidades_beneficiarias": 1769,
+    "dependencia_tarifaria_percentual": 58.57615894039735
+  },
+  {
+    "codigo_ibge": "2205565",
+    "municipio": "Lagoa do Barro do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2351,
+    "unidades_beneficiarias": 995,
+    "dependencia_tarifaria_percentual": 42.32241599319438
+  },
+  {
+    "codigo_ibge": "2205565",
+    "municipio": "Lagoa do Barro do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2338,
+    "unidades_beneficiarias": 1089,
+    "dependencia_tarifaria_percentual": 46.57827202737382
+  },
+  {
+    "codigo_ibge": "2205565",
+    "municipio": "Lagoa do Barro do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2483,
+    "unidades_beneficiarias": 1111,
+    "dependencia_tarifaria_percentual": 44.74426097462747
+  },
+  {
+    "codigo_ibge": "2205573",
+    "municipio": "Lagoa de São Francisco",
+    "ano": 2023,
+    "unidades_residenciais": 2386,
+    "unidades_beneficiarias": 1437,
+    "dependencia_tarifaria_percentual": 60.22632020117351
+  },
+  {
+    "codigo_ibge": "2205573",
+    "municipio": "Lagoa de São Francisco",
+    "ano": 2024,
+    "unidades_residenciais": 2476,
+    "unidades_beneficiarias": 1444,
+    "dependencia_tarifaria_percentual": 58.31987075928917
+  },
+  {
+    "codigo_ibge": "2205573",
+    "municipio": "Lagoa de São Francisco",
+    "ano": 2025,
+    "unidades_residenciais": 2569,
+    "unidades_beneficiarias": 1416,
+    "dependencia_tarifaria_percentual": 55.11872323861424
+  },
+  {
+    "codigo_ibge": "2205581",
+    "municipio": "Lagoa do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1774,
+    "unidades_beneficiarias": 866,
+    "dependencia_tarifaria_percentual": 48.81623449830891
+  },
+  {
+    "codigo_ibge": "2205581",
+    "municipio": "Lagoa do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1857,
+    "unidades_beneficiarias": 897,
+    "dependencia_tarifaria_percentual": 48.30371567043619
+  },
+  {
+    "codigo_ibge": "2205581",
+    "municipio": "Lagoa do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1979,
+    "unidades_beneficiarias": 870,
+    "dependencia_tarifaria_percentual": 43.96159676604346
+  },
+  {
+    "codigo_ibge": "2205599",
+    "municipio": "Lagoa do Sítio",
+    "ano": 2023,
+    "unidades_residenciais": 1855,
+    "unidades_beneficiarias": 1011,
+    "dependencia_tarifaria_percentual": 54.50134770889488
+  },
+  {
+    "codigo_ibge": "2205599",
+    "municipio": "Lagoa do Sítio",
+    "ano": 2024,
+    "unidades_residenciais": 1840,
+    "unidades_beneficiarias": 1001,
+    "dependencia_tarifaria_percentual": 54.40217391304348
+  },
+  {
+    "codigo_ibge": "2205599",
+    "municipio": "Lagoa do Sítio",
+    "ano": 2025,
+    "unidades_residenciais": 1919,
+    "unidades_beneficiarias": 961,
+    "dependencia_tarifaria_percentual": 50.07816571130797
+  },
+  {
+    "codigo_ibge": "2205607",
+    "municipio": "Landri Sales",
+    "ano": 2023,
+    "unidades_residenciais": 2558,
+    "unidades_beneficiarias": 1084,
+    "dependencia_tarifaria_percentual": 42.37685691946834
+  },
+  {
+    "codigo_ibge": "2205607",
+    "municipio": "Landri Sales",
+    "ano": 2024,
+    "unidades_residenciais": 2497,
+    "unidades_beneficiarias": 1059,
+    "dependencia_tarifaria_percentual": 42.41089307168603
+  },
+  {
+    "codigo_ibge": "2205607",
+    "municipio": "Landri Sales",
+    "ano": 2025,
+    "unidades_residenciais": 2577,
+    "unidades_beneficiarias": 1051,
+    "dependencia_tarifaria_percentual": 40.78385719829259
+  },
+  {
+    "codigo_ibge": "2205706",
+    "municipio": "Luís Correia",
+    "ano": 2023,
+    "unidades_residenciais": 14779,
+    "unidades_beneficiarias": 6108,
+    "dependencia_tarifaria_percentual": 41.32891264632249
+  },
+  {
+    "codigo_ibge": "2205706",
+    "municipio": "Luís Correia",
+    "ano": 2024,
+    "unidades_residenciais": 15158,
+    "unidades_beneficiarias": 6047,
+    "dependencia_tarifaria_percentual": 39.89312574218234
+  },
+  {
+    "codigo_ibge": "2205706",
+    "municipio": "Luís Correia",
+    "ano": 2025,
+    "unidades_residenciais": 15691,
+    "unidades_beneficiarias": 5886,
+    "dependencia_tarifaria_percentual": 37.51194952520554
+  },
+  {
+    "codigo_ibge": "2205805",
+    "municipio": "Luzilândia",
+    "ano": 2023,
+    "unidades_residenciais": 8684,
+    "unidades_beneficiarias": 4724,
+    "dependencia_tarifaria_percentual": 54.39889451865499
+  },
+  {
+    "codigo_ibge": "2205805",
+    "municipio": "Luzilândia",
+    "ano": 2024,
+    "unidades_residenciais": 8828,
+    "unidades_beneficiarias": 4654,
+    "dependencia_tarifaria_percentual": 52.71862256456728
+  },
+  {
+    "codigo_ibge": "2205805",
+    "municipio": "Luzilândia",
+    "ano": 2025,
+    "unidades_residenciais": 9139,
+    "unidades_beneficiarias": 4655,
+    "dependencia_tarifaria_percentual": 50.93555093555094
+  },
+  {
+    "codigo_ibge": "2205854",
+    "municipio": "Madeiro",
+    "ano": 2023,
+    "unidades_residenciais": 2365,
+    "unidades_beneficiarias": 1391,
+    "dependencia_tarifaria_percentual": 58.81606765327696
+  },
+  {
+    "codigo_ibge": "2205854",
+    "municipio": "Madeiro",
+    "ano": 2024,
+    "unidades_residenciais": 2427,
+    "unidades_beneficiarias": 1403,
+    "dependencia_tarifaria_percentual": 57.80799340749897
+  },
+  {
+    "codigo_ibge": "2205854",
+    "municipio": "Madeiro",
+    "ano": 2025,
+    "unidades_residenciais": 2529,
+    "unidades_beneficiarias": 1428,
+    "dependencia_tarifaria_percentual": 56.4650059311981
+  },
+  {
+    "codigo_ibge": "2205904",
+    "municipio": "Manoel Emídio",
+    "ano": 2023,
+    "unidades_residenciais": 2075,
+    "unidades_beneficiarias": 897,
+    "dependencia_tarifaria_percentual": 43.2289156626506
+  },
+  {
+    "codigo_ibge": "2205904",
+    "municipio": "Manoel Emídio",
+    "ano": 2024,
+    "unidades_residenciais": 2068,
+    "unidades_beneficiarias": 894,
+    "dependencia_tarifaria_percentual": 43.23017408123791
+  },
+  {
+    "codigo_ibge": "2205904",
+    "municipio": "Manoel Emídio",
+    "ano": 2025,
+    "unidades_residenciais": 2134,
+    "unidades_beneficiarias": 854,
+    "dependencia_tarifaria_percentual": 40.01874414245548
+  },
+  {
+    "codigo_ibge": "2205953",
+    "municipio": "Marcolândia",
+    "ano": 2023,
+    "unidades_residenciais": 3376,
+    "unidades_beneficiarias": 1647,
+    "dependencia_tarifaria_percentual": 48.78554502369668
+  },
+  {
+    "codigo_ibge": "2205953",
+    "municipio": "Marcolândia",
+    "ano": 2024,
+    "unidades_residenciais": 3578,
+    "unidades_beneficiarias": 1652,
+    "dependencia_tarifaria_percentual": 46.17104527669088
+  },
+  {
+    "codigo_ibge": "2205953",
+    "municipio": "Marcolândia",
+    "ano": 2025,
+    "unidades_residenciais": 3703,
+    "unidades_beneficiarias": 1618,
+    "dependencia_tarifaria_percentual": 43.6943019173643
+  },
+  {
+    "codigo_ibge": "2206001",
+    "municipio": "Marcos Parente",
+    "ano": 2023,
+    "unidades_residenciais": 1993,
+    "unidades_beneficiarias": 779,
+    "dependencia_tarifaria_percentual": 39.08680381334671
+  },
+  {
+    "codigo_ibge": "2206001",
+    "municipio": "Marcos Parente",
+    "ano": 2024,
+    "unidades_residenciais": 2062,
+    "unidades_beneficiarias": 716,
+    "dependencia_tarifaria_percentual": 34.72356935014549
+  },
+  {
+    "codigo_ibge": "2206001",
+    "municipio": "Marcos Parente",
+    "ano": 2025,
+    "unidades_residenciais": 2122,
+    "unidades_beneficiarias": 708,
+    "dependencia_tarifaria_percentual": 33.36475023562677
+  },
+  {
+    "codigo_ibge": "2206050",
+    "municipio": "Massapê do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2047,
+    "unidades_beneficiarias": 1110,
+    "dependencia_tarifaria_percentual": 54.2256961406937
+  },
+  {
+    "codigo_ibge": "2206050",
+    "municipio": "Massapê do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2009,
+    "unidades_beneficiarias": 1122,
+    "dependencia_tarifaria_percentual": 55.84868093578896
+  },
+  {
+    "codigo_ibge": "2206050",
+    "municipio": "Massapê do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2129,
+    "unidades_beneficiarias": 1160,
+    "dependencia_tarifaria_percentual": 54.48567402536402
+  },
+  {
+    "codigo_ibge": "2206100",
+    "municipio": "Matias Olímpio",
+    "ano": 2023,
+    "unidades_residenciais": 3633,
+    "unidades_beneficiarias": 2298,
+    "dependencia_tarifaria_percentual": 63.25350949628407
+  },
+  {
+    "codigo_ibge": "2206100",
+    "municipio": "Matias Olímpio",
+    "ano": 2024,
+    "unidades_residenciais": 3778,
+    "unidades_beneficiarias": 2306,
+    "dependencia_tarifaria_percentual": 61.03758602435151
+  },
+  {
+    "codigo_ibge": "2206100",
+    "municipio": "Matias Olímpio",
+    "ano": 2025,
+    "unidades_residenciais": 3933,
+    "unidades_beneficiarias": 2293,
+    "dependencia_tarifaria_percentual": 58.30155097889652
+  },
+  {
+    "codigo_ibge": "2206209",
+    "municipio": "Miguel Alves",
+    "ano": 2023,
+    "unidades_residenciais": 9769,
+    "unidades_beneficiarias": 5996,
+    "dependencia_tarifaria_percentual": 61.37782782270448
+  },
+  {
+    "codigo_ibge": "2206209",
+    "municipio": "Miguel Alves",
+    "ano": 2024,
+    "unidades_residenciais": 10076,
+    "unidades_beneficiarias": 6169,
+    "dependencia_tarifaria_percentual": 61.22469233822946
+  },
+  {
+    "codigo_ibge": "2206209",
+    "municipio": "Miguel Alves",
+    "ano": 2025,
+    "unidades_residenciais": 10528,
+    "unidades_beneficiarias": 6197,
+    "dependencia_tarifaria_percentual": 58.86208206686931
+  },
+  {
+    "codigo_ibge": "2206308",
+    "municipio": "Miguel Leão",
+    "ano": 2023,
+    "unidades_residenciais": 419,
+    "unidades_beneficiarias": 235,
+    "dependencia_tarifaria_percentual": 56.08591885441528
+  },
+  {
+    "codigo_ibge": "2206308",
+    "municipio": "Miguel Leão",
+    "ano": 2024,
+    "unidades_residenciais": 505,
+    "unidades_beneficiarias": 224,
+    "dependencia_tarifaria_percentual": 44.35643564356436
+  },
+  {
+    "codigo_ibge": "2206308",
+    "municipio": "Miguel Leão",
+    "ano": 2025,
+    "unidades_residenciais": 521,
+    "unidades_beneficiarias": 216,
+    "dependencia_tarifaria_percentual": 41.45873320537428
+  },
+  {
+    "codigo_ibge": "2206357",
+    "municipio": "Milton Brandão",
+    "ano": 2023,
+    "unidades_residenciais": 2556,
+    "unidades_beneficiarias": 1460,
+    "dependencia_tarifaria_percentual": 57.12050078247262
+  },
+  {
+    "codigo_ibge": "2206357",
+    "municipio": "Milton Brandão",
+    "ano": 2024,
+    "unidades_residenciais": 2605,
+    "unidades_beneficiarias": 1514,
+    "dependencia_tarifaria_percentual": 58.11900191938579
+  },
+  {
+    "codigo_ibge": "2206357",
+    "municipio": "Milton Brandão",
+    "ano": 2025,
+    "unidades_residenciais": 2660,
+    "unidades_beneficiarias": 1485,
+    "dependencia_tarifaria_percentual": 55.82706766917293
+  },
+  {
+    "codigo_ibge": "2206407",
+    "municipio": "Monsenhor Gil",
+    "ano": 2023,
+    "unidades_residenciais": 4171,
+    "unidades_beneficiarias": 1987,
+    "dependencia_tarifaria_percentual": 47.63845600575402
+  },
+  {
+    "codigo_ibge": "2206407",
+    "municipio": "Monsenhor Gil",
+    "ano": 2024,
+    "unidades_residenciais": 4205,
+    "unidades_beneficiarias": 1931,
+    "dependencia_tarifaria_percentual": 45.92152199762188
+  },
+  {
+    "codigo_ibge": "2206407",
+    "municipio": "Monsenhor Gil",
+    "ano": 2025,
+    "unidades_residenciais": 4387,
+    "unidades_beneficiarias": 1798,
+    "dependencia_tarifaria_percentual": 40.98472760428539
+  },
+  {
+    "codigo_ibge": "2206506",
+    "municipio": "Monsenhor Hipólito",
+    "ano": 2023,
+    "unidades_residenciais": 3111,
+    "unidades_beneficiarias": 1816,
+    "dependencia_tarifaria_percentual": 58.37351333976214
+  },
+  {
+    "codigo_ibge": "2206506",
+    "municipio": "Monsenhor Hipólito",
+    "ano": 2024,
+    "unidades_residenciais": 3244,
+    "unidades_beneficiarias": 1777,
+    "dependencia_tarifaria_percentual": 54.77805178791615
+  },
+  {
+    "codigo_ibge": "2206506",
+    "municipio": "Monsenhor Hipólito",
+    "ano": 2025,
+    "unidades_residenciais": 3364,
+    "unidades_beneficiarias": 1756,
+    "dependencia_tarifaria_percentual": 52.19976218787158
+  },
+  {
+    "codigo_ibge": "2206605",
+    "municipio": "Monte Alegre do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 3795,
+    "unidades_beneficiarias": 1663,
+    "dependencia_tarifaria_percentual": 43.82081686429513
+  },
+  {
+    "codigo_ibge": "2206605",
+    "municipio": "Monte Alegre do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 3911,
+    "unidades_beneficiarias": 1663,
+    "dependencia_tarifaria_percentual": 42.52109434927129
+  },
+  {
+    "codigo_ibge": "2206605",
+    "municipio": "Monte Alegre do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 4016,
+    "unidades_beneficiarias": 1635,
+    "dependencia_tarifaria_percentual": 40.71215139442231
+  },
+  {
+    "codigo_ibge": "2206654",
+    "municipio": "Morro Cabeça no Tempo",
+    "ano": 2023,
+    "unidades_residenciais": 1156,
+    "unidades_beneficiarias": 432,
+    "dependencia_tarifaria_percentual": 37.37024221453287
+  },
+  {
+    "codigo_ibge": "2206654",
+    "municipio": "Morro Cabeça no Tempo",
+    "ano": 2024,
+    "unidades_residenciais": 1312,
+    "unidades_beneficiarias": 507,
+    "dependencia_tarifaria_percentual": 38.64329268292683
+  },
+  {
+    "codigo_ibge": "2206654",
+    "municipio": "Morro Cabeça no Tempo",
+    "ano": 2025,
+    "unidades_residenciais": 1340,
+    "unidades_beneficiarias": 501,
+    "dependencia_tarifaria_percentual": 37.38805970149254
+  },
+  {
+    "codigo_ibge": "2206670",
+    "municipio": "Morro do Chapéu do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2307,
+    "unidades_beneficiarias": 1425,
+    "dependencia_tarifaria_percentual": 61.76853055916776
+  },
+  {
+    "codigo_ibge": "2206670",
+    "municipio": "Morro do Chapéu do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2356,
+    "unidades_beneficiarias": 1406,
+    "dependencia_tarifaria_percentual": 59.67741935483871
+  },
+  {
+    "codigo_ibge": "2206670",
+    "municipio": "Morro do Chapéu do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2448,
+    "unidades_beneficiarias": 1341,
+    "dependencia_tarifaria_percentual": 54.77941176470588
+  },
+  {
+    "codigo_ibge": "2206696",
+    "municipio": "Murici dos Portelas",
+    "ano": 2023,
+    "unidades_residenciais": 3000,
+    "unidades_beneficiarias": 1386,
+    "dependencia_tarifaria_percentual": 46.2
+  },
+  {
+    "codigo_ibge": "2206696",
+    "municipio": "Murici dos Portelas",
+    "ano": 2024,
+    "unidades_residenciais": 3155,
+    "unidades_beneficiarias": 1391,
+    "dependencia_tarifaria_percentual": 44.08874801901743
+  },
+  {
+    "codigo_ibge": "2206696",
+    "municipio": "Murici dos Portelas",
+    "ano": 2025,
+    "unidades_residenciais": 3367,
+    "unidades_beneficiarias": 1396,
+    "dependencia_tarifaria_percentual": 41.46124146124146
+  },
+  {
+    "codigo_ibge": "2206704",
+    "municipio": "Nazaré do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2583,
+    "unidades_beneficiarias": 1292,
+    "dependencia_tarifaria_percentual": 50.0193573364305
+  },
+  {
+    "codigo_ibge": "2206704",
+    "municipio": "Nazaré do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2684,
+    "unidades_beneficiarias": 1267,
+    "dependencia_tarifaria_percentual": 47.20566318926975
+  },
+  {
+    "codigo_ibge": "2206704",
+    "municipio": "Nazaré do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2735,
+    "unidades_beneficiarias": 1236,
+    "dependencia_tarifaria_percentual": 45.19195612431444
+  },
+  {
+    "codigo_ibge": "2206720",
+    "municipio": "Nazária",
+    "ano": 2023,
+    "unidades_residenciais": 2577,
+    "unidades_beneficiarias": 1584,
+    "dependencia_tarifaria_percentual": 61.46682188591386
+  },
+  {
+    "codigo_ibge": "2206720",
+    "municipio": "Nazária",
+    "ano": 2024,
+    "unidades_residenciais": 3369,
+    "unidades_beneficiarias": 1447,
+    "dependencia_tarifaria_percentual": 42.95043039477589
+  },
+  {
+    "codigo_ibge": "2206720",
+    "municipio": "Nazária",
+    "ano": 2025,
+    "unidades_residenciais": 3553,
+    "unidades_beneficiarias": 1448,
+    "dependencia_tarifaria_percentual": 40.754292147481
+  },
+  {
+    "codigo_ibge": "2206753",
+    "municipio": "Nossa Senhora de Nazaré",
+    "ano": 2023,
+    "unidades_residenciais": 2009,
+    "unidades_beneficiarias": 989,
+    "dependencia_tarifaria_percentual": 49.2284718765555
+  },
+  {
+    "codigo_ibge": "2206753",
+    "municipio": "Nossa Senhora de Nazaré",
+    "ano": 2024,
+    "unidades_residenciais": 2050,
+    "unidades_beneficiarias": 962,
+    "dependencia_tarifaria_percentual": 46.92682926829268
+  },
+  {
+    "codigo_ibge": "2206753",
+    "municipio": "Nossa Senhora de Nazaré",
+    "ano": 2025,
+    "unidades_residenciais": 2131,
+    "unidades_beneficiarias": 933,
+    "dependencia_tarifaria_percentual": 43.78226184889723
+  },
+  {
+    "codigo_ibge": "2206803",
+    "municipio": "Nossa Senhora dos Remédios",
+    "ano": 2023,
+    "unidades_residenciais": 2803,
+    "unidades_beneficiarias": 2230,
+    "dependencia_tarifaria_percentual": 79.55761683910096
+  },
+  {
+    "codigo_ibge": "2206803",
+    "municipio": "Nossa Senhora dos Remédios",
+    "ano": 2024,
+    "unidades_residenciais": 2970,
+    "unidades_beneficiarias": 2246,
+    "dependencia_tarifaria_percentual": 75.62289562289563
+  },
+  {
+    "codigo_ibge": "2206803",
+    "municipio": "Nossa Senhora dos Remédios",
+    "ano": 2025,
+    "unidades_residenciais": 3090,
+    "unidades_beneficiarias": 2254,
+    "dependencia_tarifaria_percentual": 72.94498381877023
+  },
+  {
+    "codigo_ibge": "2206902",
+    "municipio": "Novo Oriente do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2641,
+    "unidades_beneficiarias": 1307,
+    "dependencia_tarifaria_percentual": 49.48882998864067
+  },
+  {
+    "codigo_ibge": "2206902",
+    "municipio": "Novo Oriente do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2640,
+    "unidades_beneficiarias": 1253,
+    "dependencia_tarifaria_percentual": 47.46212121212121
+  },
+  {
+    "codigo_ibge": "2206902",
+    "municipio": "Novo Oriente do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2726,
+    "unidades_beneficiarias": 1197,
+    "dependencia_tarifaria_percentual": 43.91049156272928
+  },
+  {
+    "codigo_ibge": "2206951",
+    "municipio": "Novo Santo Antônio",
+    "ano": 2023,
+    "unidades_residenciais": 1160,
+    "unidades_beneficiarias": 558,
+    "dependencia_tarifaria_percentual": 48.10344827586207
+  },
+  {
+    "codigo_ibge": "2206951",
+    "municipio": "Novo Santo Antônio",
+    "ano": 2024,
+    "unidades_residenciais": 1141,
+    "unidades_beneficiarias": 565,
+    "dependencia_tarifaria_percentual": 49.51796669588081
+  },
+  {
+    "codigo_ibge": "2206951",
+    "municipio": "Novo Santo Antônio",
+    "ano": 2025,
+    "unidades_residenciais": 1260,
+    "unidades_beneficiarias": 572,
+    "dependencia_tarifaria_percentual": 45.3968253968254
+  },
+  {
+    "codigo_ibge": "2207009",
+    "municipio": "Oeiras",
+    "ano": 2023,
+    "unidades_residenciais": 16104,
+    "unidades_beneficiarias": 8603,
+    "dependencia_tarifaria_percentual": 53.42151018380527
+  },
+  {
+    "codigo_ibge": "2207009",
+    "municipio": "Oeiras",
+    "ano": 2024,
+    "unidades_residenciais": 16801,
+    "unidades_beneficiarias": 9161,
+    "dependencia_tarifaria_percentual": 54.52651627879293
+  },
+  {
+    "codigo_ibge": "2207009",
+    "municipio": "Oeiras",
+    "ano": 2025,
+    "unidades_residenciais": 17584,
+    "unidades_beneficiarias": 8717,
+    "dependencia_tarifaria_percentual": 49.57347588717015
+  },
+  {
+    "codigo_ibge": "2207108",
+    "municipio": "Olho D'Água do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1073,
+    "unidades_beneficiarias": 515,
+    "dependencia_tarifaria_percentual": 47.99627213420317
+  },
+  {
+    "codigo_ibge": "2207108",
+    "municipio": "Olho D'Água do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1097,
+    "unidades_beneficiarias": 518,
+    "dependencia_tarifaria_percentual": 47.21969006381039
+  },
+  {
+    "codigo_ibge": "2207108",
+    "municipio": "Olho D'Água do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1183,
+    "unidades_beneficiarias": 504,
+    "dependencia_tarifaria_percentual": 42.60355029585799
+  },
+  {
+    "codigo_ibge": "2207207",
+    "municipio": "Padre Marcos",
+    "ano": 2023,
+    "unidades_residenciais": 2956,
+    "unidades_beneficiarias": 1665,
+    "dependencia_tarifaria_percentual": 56.32611637347767
+  },
+  {
+    "codigo_ibge": "2207207",
+    "municipio": "Padre Marcos",
+    "ano": 2024,
+    "unidades_residenciais": 2938,
+    "unidades_beneficiarias": 1680,
+    "dependencia_tarifaria_percentual": 57.18175629680054
+  },
+  {
+    "codigo_ibge": "2207207",
+    "municipio": "Padre Marcos",
+    "ano": 2025,
+    "unidades_residenciais": 3025,
+    "unidades_beneficiarias": 1604,
+    "dependencia_tarifaria_percentual": 53.02479338842975
+  },
+  {
+    "codigo_ibge": "2207306",
+    "municipio": "Paes Landim",
+    "ano": 2023,
+    "unidades_residenciais": 1521,
+    "unidades_beneficiarias": 729,
+    "dependencia_tarifaria_percentual": 47.92899408284023
+  },
+  {
+    "codigo_ibge": "2207306",
+    "municipio": "Paes Landim",
+    "ano": 2024,
+    "unidades_residenciais": 1627,
+    "unidades_beneficiarias": 784,
+    "dependencia_tarifaria_percentual": 48.18684695759066
+  },
+  {
+    "codigo_ibge": "2207306",
+    "municipio": "Paes Landim",
+    "ano": 2025,
+    "unidades_residenciais": 1681,
+    "unidades_beneficiarias": 754,
+    "dependencia_tarifaria_percentual": 44.85425342058299
+  },
+  {
+    "codigo_ibge": "2207355",
+    "municipio": "Pajeú do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1309,
+    "unidades_beneficiarias": 528,
+    "dependencia_tarifaria_percentual": 40.33613445378151
+  },
+  {
+    "codigo_ibge": "2207355",
+    "municipio": "Pajeú do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1299,
+    "unidades_beneficiarias": 498,
+    "dependencia_tarifaria_percentual": 38.33718244803695
+  },
+  {
+    "codigo_ibge": "2207355",
+    "municipio": "Pajeú do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1347,
+    "unidades_beneficiarias": 482,
+    "dependencia_tarifaria_percentual": 35.78322197475872
+  },
+  {
+    "codigo_ibge": "2207405",
+    "municipio": "Palmeira do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1489,
+    "unidades_beneficiarias": 689,
+    "dependencia_tarifaria_percentual": 46.27266621893889
+  },
+  {
+    "codigo_ibge": "2207405",
+    "municipio": "Palmeira do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1609,
+    "unidades_beneficiarias": 648,
+    "dependencia_tarifaria_percentual": 40.27346177750155
+  },
+  {
+    "codigo_ibge": "2207405",
+    "municipio": "Palmeira do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1649,
+    "unidades_beneficiarias": 602,
+    "dependencia_tarifaria_percentual": 36.50697392359005
+  },
+  {
+    "codigo_ibge": "2207504",
+    "municipio": "Palmeirais",
+    "ano": 2023,
+    "unidades_residenciais": 4329,
+    "unidades_beneficiarias": 2184,
+    "dependencia_tarifaria_percentual": 50.45045045045045
+  },
+  {
+    "codigo_ibge": "2207504",
+    "municipio": "Palmeirais",
+    "ano": 2024,
+    "unidades_residenciais": 4395,
+    "unidades_beneficiarias": 2138,
+    "dependencia_tarifaria_percentual": 48.64618885096701
+  },
+  {
+    "codigo_ibge": "2207504",
+    "municipio": "Palmeirais",
+    "ano": 2025,
+    "unidades_residenciais": 4613,
+    "unidades_beneficiarias": 2052,
+    "dependencia_tarifaria_percentual": 44.48298287448515
+  },
+  {
+    "codigo_ibge": "2207553",
+    "municipio": "Paquetá",
+    "ano": 2023,
+    "unidades_residenciais": 1315,
+    "unidades_beneficiarias": 828,
+    "dependencia_tarifaria_percentual": 62.9657794676806
+  },
+  {
+    "codigo_ibge": "2207553",
+    "municipio": "Paquetá",
+    "ano": 2024,
+    "unidades_residenciais": 1323,
+    "unidades_beneficiarias": 814,
+    "dependencia_tarifaria_percentual": 61.52683295540439
+  },
+  {
+    "codigo_ibge": "2207553",
+    "municipio": "Paquetá",
+    "ano": 2025,
+    "unidades_residenciais": 1374,
+    "unidades_beneficiarias": 780,
+    "dependencia_tarifaria_percentual": 56.76855895196506
+  },
+  {
+    "codigo_ibge": "2207603",
+    "municipio": "Parnaguá",
+    "ano": 2023,
+    "unidades_residenciais": 2890,
+    "unidades_beneficiarias": 1414,
+    "dependencia_tarifaria_percentual": 48.92733564013841
+  },
+  {
+    "codigo_ibge": "2207603",
+    "municipio": "Parnaguá",
+    "ano": 2024,
+    "unidades_residenciais": 3078,
+    "unidades_beneficiarias": 1418,
+    "dependencia_tarifaria_percentual": 46.06887589343729
+  },
+  {
+    "codigo_ibge": "2207603",
+    "municipio": "Parnaguá",
+    "ano": 2025,
+    "unidades_residenciais": 3198,
+    "unidades_beneficiarias": 1426,
+    "dependencia_tarifaria_percentual": 44.59036898061288
+  },
+  {
+    "codigo_ibge": "2207702",
+    "municipio": "Parnaíba",
+    "ano": 2023,
+    "unidades_residenciais": 62993,
+    "unidades_beneficiarias": 21648,
+    "dependencia_tarifaria_percentual": 34.36572317559094
+  },
+  {
+    "codigo_ibge": "2207702",
+    "municipio": "Parnaíba",
+    "ano": 2024,
+    "unidades_residenciais": 64820,
+    "unidades_beneficiarias": 22590,
+    "dependencia_tarifaria_percentual": 34.85035482875656
+  },
+  {
+    "codigo_ibge": "2207702",
+    "municipio": "Parnaíba",
+    "ano": 2025,
+    "unidades_residenciais": 66789,
+    "unidades_beneficiarias": 21850,
+    "dependencia_tarifaria_percentual": 32.71496803365824
+  },
+  {
+    "codigo_ibge": "2207751",
+    "municipio": "Passagem Franca do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1381,
+    "unidades_beneficiarias": 715,
+    "dependencia_tarifaria_percentual": 51.77407675597393
+  },
+  {
+    "codigo_ibge": "2207751",
+    "municipio": "Passagem Franca do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1346,
+    "unidades_beneficiarias": 742,
+    "dependencia_tarifaria_percentual": 55.12630014858841
+  },
+  {
+    "codigo_ibge": "2207751",
+    "municipio": "Passagem Franca do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1443,
+    "unidades_beneficiarias": 742,
+    "dependencia_tarifaria_percentual": 51.42065142065142
+  },
+  {
+    "codigo_ibge": "2207777",
+    "municipio": "Patos do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2139,
+    "unidades_beneficiarias": 957,
+    "dependencia_tarifaria_percentual": 44.74053295932679
+  },
+  {
+    "codigo_ibge": "2207777",
+    "municipio": "Patos do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2143,
+    "unidades_beneficiarias": 965,
+    "dependencia_tarifaria_percentual": 45.03033131124592
+  },
+  {
+    "codigo_ibge": "2207777",
+    "municipio": "Patos do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2258,
+    "unidades_beneficiarias": 941,
+    "dependencia_tarifaria_percentual": 41.674047829938
+  },
+  {
+    "codigo_ibge": "2207793",
+    "municipio": "Pau D'Arco do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1568,
+    "unidades_beneficiarias": 824,
+    "dependencia_tarifaria_percentual": 52.55102040816326
+  },
+  {
+    "codigo_ibge": "2207793",
+    "municipio": "Pau D'Arco do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1645,
+    "unidades_beneficiarias": 794,
+    "dependencia_tarifaria_percentual": 48.26747720364742
+  },
+  {
+    "codigo_ibge": "2207793",
+    "municipio": "Pau D'Arco do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1724,
+    "unidades_beneficiarias": 811,
+    "dependencia_tarifaria_percentual": 47.04176334106728
+  },
+  {
+    "codigo_ibge": "2207801",
+    "municipio": "Paulistana",
+    "ano": 2023,
+    "unidades_residenciais": 7928,
+    "unidades_beneficiarias": 4252,
+    "dependencia_tarifaria_percentual": 53.6326942482341
+  },
+  {
+    "codigo_ibge": "2207801",
+    "municipio": "Paulistana",
+    "ano": 2024,
+    "unidades_residenciais": 9085,
+    "unidades_beneficiarias": 4390,
+    "dependencia_tarifaria_percentual": 48.32140891579527
+  },
+  {
+    "codigo_ibge": "2207801",
+    "municipio": "Paulistana",
+    "ano": 2025,
+    "unidades_residenciais": 9449,
+    "unidades_beneficiarias": 4309,
+    "dependencia_tarifaria_percentual": 45.60270928140544
+  },
+  {
+    "codigo_ibge": "2207850",
+    "municipio": "Pavussu",
+    "ano": 2023,
+    "unidades_residenciais": 1625,
+    "unidades_beneficiarias": 907,
+    "dependencia_tarifaria_percentual": 55.81538461538461
+  },
+  {
+    "codigo_ibge": "2207850",
+    "municipio": "Pavussu",
+    "ano": 2024,
+    "unidades_residenciais": 1649,
+    "unidades_beneficiarias": 925,
+    "dependencia_tarifaria_percentual": 56.09460278956944
+  },
+  {
+    "codigo_ibge": "2207850",
+    "municipio": "Pavussu",
+    "ano": 2025,
+    "unidades_residenciais": 1700,
+    "unidades_beneficiarias": 938,
+    "dependencia_tarifaria_percentual": 55.17647058823529
+  },
+  {
+    "codigo_ibge": "2207900",
+    "municipio": "Pedro II",
+    "ano": 2023,
+    "unidades_residenciais": 15747,
+    "unidades_beneficiarias": 8392,
+    "dependencia_tarifaria_percentual": 53.29269067123897
+  },
+  {
+    "codigo_ibge": "2207900",
+    "municipio": "Pedro II",
+    "ano": 2024,
+    "unidades_residenciais": 16259,
+    "unidades_beneficiarias": 8535,
+    "dependencia_tarifaria_percentual": 52.49400332123747
+  },
+  {
+    "codigo_ibge": "2207900",
+    "municipio": "Pedro II",
+    "ano": 2025,
+    "unidades_residenciais": 16911,
+    "unidades_beneficiarias": 8528,
+    "dependencia_tarifaria_percentual": 50.42871503754952
+  },
+  {
+    "codigo_ibge": "2207934",
+    "municipio": "Pedro Laurentino",
+    "ano": 2023,
+    "unidades_residenciais": 870,
+    "unidades_beneficiarias": 542,
+    "dependencia_tarifaria_percentual": 62.29885057471264
+  },
+  {
+    "codigo_ibge": "2207934",
+    "municipio": "Pedro Laurentino",
+    "ano": 2024,
+    "unidades_residenciais": 967,
+    "unidades_beneficiarias": 524,
+    "dependencia_tarifaria_percentual": 54.18821096173733
+  },
+  {
+    "codigo_ibge": "2207934",
+    "municipio": "Pedro Laurentino",
+    "ano": 2025,
+    "unidades_residenciais": 1029,
+    "unidades_beneficiarias": 529,
+    "dependencia_tarifaria_percentual": 51.40913508260447
+  },
+  {
+    "codigo_ibge": "2207959",
+    "municipio": "Nova Santa Rita",
+    "ano": 2023,
+    "unidades_residenciais": 1593,
+    "unidades_beneficiarias": 856,
+    "dependencia_tarifaria_percentual": 53.73509102322661
+  },
+  {
+    "codigo_ibge": "2207959",
+    "municipio": "Nova Santa Rita",
+    "ano": 2024,
+    "unidades_residenciais": 1507,
+    "unidades_beneficiarias": 878,
+    "dependencia_tarifaria_percentual": 58.26144658261446
+  },
+  {
+    "codigo_ibge": "2207959",
+    "municipio": "Nova Santa Rita",
+    "ano": 2025,
+    "unidades_residenciais": 1554,
+    "unidades_beneficiarias": 863,
+    "dependencia_tarifaria_percentual": 55.53410553410554
+  },
+  {
+    "codigo_ibge": "2208007",
+    "municipio": "Picos",
+    "ano": 2023,
+    "unidades_residenciais": 34592,
+    "unidades_beneficiarias": 13457,
+    "dependencia_tarifaria_percentual": 38.90205827937096
+  },
+  {
+    "codigo_ibge": "2208007",
+    "municipio": "Picos",
+    "ano": 2024,
+    "unidades_residenciais": 36175,
+    "unidades_beneficiarias": 13397,
+    "dependencia_tarifaria_percentual": 37.03386316516931
+  },
+  {
+    "codigo_ibge": "2208007",
+    "municipio": "Picos",
+    "ano": 2025,
+    "unidades_residenciais": 36953,
+    "unidades_beneficiarias": 12421,
+    "dependencia_tarifaria_percentual": 33.61296782399264
+  },
+  {
+    "codigo_ibge": "2208106",
+    "municipio": "Pimenteiras",
+    "ano": 2023,
+    "unidades_residenciais": 3937,
+    "unidades_beneficiarias": 2030,
+    "dependencia_tarifaria_percentual": 51.56210312420625
+  },
+  {
+    "codigo_ibge": "2208106",
+    "municipio": "Pimenteiras",
+    "ano": 2024,
+    "unidades_residenciais": 4351,
+    "unidades_beneficiarias": 2041,
+    "dependencia_tarifaria_percentual": 46.90875660767639
+  },
+  {
+    "codigo_ibge": "2208106",
+    "municipio": "Pimenteiras",
+    "ano": 2025,
+    "unidades_residenciais": 4499,
+    "unidades_beneficiarias": 1991,
+    "dependencia_tarifaria_percentual": 44.25427872860636
+  },
+  {
+    "codigo_ibge": "2208205",
+    "municipio": "Pio IX",
+    "ano": 2023,
+    "unidades_residenciais": 6757,
+    "unidades_beneficiarias": 3942,
+    "dependencia_tarifaria_percentual": 58.339499778008
+  },
+  {
+    "codigo_ibge": "2208205",
+    "municipio": "Pio IX",
+    "ano": 2024,
+    "unidades_residenciais": 6970,
+    "unidades_beneficiarias": 3890,
+    "dependencia_tarifaria_percentual": 55.81061692969871
+  },
+  {
+    "codigo_ibge": "2208205",
+    "municipio": "Pio IX",
+    "ano": 2025,
+    "unidades_residenciais": 7271,
+    "unidades_beneficiarias": 3907,
+    "dependencia_tarifaria_percentual": 53.73401182780911
+  },
+  {
+    "codigo_ibge": "2208304",
+    "municipio": "Piracuruca",
+    "ano": 2023,
+    "unidades_residenciais": 12055,
+    "unidades_beneficiarias": 5563,
+    "dependencia_tarifaria_percentual": 46.14682704272086
+  },
+  {
+    "codigo_ibge": "2208304",
+    "municipio": "Piracuruca",
+    "ano": 2024,
+    "unidades_residenciais": 12250,
+    "unidades_beneficiarias": 5687,
+    "dependencia_tarifaria_percentual": 46.42448979591837
+  },
+  {
+    "codigo_ibge": "2208304",
+    "municipio": "Piracuruca",
+    "ano": 2025,
+    "unidades_residenciais": 12553,
+    "unidades_beneficiarias": 5417,
+    "dependencia_tarifaria_percentual": 43.15303114793277
+  },
+  {
+    "codigo_ibge": "2208403",
+    "municipio": "Piripiri",
+    "ano": 2023,
+    "unidades_residenciais": 25030,
+    "unidades_beneficiarias": 11555,
+    "dependencia_tarifaria_percentual": 46.16460247702756
+  },
+  {
+    "codigo_ibge": "2208403",
+    "municipio": "Piripiri",
+    "ano": 2024,
+    "unidades_residenciais": 25751,
+    "unidades_beneficiarias": 12100,
+    "dependencia_tarifaria_percentual": 46.98846646732166
+  },
+  {
+    "codigo_ibge": "2208403",
+    "municipio": "Piripiri",
+    "ano": 2025,
+    "unidades_residenciais": 26566,
+    "unidades_beneficiarias": 11471,
+    "dependencia_tarifaria_percentual": 43.1792516750734
+  },
+  {
+    "codigo_ibge": "2208502",
+    "municipio": "Porto",
+    "ano": 2023,
+    "unidades_residenciais": 3724,
+    "unidades_beneficiarias": 2124,
+    "dependencia_tarifaria_percentual": 57.03544575725027
+  },
+  {
+    "codigo_ibge": "2208502",
+    "municipio": "Porto",
+    "ano": 2024,
+    "unidades_residenciais": 3780,
+    "unidades_beneficiarias": 2263,
+    "dependencia_tarifaria_percentual": 59.86772486772487
+  },
+  {
+    "codigo_ibge": "2208502",
+    "municipio": "Porto",
+    "ano": 2025,
+    "unidades_residenciais": 3939,
+    "unidades_beneficiarias": 2269,
+    "dependencia_tarifaria_percentual": 57.6034526529576
+  },
+  {
+    "codigo_ibge": "2208551",
+    "municipio": "Porto Alegre do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 951,
+    "unidades_beneficiarias": 403,
+    "dependencia_tarifaria_percentual": 42.37644584647739
+  },
+  {
+    "codigo_ibge": "2208551",
+    "municipio": "Porto Alegre do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 949,
+    "unidades_beneficiarias": 416,
+    "dependencia_tarifaria_percentual": 43.83561643835616
+  },
+  {
+    "codigo_ibge": "2208551",
+    "municipio": "Porto Alegre do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 973,
+    "unidades_beneficiarias": 401,
+    "dependencia_tarifaria_percentual": 41.21274409044193
+  },
+  {
+    "codigo_ibge": "2208601",
+    "municipio": "Prata do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1388,
+    "unidades_beneficiarias": 850,
+    "dependencia_tarifaria_percentual": 61.23919308357348
+  },
+  {
+    "codigo_ibge": "2208601",
+    "municipio": "Prata do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1417,
+    "unidades_beneficiarias": 818,
+    "dependencia_tarifaria_percentual": 57.72759350741003
+  },
+  {
+    "codigo_ibge": "2208601",
+    "municipio": "Prata do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1454,
+    "unidades_beneficiarias": 798,
+    "dependencia_tarifaria_percentual": 54.88308115543329
+  },
+  {
+    "codigo_ibge": "2208650",
+    "municipio": "Queimada Nova",
+    "ano": 2023,
+    "unidades_residenciais": 3922,
+    "unidades_beneficiarias": 1687,
+    "dependencia_tarifaria_percentual": 43.0137684854666
+  },
+  {
+    "codigo_ibge": "2208650",
+    "municipio": "Queimada Nova",
+    "ano": 2024,
+    "unidades_residenciais": 3803,
+    "unidades_beneficiarias": 1744,
+    "dependencia_tarifaria_percentual": 45.85853273731264
+  },
+  {
+    "codigo_ibge": "2208650",
+    "municipio": "Queimada Nova",
+    "ano": 2025,
+    "unidades_residenciais": 3960,
+    "unidades_beneficiarias": 1736,
+    "dependencia_tarifaria_percentual": 43.83838383838384
+  },
+  {
+    "codigo_ibge": "2208700",
+    "municipio": "Redenção do Gurguéia",
+    "ano": 2023,
+    "unidades_residenciais": 2971,
+    "unidades_beneficiarias": 1576,
+    "dependencia_tarifaria_percentual": 53.04611242006059
+  },
+  {
+    "codigo_ibge": "2208700",
+    "municipio": "Redenção do Gurguéia",
+    "ano": 2024,
+    "unidades_residenciais": 3033,
+    "unidades_beneficiarias": 1575,
+    "dependencia_tarifaria_percentual": 51.92878338278932
+  },
+  {
+    "codigo_ibge": "2208700",
+    "municipio": "Redenção do Gurguéia",
+    "ano": 2025,
+    "unidades_residenciais": 3104,
+    "unidades_beneficiarias": 1567,
+    "dependencia_tarifaria_percentual": 50.48324742268041
+  },
+  {
+    "codigo_ibge": "2208809",
+    "municipio": "Regeneração",
+    "ano": 2023,
+    "unidades_residenciais": 7097,
+    "unidades_beneficiarias": 3701,
+    "dependencia_tarifaria_percentual": 52.14879526560519
+  },
+  {
+    "codigo_ibge": "2208809",
+    "municipio": "Regeneração",
+    "ano": 2024,
+    "unidades_residenciais": 7203,
+    "unidades_beneficiarias": 3793,
+    "dependencia_tarifaria_percentual": 52.65861446619464
+  },
+  {
+    "codigo_ibge": "2208809",
+    "municipio": "Regeneração",
+    "ano": 2025,
+    "unidades_residenciais": 7352,
+    "unidades_beneficiarias": 3713,
+    "dependencia_tarifaria_percentual": 50.50326441784549
+  },
+  {
+    "codigo_ibge": "2208858",
+    "municipio": "Riacho Frio",
+    "ano": 2023,
+    "unidades_residenciais": 1288,
+    "unidades_beneficiarias": 647,
+    "dependencia_tarifaria_percentual": 50.23291925465838
+  },
+  {
+    "codigo_ibge": "2208858",
+    "municipio": "Riacho Frio",
+    "ano": 2024,
+    "unidades_residenciais": 1340,
+    "unidades_beneficiarias": 619,
+    "dependencia_tarifaria_percentual": 46.19402985074627
+  },
+  {
+    "codigo_ibge": "2208858",
+    "municipio": "Riacho Frio",
+    "ano": 2025,
+    "unidades_residenciais": 1352,
+    "unidades_beneficiarias": 613,
+    "dependencia_tarifaria_percentual": 45.34023668639053
+  },
+  {
+    "codigo_ibge": "2208874",
+    "municipio": "Ribeira do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1360,
+    "unidades_beneficiarias": 619,
+    "dependencia_tarifaria_percentual": 45.51470588235294
+  },
+  {
+    "codigo_ibge": "2208874",
+    "municipio": "Ribeira do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1403,
+    "unidades_beneficiarias": 623,
+    "dependencia_tarifaria_percentual": 44.4048467569494
+  },
+  {
+    "codigo_ibge": "2208874",
+    "municipio": "Ribeira do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1461,
+    "unidades_beneficiarias": 618,
+    "dependencia_tarifaria_percentual": 42.29979466119097
+  },
+  {
+    "codigo_ibge": "2208908",
+    "municipio": "Ribeiro Gonçalves",
+    "ano": 2023,
+    "unidades_residenciais": 2112,
+    "unidades_beneficiarias": 773,
+    "dependencia_tarifaria_percentual": 36.60037878787879
+  },
+  {
+    "codigo_ibge": "2208908",
+    "municipio": "Ribeiro Gonçalves",
+    "ano": 2024,
+    "unidades_residenciais": 2219,
+    "unidades_beneficiarias": 808,
+    "dependencia_tarifaria_percentual": 36.41279855790896
+  },
+  {
+    "codigo_ibge": "2208908",
+    "municipio": "Ribeiro Gonçalves",
+    "ano": 2025,
+    "unidades_residenciais": 2479,
+    "unidades_beneficiarias": 841,
+    "dependencia_tarifaria_percentual": 33.92496974586527
+  },
+  {
+    "codigo_ibge": "2209005",
+    "municipio": "Rio Grande do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2523,
+    "unidades_beneficiarias": 1303,
+    "dependencia_tarifaria_percentual": 51.64486722156163
+  },
+  {
+    "codigo_ibge": "2209005",
+    "municipio": "Rio Grande do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2620,
+    "unidades_beneficiarias": 1328,
+    "dependencia_tarifaria_percentual": 50.68702290076336
+  },
+  {
+    "codigo_ibge": "2209005",
+    "municipio": "Rio Grande do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2676,
+    "unidades_beneficiarias": 1290,
+    "dependencia_tarifaria_percentual": 48.20627802690583
+  },
+  {
+    "codigo_ibge": "2209104",
+    "municipio": "Santa Cruz do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2333,
+    "unidades_beneficiarias": 1029,
+    "dependencia_tarifaria_percentual": 44.10630090012859
+  },
+  {
+    "codigo_ibge": "2209104",
+    "municipio": "Santa Cruz do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2332,
+    "unidades_beneficiarias": 1064,
+    "dependencia_tarifaria_percentual": 45.62607204116638
+  },
+  {
+    "codigo_ibge": "2209104",
+    "municipio": "Santa Cruz do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2406,
+    "unidades_beneficiarias": 1047,
+    "dependencia_tarifaria_percentual": 43.51620947630923
+  },
+  {
+    "codigo_ibge": "2209153",
+    "municipio": "Santa Cruz dos Milagres",
+    "ano": 2023,
+    "unidades_residenciais": 1438,
+    "unidades_beneficiarias": 600,
+    "dependencia_tarifaria_percentual": 41.72461752433936
+  },
+  {
+    "codigo_ibge": "2209153",
+    "municipio": "Santa Cruz dos Milagres",
+    "ano": 2024,
+    "unidades_residenciais": 1561,
+    "unidades_beneficiarias": 607,
+    "dependencia_tarifaria_percentual": 38.88532991672005
+  },
+  {
+    "codigo_ibge": "2209153",
+    "municipio": "Santa Cruz dos Milagres",
+    "ano": 2025,
+    "unidades_residenciais": 1635,
+    "unidades_beneficiarias": 600,
+    "dependencia_tarifaria_percentual": 36.69724770642202
+  },
+  {
+    "codigo_ibge": "2209203",
+    "municipio": "Santa Filomena",
+    "ano": 2023,
+    "unidades_residenciais": 2120,
+    "unidades_beneficiarias": 821,
+    "dependencia_tarifaria_percentual": 38.72641509433962
+  },
+  {
+    "codigo_ibge": "2209203",
+    "municipio": "Santa Filomena",
+    "ano": 2024,
+    "unidades_residenciais": 2174,
+    "unidades_beneficiarias": 787,
+    "dependencia_tarifaria_percentual": 36.20055197792088
+  },
+  {
+    "codigo_ibge": "2209203",
+    "municipio": "Santa Filomena",
+    "ano": 2025,
+    "unidades_residenciais": 2298,
+    "unidades_beneficiarias": 849,
+    "dependencia_tarifaria_percentual": 36.94516971279374
+  },
+  {
+    "codigo_ibge": "2209302",
+    "municipio": "Santa Luz",
+    "ano": 2023,
+    "unidades_residenciais": 1890,
+    "unidades_beneficiarias": 876,
+    "dependencia_tarifaria_percentual": 46.34920634920635
+  },
+  {
+    "codigo_ibge": "2209302",
+    "municipio": "Santa Luz",
+    "ano": 2024,
+    "unidades_residenciais": 1961,
+    "unidades_beneficiarias": 884,
+    "dependencia_tarifaria_percentual": 45.0790413054564
+  },
+  {
+    "codigo_ibge": "2209302",
+    "municipio": "Santa Luz",
+    "ano": 2025,
+    "unidades_residenciais": 2068,
+    "unidades_beneficiarias": 865,
+    "dependencia_tarifaria_percentual": 41.82785299806577
+  },
+  {
+    "codigo_ibge": "2209351",
+    "municipio": "Santana do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1811,
+    "unidades_beneficiarias": 827,
+    "dependencia_tarifaria_percentual": 45.66537824406405
+  },
+  {
+    "codigo_ibge": "2209351",
+    "municipio": "Santana do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1565,
+    "unidades_beneficiarias": 801,
+    "dependencia_tarifaria_percentual": 51.18210862619809
+  },
+  {
+    "codigo_ibge": "2209351",
+    "municipio": "Santana do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1610,
+    "unidades_beneficiarias": 749,
+    "dependencia_tarifaria_percentual": 46.52173913043478
+  },
+  {
+    "codigo_ibge": "2209377",
+    "municipio": "Santa Rosa do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1976,
+    "unidades_beneficiarias": 968,
+    "dependencia_tarifaria_percentual": 48.98785425101214
+  },
+  {
+    "codigo_ibge": "2209377",
+    "municipio": "Santa Rosa do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2043,
+    "unidades_beneficiarias": 977,
+    "dependencia_tarifaria_percentual": 47.8218306412139
+  },
+  {
+    "codigo_ibge": "2209377",
+    "municipio": "Santa Rosa do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2103,
+    "unidades_beneficiarias": 931,
+    "dependencia_tarifaria_percentual": 44.27009034712316
+  },
+  {
+    "codigo_ibge": "2209401",
+    "municipio": "Santo Antônio de Lisboa",
+    "ano": 2023,
+    "unidades_residenciais": 2634,
+    "unidades_beneficiarias": 1211,
+    "dependencia_tarifaria_percentual": 45.97570235383447
+  },
+  {
+    "codigo_ibge": "2209401",
+    "municipio": "Santo Antônio de Lisboa",
+    "ano": 2024,
+    "unidades_residenciais": 2554,
+    "unidades_beneficiarias": 1211,
+    "dependencia_tarifaria_percentual": 47.41581832419734
+  },
+  {
+    "codigo_ibge": "2209401",
+    "municipio": "Santo Antônio de Lisboa",
+    "ano": 2025,
+    "unidades_residenciais": 2662,
+    "unidades_beneficiarias": 1174,
+    "dependencia_tarifaria_percentual": 44.10217881292262
+  },
+  {
+    "codigo_ibge": "2209450",
+    "municipio": "Santo Antônio dos Milagres",
+    "ano": 2023,
+    "unidades_residenciais": 713,
+    "unidades_beneficiarias": 336,
+    "dependencia_tarifaria_percentual": 47.12482468443198
+  },
+  {
+    "codigo_ibge": "2209450",
+    "municipio": "Santo Antônio dos Milagres",
+    "ano": 2024,
+    "unidades_residenciais": 744,
+    "unidades_beneficiarias": 352,
+    "dependencia_tarifaria_percentual": 47.31182795698925
+  },
+  {
+    "codigo_ibge": "2209450",
+    "municipio": "Santo Antônio dos Milagres",
+    "ano": 2025,
+    "unidades_residenciais": 753,
+    "unidades_beneficiarias": 329,
+    "dependencia_tarifaria_percentual": 43.69189907038513
+  },
+  {
+    "codigo_ibge": "2209500",
+    "municipio": "Santo Inácio do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1547,
+    "unidades_beneficiarias": 634,
+    "dependencia_tarifaria_percentual": 40.9825468648998
+  },
+  {
+    "codigo_ibge": "2209500",
+    "municipio": "Santo Inácio do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1548,
+    "unidades_beneficiarias": 627,
+    "dependencia_tarifaria_percentual": 40.50387596899225
+  },
+  {
+    "codigo_ibge": "2209500",
+    "municipio": "Santo Inácio do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1584,
+    "unidades_beneficiarias": 592,
+    "dependencia_tarifaria_percentual": 37.37373737373738
+  },
+  {
+    "codigo_ibge": "2209559",
+    "municipio": "São Braz do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1722,
+    "unidades_beneficiarias": 1066,
+    "dependencia_tarifaria_percentual": 61.90476190476191
+  },
+  {
+    "codigo_ibge": "2209559",
+    "municipio": "São Braz do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1793,
+    "unidades_beneficiarias": 1102,
+    "dependencia_tarifaria_percentual": 61.46123814835471
+  },
+  {
+    "codigo_ibge": "2209559",
+    "municipio": "São Braz do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1864,
+    "unidades_beneficiarias": 1070,
+    "dependencia_tarifaria_percentual": 57.40343347639485
+  },
+  {
+    "codigo_ibge": "2209609",
+    "municipio": "São Félix do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1276,
+    "unidades_beneficiarias": 458,
+    "dependencia_tarifaria_percentual": 35.89341692789969
+  },
+  {
+    "codigo_ibge": "2209609",
+    "municipio": "São Félix do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1247,
+    "unidades_beneficiarias": 446,
+    "dependencia_tarifaria_percentual": 35.76583801122695
+  },
+  {
+    "codigo_ibge": "2209609",
+    "municipio": "São Félix do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1308,
+    "unidades_beneficiarias": 417,
+    "dependencia_tarifaria_percentual": 31.88073394495413
+  },
+  {
+    "codigo_ibge": "2209658",
+    "municipio": "São Francisco de Assis do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2231,
+    "unidades_beneficiarias": 1162,
+    "dependencia_tarifaria_percentual": 52.08426714477813
+  },
+  {
+    "codigo_ibge": "2209658",
+    "municipio": "São Francisco de Assis do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2195,
+    "unidades_beneficiarias": 1157,
+    "dependencia_tarifaria_percentual": 52.71070615034169
+  },
+  {
+    "codigo_ibge": "2209658",
+    "municipio": "São Francisco de Assis do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2282,
+    "unidades_beneficiarias": 1135,
+    "dependencia_tarifaria_percentual": 49.73707274320771
+  },
+  {
+    "codigo_ibge": "2209708",
+    "municipio": "São Francisco do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2184,
+    "unidades_beneficiarias": 1022,
+    "dependencia_tarifaria_percentual": 46.7948717948718
+  },
+  {
+    "codigo_ibge": "2209708",
+    "municipio": "São Francisco do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2239,
+    "unidades_beneficiarias": 995,
+    "dependencia_tarifaria_percentual": 44.43948191156766
+  },
+  {
+    "codigo_ibge": "2209708",
+    "municipio": "São Francisco do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2301,
+    "unidades_beneficiarias": 992,
+    "dependencia_tarifaria_percentual": 43.11169056931769
+  },
+  {
+    "codigo_ibge": "2209757",
+    "municipio": "São Gonçalo do Gurguéia",
+    "ano": 2023,
+    "unidades_residenciais": 1171,
+    "unidades_beneficiarias": 453,
+    "dependencia_tarifaria_percentual": 38.68488471391973
+  },
+  {
+    "codigo_ibge": "2209757",
+    "municipio": "São Gonçalo do Gurguéia",
+    "ano": 2024,
+    "unidades_residenciais": 1234,
+    "unidades_beneficiarias": 489,
+    "dependencia_tarifaria_percentual": 39.62722852512155
+  },
+  {
+    "codigo_ibge": "2209757",
+    "municipio": "São Gonçalo do Gurguéia",
+    "ano": 2025,
+    "unidades_residenciais": 1282,
+    "unidades_beneficiarias": 496,
+    "dependencia_tarifaria_percentual": 38.68954758190328
+  },
+  {
+    "codigo_ibge": "2209807",
+    "municipio": "São Gonçalo do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1858,
+    "unidades_beneficiarias": 934,
+    "dependencia_tarifaria_percentual": 50.26910656620021
+  },
+  {
+    "codigo_ibge": "2209807",
+    "municipio": "São Gonçalo do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2004,
+    "unidades_beneficiarias": 967,
+    "dependencia_tarifaria_percentual": 48.25349301397205
+  },
+  {
+    "codigo_ibge": "2209807",
+    "municipio": "São Gonçalo do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2068,
+    "unidades_beneficiarias": 929,
+    "dependencia_tarifaria_percentual": 44.92263056092843
+  },
+  {
+    "codigo_ibge": "2209856",
+    "municipio": "São João da Canabrava",
+    "ano": 2023,
+    "unidades_residenciais": 1795,
+    "unidades_beneficiarias": 827,
+    "dependencia_tarifaria_percentual": 46.0724233983287
+  },
+  {
+    "codigo_ibge": "2209856",
+    "municipio": "São João da Canabrava",
+    "ano": 2024,
+    "unidades_residenciais": 1838,
+    "unidades_beneficiarias": 792,
+    "dependencia_tarifaria_percentual": 43.09031556039173
+  },
+  {
+    "codigo_ibge": "2209856",
+    "municipio": "São João da Canabrava",
+    "ano": 2025,
+    "unidades_residenciais": 1881,
+    "unidades_beneficiarias": 806,
+    "dependencia_tarifaria_percentual": 42.84954811270601
+  },
+  {
+    "codigo_ibge": "2209872",
+    "municipio": "São João da Fronteira",
+    "ano": 2023,
+    "unidades_residenciais": 2155,
+    "unidades_beneficiarias": 1192,
+    "dependencia_tarifaria_percentual": 55.31322505800465
+  },
+  {
+    "codigo_ibge": "2209872",
+    "municipio": "São João da Fronteira",
+    "ano": 2024,
+    "unidades_residenciais": 2235,
+    "unidades_beneficiarias": 1189,
+    "dependencia_tarifaria_percentual": 53.19910514541387
+  },
+  {
+    "codigo_ibge": "2209872",
+    "municipio": "São João da Fronteira",
+    "ano": 2025,
+    "unidades_residenciais": 2313,
+    "unidades_beneficiarias": 1188,
+    "dependencia_tarifaria_percentual": 51.36186770428015
+  },
+  {
+    "codigo_ibge": "2209906",
+    "municipio": "São João da Serra",
+    "ano": 2023,
+    "unidades_residenciais": 2449,
+    "unidades_beneficiarias": 1108,
+    "dependencia_tarifaria_percentual": 45.24295630869743
+  },
+  {
+    "codigo_ibge": "2209906",
+    "municipio": "São João da Serra",
+    "ano": 2024,
+    "unidades_residenciais": 2533,
+    "unidades_beneficiarias": 1079,
+    "dependencia_tarifaria_percentual": 42.59771022502961
+  },
+  {
+    "codigo_ibge": "2209906",
+    "municipio": "São João da Serra",
+    "ano": 2025,
+    "unidades_residenciais": 2608,
+    "unidades_beneficiarias": 1063,
+    "dependencia_tarifaria_percentual": 40.75920245398773
+  },
+  {
+    "codigo_ibge": "2209955",
+    "municipio": "São João da Varjota",
+    "ano": 2023,
+    "unidades_residenciais": 1526,
+    "unidades_beneficiarias": 807,
+    "dependencia_tarifaria_percentual": 52.88335517693316
+  },
+  {
+    "codigo_ibge": "2209955",
+    "municipio": "São João da Varjota",
+    "ano": 2024,
+    "unidades_residenciais": 1606,
+    "unidades_beneficiarias": 842,
+    "dependencia_tarifaria_percentual": 52.42839352428393
+  },
+  {
+    "codigo_ibge": "2209955",
+    "municipio": "São João da Varjota",
+    "ano": 2025,
+    "unidades_residenciais": 1649,
+    "unidades_beneficiarias": 822,
+    "dependencia_tarifaria_percentual": 49.8483929654336
+  },
+  {
+    "codigo_ibge": "2209971",
+    "municipio": "São João do Arraial",
+    "ano": 2023,
+    "unidades_residenciais": 3090,
+    "unidades_beneficiarias": 1906,
+    "dependencia_tarifaria_percentual": 61.68284789644013
+  },
+  {
+    "codigo_ibge": "2209971",
+    "municipio": "São João do Arraial",
+    "ano": 2024,
+    "unidades_residenciais": 3240,
+    "unidades_beneficiarias": 1948,
+    "dependencia_tarifaria_percentual": 60.12345679012346
+  },
+  {
+    "codigo_ibge": "2209971",
+    "municipio": "São João do Arraial",
+    "ano": 2025,
+    "unidades_residenciais": 3368,
+    "unidades_beneficiarias": 2025,
+    "dependencia_tarifaria_percentual": 60.12470308788599
+  },
+  {
+    "codigo_ibge": "2210003",
+    "municipio": "São João do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 8738,
+    "unidades_beneficiarias": 3679,
+    "dependencia_tarifaria_percentual": 42.1034561684596
+  },
+  {
+    "codigo_ibge": "2210003",
+    "municipio": "São João do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 8998,
+    "unidades_beneficiarias": 3751,
+    "dependencia_tarifaria_percentual": 41.68704156479217
+  },
+  {
+    "codigo_ibge": "2210003",
+    "municipio": "São João do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 9349,
+    "unidades_beneficiarias": 3575,
+    "dependencia_tarifaria_percentual": 38.23938389132528
+  },
+  {
+    "codigo_ibge": "2210052",
+    "municipio": "São José do Divino",
+    "ano": 2023,
+    "unidades_residenciais": 1994,
+    "unidades_beneficiarias": 1269,
+    "dependencia_tarifaria_percentual": 63.64092276830492
+  },
+  {
+    "codigo_ibge": "2210052",
+    "municipio": "São José do Divino",
+    "ano": 2024,
+    "unidades_residenciais": 2047,
+    "unidades_beneficiarias": 1233,
+    "dependencia_tarifaria_percentual": 60.23448949682462
+  },
+  {
+    "codigo_ibge": "2210052",
+    "municipio": "São José do Divino",
+    "ano": 2025,
+    "unidades_residenciais": 2137,
+    "unidades_beneficiarias": 1221,
+    "dependencia_tarifaria_percentual": 57.13617220402434
+  },
+  {
+    "codigo_ibge": "2210102",
+    "municipio": "São José do Peixe",
+    "ano": 2023,
+    "unidades_residenciais": 1476,
+    "unidades_beneficiarias": 613,
+    "dependencia_tarifaria_percentual": 41.53116531165312
+  },
+  {
+    "codigo_ibge": "2210102",
+    "municipio": "São José do Peixe",
+    "ano": 2024,
+    "unidades_residenciais": 1478,
+    "unidades_beneficiarias": 580,
+    "dependencia_tarifaria_percentual": 39.24221921515561
+  },
+  {
+    "codigo_ibge": "2210102",
+    "municipio": "São José do Peixe",
+    "ano": 2025,
+    "unidades_residenciais": 1513,
+    "unidades_beneficiarias": 580,
+    "dependencia_tarifaria_percentual": 38.33443489755452
+  },
+  {
+    "codigo_ibge": "2210201",
+    "municipio": "São José do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 2584,
+    "unidades_beneficiarias": 1203,
+    "dependencia_tarifaria_percentual": 46.55572755417957
+  },
+  {
+    "codigo_ibge": "2210201",
+    "municipio": "São José do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 2765,
+    "unidades_beneficiarias": 1212,
+    "dependencia_tarifaria_percentual": 43.83363471971067
+  },
+  {
+    "codigo_ibge": "2210201",
+    "municipio": "São José do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 2854,
+    "unidades_beneficiarias": 1186,
+    "dependencia_tarifaria_percentual": 41.55571128241065
+  },
+  {
+    "codigo_ibge": "2210300",
+    "municipio": "São Julião",
+    "ano": 2023,
+    "unidades_residenciais": 2801,
+    "unidades_beneficiarias": 1068,
+    "dependencia_tarifaria_percentual": 38.12923955730096
+  },
+  {
+    "codigo_ibge": "2210300",
+    "municipio": "São Julião",
+    "ano": 2024,
+    "unidades_residenciais": 2769,
+    "unidades_beneficiarias": 1012,
+    "dependencia_tarifaria_percentual": 36.54749006861683
+  },
+  {
+    "codigo_ibge": "2210300",
+    "municipio": "São Julião",
+    "ano": 2025,
+    "unidades_residenciais": 2839,
+    "unidades_beneficiarias": 1098,
+    "dependencia_tarifaria_percentual": 38.67558999647763
+  },
+  {
+    "codigo_ibge": "2210359",
+    "municipio": "São Lourenço do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1560,
+    "unidades_beneficiarias": 819,
+    "dependencia_tarifaria_percentual": 52.5
+  },
+  {
+    "codigo_ibge": "2210359",
+    "municipio": "São Lourenço do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1596,
+    "unidades_beneficiarias": 800,
+    "dependencia_tarifaria_percentual": 50.12531328320802
+  },
+  {
+    "codigo_ibge": "2210359",
+    "municipio": "São Lourenço do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1638,
+    "unidades_beneficiarias": 770,
+    "dependencia_tarifaria_percentual": 47.008547008547
+  },
+  {
+    "codigo_ibge": "2210375",
+    "municipio": "São Luis do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 959,
+    "unidades_beneficiarias": 473,
+    "dependencia_tarifaria_percentual": 49.32221063607925
+  },
+  {
+    "codigo_ibge": "2210375",
+    "municipio": "São Luis do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 985,
+    "unidades_beneficiarias": 476,
+    "dependencia_tarifaria_percentual": 48.3248730964467
+  },
+  {
+    "codigo_ibge": "2210375",
+    "municipio": "São Luis do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1011,
+    "unidades_beneficiarias": 466,
+    "dependencia_tarifaria_percentual": 46.09297725024728
+  },
+  {
+    "codigo_ibge": "2210383",
+    "municipio": "São Miguel da Baixa Grande",
+    "ano": 2023,
+    "unidades_residenciais": 845,
+    "unidades_beneficiarias": 389,
+    "dependencia_tarifaria_percentual": 46.03550295857988
+  },
+  {
+    "codigo_ibge": "2210383",
+    "municipio": "São Miguel da Baixa Grande",
+    "ano": 2024,
+    "unidades_residenciais": 980,
+    "unidades_beneficiarias": 379,
+    "dependencia_tarifaria_percentual": 38.6734693877551
+  },
+  {
+    "codigo_ibge": "2210383",
+    "municipio": "São Miguel da Baixa Grande",
+    "ano": 2025,
+    "unidades_residenciais": 1040,
+    "unidades_beneficiarias": 397,
+    "dependencia_tarifaria_percentual": 38.17307692307692
+  },
+  {
+    "codigo_ibge": "2210391",
+    "municipio": "São Miguel do Fidalgo",
+    "ano": 2023,
+    "unidades_residenciais": 880,
+    "unidades_beneficiarias": 428,
+    "dependencia_tarifaria_percentual": 48.63636363636364
+  },
+  {
+    "codigo_ibge": "2210391",
+    "municipio": "São Miguel do Fidalgo",
+    "ano": 2024,
+    "unidades_residenciais": 884,
+    "unidades_beneficiarias": 412,
+    "dependencia_tarifaria_percentual": 46.60633484162896
+  },
+  {
+    "codigo_ibge": "2210391",
+    "municipio": "São Miguel do Fidalgo",
+    "ano": 2025,
+    "unidades_residenciais": 937,
+    "unidades_beneficiarias": 396,
+    "dependencia_tarifaria_percentual": 42.26254002134472
+  },
+  {
+    "codigo_ibge": "2210409",
+    "municipio": "São Miguel do Tapuio",
+    "ano": 2023,
+    "unidades_residenciais": 6583,
+    "unidades_beneficiarias": 2924,
+    "dependencia_tarifaria_percentual": 44.41743885766368
+  },
+  {
+    "codigo_ibge": "2210409",
+    "municipio": "São Miguel do Tapuio",
+    "ano": 2024,
+    "unidades_residenciais": 6573,
+    "unidades_beneficiarias": 2985,
+    "dependencia_tarifaria_percentual": 45.41305340027385
+  },
+  {
+    "codigo_ibge": "2210409",
+    "municipio": "São Miguel do Tapuio",
+    "ano": 2025,
+    "unidades_residenciais": 6955,
+    "unidades_beneficiarias": 2928,
+    "dependencia_tarifaria_percentual": 42.09920920201294
+  },
+  {
+    "codigo_ibge": "2210508",
+    "municipio": "São Pedro do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 5050,
+    "unidades_beneficiarias": 2896,
+    "dependencia_tarifaria_percentual": 57.34653465346534
+  },
+  {
+    "codigo_ibge": "2210508",
+    "municipio": "São Pedro do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 5163,
+    "unidades_beneficiarias": 3003,
+    "dependencia_tarifaria_percentual": 58.16385822196397
+  },
+  {
+    "codigo_ibge": "2210508",
+    "municipio": "São Pedro do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 5327,
+    "unidades_beneficiarias": 2856,
+    "dependencia_tarifaria_percentual": 53.61366622864652
+  },
+  {
+    "codigo_ibge": "2210607",
+    "municipio": "São Raimundo Nonato",
+    "ano": 2023,
+    "unidades_residenciais": 16300,
+    "unidades_beneficiarias": 7022,
+    "dependencia_tarifaria_percentual": 43.07975460122699
+  },
+  {
+    "codigo_ibge": "2210607",
+    "municipio": "São Raimundo Nonato",
+    "ano": 2024,
+    "unidades_residenciais": 16901,
+    "unidades_beneficiarias": 7071,
+    "dependencia_tarifaria_percentual": 41.83776107922608
+  },
+  {
+    "codigo_ibge": "2210607",
+    "municipio": "São Raimundo Nonato",
+    "ano": 2025,
+    "unidades_residenciais": 17387,
+    "unidades_beneficiarias": 7045,
+    "dependencia_tarifaria_percentual": 40.51877839765342
+  },
+  {
+    "codigo_ibge": "2210623",
+    "municipio": "Sebastião Barros",
+    "ano": 2023,
+    "unidades_residenciais": 682,
+    "unidades_beneficiarias": 461,
+    "dependencia_tarifaria_percentual": 67.59530791788856
+  },
+  {
+    "codigo_ibge": "2210623",
+    "municipio": "Sebastião Barros",
+    "ano": 2024,
+    "unidades_residenciais": 792,
+    "unidades_beneficiarias": 477,
+    "dependencia_tarifaria_percentual": 60.22727272727273
+  },
+  {
+    "codigo_ibge": "2210623",
+    "municipio": "Sebastião Barros",
+    "ano": 2025,
+    "unidades_residenciais": 849,
+    "unidades_beneficiarias": 492,
+    "dependencia_tarifaria_percentual": 57.95053003533569
+  },
+  {
+    "codigo_ibge": "2210631",
+    "municipio": "Sebastião Leal",
+    "ano": 2023,
+    "unidades_residenciais": 1820,
+    "unidades_beneficiarias": 646,
+    "dependencia_tarifaria_percentual": 35.4945054945055
+  },
+  {
+    "codigo_ibge": "2210631",
+    "municipio": "Sebastião Leal",
+    "ano": 2024,
+    "unidades_residenciais": 1873,
+    "unidades_beneficiarias": 638,
+    "dependencia_tarifaria_percentual": 34.06300053390283
+  },
+  {
+    "codigo_ibge": "2210631",
+    "municipio": "Sebastião Leal",
+    "ano": 2025,
+    "unidades_residenciais": 1942,
+    "unidades_beneficiarias": 610,
+    "dependencia_tarifaria_percentual": 31.41091658084449
+  },
+  {
+    "codigo_ibge": "2210656",
+    "municipio": "Sigefredo Pacheco",
+    "ano": 2023,
+    "unidades_residenciais": 3535,
+    "unidades_beneficiarias": 2091,
+    "dependencia_tarifaria_percentual": 59.15134370579915
+  },
+  {
+    "codigo_ibge": "2210656",
+    "municipio": "Sigefredo Pacheco",
+    "ano": 2024,
+    "unidades_residenciais": 3682,
+    "unidades_beneficiarias": 2098,
+    "dependencia_tarifaria_percentual": 56.97990222705052
+  },
+  {
+    "codigo_ibge": "2210656",
+    "municipio": "Sigefredo Pacheco",
+    "ano": 2025,
+    "unidades_residenciais": 3856,
+    "unidades_beneficiarias": 2059,
+    "dependencia_tarifaria_percentual": 53.39730290456431
+  },
+  {
+    "codigo_ibge": "2210706",
+    "municipio": "Simões",
+    "ano": 2023,
+    "unidades_residenciais": 4799,
+    "unidades_beneficiarias": 2473,
+    "dependencia_tarifaria_percentual": 51.53156907689102
+  },
+  {
+    "codigo_ibge": "2210706",
+    "municipio": "Simões",
+    "ano": 2024,
+    "unidades_residenciais": 5054,
+    "unidades_beneficiarias": 2529,
+    "dependencia_tarifaria_percentual": 50.0395726157499
+  },
+  {
+    "codigo_ibge": "2210706",
+    "municipio": "Simões",
+    "ano": 2025,
+    "unidades_residenciais": 5210,
+    "unidades_beneficiarias": 2535,
+    "dependencia_tarifaria_percentual": 48.65642994241843
+  },
+  {
+    "codigo_ibge": "2210805",
+    "municipio": "Simplício Mendes",
+    "ano": 2023,
+    "unidades_residenciais": 4836,
+    "unidades_beneficiarias": 2374,
+    "dependencia_tarifaria_percentual": 49.09015715467329
+  },
+  {
+    "codigo_ibge": "2210805",
+    "municipio": "Simplício Mendes",
+    "ano": 2024,
+    "unidades_residenciais": 4903,
+    "unidades_beneficiarias": 2405,
+    "dependencia_tarifaria_percentual": 49.05160106057516
+  },
+  {
+    "codigo_ibge": "2210805",
+    "municipio": "Simplício Mendes",
+    "ano": 2025,
+    "unidades_residenciais": 5187,
+    "unidades_beneficiarias": 2260,
+    "dependencia_tarifaria_percentual": 43.5704646230962
+  },
+  {
+    "codigo_ibge": "2210904",
+    "municipio": "Socorro do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1434,
+    "unidades_beneficiarias": 753,
+    "dependencia_tarifaria_percentual": 52.51046025104602
+  },
+  {
+    "codigo_ibge": "2210904",
+    "municipio": "Socorro do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1547,
+    "unidades_beneficiarias": 752,
+    "dependencia_tarifaria_percentual": 48.61021331609567
+  },
+  {
+    "codigo_ibge": "2210904",
+    "municipio": "Socorro do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1581,
+    "unidades_beneficiarias": 729,
+    "dependencia_tarifaria_percentual": 46.1100569259962
+  },
+  {
+    "codigo_ibge": "2210938",
+    "municipio": "Sussuapara",
+    "ano": 2023,
+    "unidades_residenciais": 2759,
+    "unidades_beneficiarias": 1406,
+    "dependencia_tarifaria_percentual": 50.96049293222183
+  },
+  {
+    "codigo_ibge": "2210938",
+    "municipio": "Sussuapara",
+    "ano": 2024,
+    "unidades_residenciais": 2625,
+    "unidades_beneficiarias": 1393,
+    "dependencia_tarifaria_percentual": 53.06666666666666
+  },
+  {
+    "codigo_ibge": "2210938",
+    "municipio": "Sussuapara",
+    "ano": 2025,
+    "unidades_residenciais": 2729,
+    "unidades_beneficiarias": 1352,
+    "dependencia_tarifaria_percentual": 49.54195676071821
+  },
+  {
+    "codigo_ibge": "2210953",
+    "municipio": "Tamboril do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1168,
+    "unidades_beneficiarias": 574,
+    "dependencia_tarifaria_percentual": 49.14383561643836
+  },
+  {
+    "codigo_ibge": "2210953",
+    "municipio": "Tamboril do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1203,
+    "unidades_beneficiarias": 592,
+    "dependencia_tarifaria_percentual": 49.21030756442228
+  },
+  {
+    "codigo_ibge": "2210953",
+    "municipio": "Tamboril do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1217,
+    "unidades_beneficiarias": 585,
+    "dependencia_tarifaria_percentual": 48.06902218570255
+  },
+  {
+    "codigo_ibge": "2210979",
+    "municipio": "Tanque do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1039,
+    "unidades_beneficiarias": 584,
+    "dependencia_tarifaria_percentual": 56.20789220404235
+  },
+  {
+    "codigo_ibge": "2210979",
+    "municipio": "Tanque do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1103,
+    "unidades_beneficiarias": 586,
+    "dependencia_tarifaria_percentual": 53.12783318223028
+  },
+  {
+    "codigo_ibge": "2210979",
+    "municipio": "Tanque do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1176,
+    "unidades_beneficiarias": 562,
+    "dependencia_tarifaria_percentual": 47.7891156462585
+  },
+  {
+    "codigo_ibge": "2211001",
+    "municipio": "Teresina",
+    "ano": 2023,
+    "unidades_residenciais": 338855,
+    "unidades_beneficiarias": 96090,
+    "dependencia_tarifaria_percentual": 28.35726195570377
+  },
+  {
+    "codigo_ibge": "2211001",
+    "municipio": "Teresina",
+    "ano": 2024,
+    "unidades_residenciais": 345575,
+    "unidades_beneficiarias": 95744,
+    "dependencia_tarifaria_percentual": 27.70570787817406
+  },
+  {
+    "codigo_ibge": "2211001",
+    "municipio": "Teresina",
+    "ano": 2025,
+    "unidades_residenciais": 353433,
+    "unidades_beneficiarias": 90247,
+    "dependencia_tarifaria_percentual": 25.53440114533731
+  },
+  {
+    "codigo_ibge": "2211100",
+    "municipio": "União",
+    "ano": 2023,
+    "unidades_residenciais": 15114,
+    "unidades_beneficiarias": 9125,
+    "dependencia_tarifaria_percentual": 60.37448723038242
+  },
+  {
+    "codigo_ibge": "2211100",
+    "municipio": "União",
+    "ano": 2024,
+    "unidades_residenciais": 15486,
+    "unidades_beneficiarias": 9294,
+    "dependencia_tarifaria_percentual": 60.01549786904301
+  },
+  {
+    "codigo_ibge": "2211100",
+    "municipio": "União",
+    "ano": 2025,
+    "unidades_residenciais": 15993,
+    "unidades_beneficiarias": 9039,
+    "dependencia_tarifaria_percentual": 56.51847683361471
+  },
+  {
+    "codigo_ibge": "2211209",
+    "municipio": "Uruçuí",
+    "ano": 2023,
+    "unidades_residenciais": 9882,
+    "unidades_beneficiarias": 3255,
+    "dependencia_tarifaria_percentual": 32.93867638129933
+  },
+  {
+    "codigo_ibge": "2211209",
+    "municipio": "Uruçuí",
+    "ano": 2024,
+    "unidades_residenciais": 10476,
+    "unidades_beneficiarias": 3451,
+    "dependencia_tarifaria_percentual": 32.94196258113784
+  },
+  {
+    "codigo_ibge": "2211209",
+    "municipio": "Uruçuí",
+    "ano": 2025,
+    "unidades_residenciais": 11006,
+    "unidades_beneficiarias": 3387,
+    "dependencia_tarifaria_percentual": 30.77412320552426
+  },
+  {
+    "codigo_ibge": "2211308",
+    "municipio": "Valença do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 9597,
+    "unidades_beneficiarias": 4560,
+    "dependencia_tarifaria_percentual": 47.51484839012191
+  },
+  {
+    "codigo_ibge": "2211308",
+    "municipio": "Valença do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 9915,
+    "unidades_beneficiarias": 4402,
+    "dependencia_tarifaria_percentual": 44.39737771053959
+  },
+  {
+    "codigo_ibge": "2211308",
+    "municipio": "Valença do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 10352,
+    "unidades_beneficiarias": 4197,
+    "dependencia_tarifaria_percentual": 40.54289026275116
+  },
+  {
+    "codigo_ibge": "2211357",
+    "municipio": "Várzea Branca",
+    "ano": 2023,
+    "unidades_residenciais": 1701,
+    "unidades_beneficiarias": 1026,
+    "dependencia_tarifaria_percentual": 60.31746031746032
+  },
+  {
+    "codigo_ibge": "2211357",
+    "municipio": "Várzea Branca",
+    "ano": 2024,
+    "unidades_residenciais": 1768,
+    "unidades_beneficiarias": 1030,
+    "dependencia_tarifaria_percentual": 58.2579185520362
+  },
+  {
+    "codigo_ibge": "2211357",
+    "municipio": "Várzea Branca",
+    "ano": 2025,
+    "unidades_residenciais": 1824,
+    "unidades_beneficiarias": 996,
+    "dependencia_tarifaria_percentual": 54.60526315789473
+  },
+  {
+    "codigo_ibge": "2211407",
+    "municipio": "Várzea Grande",
+    "ano": 2023,
+    "unidades_residenciais": 1919,
+    "unidades_beneficiarias": 911,
+    "dependencia_tarifaria_percentual": 47.47264200104221
+  },
+  {
+    "codigo_ibge": "2211407",
+    "municipio": "Várzea Grande",
+    "ano": 2024,
+    "unidades_residenciais": 1989,
+    "unidades_beneficiarias": 956,
+    "dependencia_tarifaria_percentual": 48.06435394670689
+  },
+  {
+    "codigo_ibge": "2211407",
+    "municipio": "Várzea Grande",
+    "ano": 2025,
+    "unidades_residenciais": 2073,
+    "unidades_beneficiarias": 920,
+    "dependencia_tarifaria_percentual": 44.38012542209358
+  },
+  {
+    "codigo_ibge": "2211506",
+    "municipio": "Vera Mendes",
+    "ano": 2023,
+    "unidades_residenciais": 1387,
+    "unidades_beneficiarias": 721,
+    "dependencia_tarifaria_percentual": 51.98269646719539
+  },
+  {
+    "codigo_ibge": "2211506",
+    "municipio": "Vera Mendes",
+    "ano": 2024,
+    "unidades_residenciais": 1505,
+    "unidades_beneficiarias": 716,
+    "dependencia_tarifaria_percentual": 47.57475083056478
+  },
+  {
+    "codigo_ibge": "2211506",
+    "municipio": "Vera Mendes",
+    "ano": 2025,
+    "unidades_residenciais": 1581,
+    "unidades_beneficiarias": 701,
+    "dependencia_tarifaria_percentual": 44.33902593295383
+  },
+  {
+    "codigo_ibge": "2211605",
+    "municipio": "Vila Nova do Piauí",
+    "ano": 2023,
+    "unidades_residenciais": 1076,
+    "unidades_beneficiarias": 469,
+    "dependencia_tarifaria_percentual": 43.58736059479554
+  },
+  {
+    "codigo_ibge": "2211605",
+    "municipio": "Vila Nova do Piauí",
+    "ano": 2024,
+    "unidades_residenciais": 1111,
+    "unidades_beneficiarias": 454,
+    "dependencia_tarifaria_percentual": 40.86408640864087
+  },
+  {
+    "codigo_ibge": "2211605",
+    "municipio": "Vila Nova do Piauí",
+    "ano": 2025,
+    "unidades_residenciais": 1142,
+    "unidades_beneficiarias": 437,
+    "dependencia_tarifaria_percentual": 38.2661996497373
+  },
+  {
+    "codigo_ibge": "2211704",
+    "municipio": "Wall Ferraz",
+    "ano": 2023,
+    "unidades_residenciais": 1345,
+    "unidades_beneficiarias": 844,
+    "dependencia_tarifaria_percentual": 62.75092936802974
+  },
+  {
+    "codigo_ibge": "2211704",
+    "municipio": "Wall Ferraz",
+    "ano": 2024,
+    "unidades_residenciais": 1390,
+    "unidades_beneficiarias": 827,
+    "dependencia_tarifaria_percentual": 59.49640287769784
+  },
+  {
+    "codigo_ibge": "2211704",
+    "municipio": "Wall Ferraz",
+    "ano": 2025,
+    "unidades_residenciais": 1446,
+    "unidades_beneficiarias": 823,
+    "dependencia_tarifaria_percentual": 56.91562932226832
+  }
+]

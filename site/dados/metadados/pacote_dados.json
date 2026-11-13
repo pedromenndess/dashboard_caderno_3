@@ -1,0 +1,9 @@
+{
+  "versao": "2026-11-12_v01",
+  "municipios": 224,
+  "linhas_ivel": 224,
+  "linhas_continuidade": 672,
+  "linhas_inclusao_tarifaria": 672,
+  "linhas_dependencia_tarifaria": 672,
+  "linhas_indicadores_municipais": 3360
+}
