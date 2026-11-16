@@ -6,17 +6,16 @@
     <meta name="description" content="Painel interativo social e elétrico do Caderno 3 do PEEPI.">
     <title>Painel Social e Elétrico do Piauí</title>
     <link rel="icon" href="recursos/logo_seplan.png" type="image/png">
-    <link rel="stylesheet" href="css/estilos.css?v=20261113-02">
+    <link rel="stylesheet" href="css/estilos.css?v=20261116-03">
     <script src="bibliotecas/plotly-4.1.1.min.js" charset="utf-8"></script>
-    <script src="js/painel.js?v=20261113-02" defer></script>
+    <script src="js/painel.js?v=20261116-03" defer></script>
   </head>
   <body>
     <header class="cabecalho">
       <div class="cabecalho__linha">
         <div class="titulo-principal">
-          <span class="titulo-principal__selo">PEEPI · Caderno 3</span>
+          <span class="titulo-principal__selo">Planejamento Energético Estadual do Piauí</span>
           <h1>Painel Social e Elétrico do Piauí</h1>
-          <p>Indicadores municipais e estaduais</p>
         </div>
         <div class="marca-oficial">
           <img src="recursos/logo_seplan.png" alt="Secretaria do Planejamento e Governo do Piauí">
@@ -34,21 +33,33 @@
         </label>
 
         <div id="campo-municipio" class="campo campo--municipio">
-          <label for="filtro-municipio">Município</label>
-          <div class="busca">
-            <input
-              id="filtro-municipio"
-              type="search"
-              placeholder="Digite o nome do município"
-              autocomplete="off"
-              role="combobox"
-              aria-autocomplete="list"
+          <label for="abrir-municipios">Município</label>
+          <div class="seletor-municipio">
+            <button
+              id="abrir-municipios"
+              class="seletor-municipio__gatilho"
+              type="button"
+              aria-haspopup="listbox"
               aria-expanded="false"
-              aria-controls="sugestoes-municipio"
+              aria-controls="menu-municipios"
             >
-            <button id="limpar-municipio" type="button" title="Selecionar todos os municípios" aria-label="Selecionar todos os municípios">×</button>
+              <span id="municipio-selecionado">Todos os municípios</span>
+              <span class="seletor-municipio__seta" aria-hidden="true">⌄</span>
+            </button>
+            <div id="menu-municipios" class="menu-municipios">
+              <div class="menu-municipios__busca">
+                <span aria-hidden="true">⌕</span>
+                <input
+                  id="filtro-municipio"
+                  type="search"
+                  placeholder="Procurar município"
+                  autocomplete="off"
+                  aria-label="Procurar município"
+                >
+              </div>
+              <div id="sugestoes-municipio" class="sugestoes" role="listbox" aria-label="Municípios"></div>
+            </div>
           </div>
-          <div id="sugestoes-municipio" class="sugestoes" role="listbox"></div>
         </div>
 
         <div class="filtro-resumo" aria-live="polite">
@@ -81,21 +92,24 @@
           <article class="cartao-indicador">
             <span>População</span>
             <strong id="geral-populacao">—</strong>
-            <small>Censo 2022</small>
+            <small>Censo 2022 (IBGE)</small>
           </article>
           <article class="cartao-indicador">
-            <span>Unidades residenciais</span>
+            <span>Unidades consumidoras residenciais</span>
             <strong id="geral-unidades">—</strong>
             <small id="geral-unidades-ano">—</small>
           </article>
           <article class="cartao-indicador">
-            <span>Unidades residenciais de baixa renda</span>
+            <span>Unidades consumidoras residenciais de baixa renda</span>
             <strong id="geral-baixa-renda">—</strong>
             <small id="geral-baixa-renda-ano">—</small>
           </article>
           <article class="cartao-indicador">
-            <span>Moradores com energia</span>
-            <strong id="geral-acesso">—</strong>
+            <span>Moradores com energia elétrica</span>
+            <div class="cartao-indicador__valor-linha">
+              <strong id="geral-acesso">—</strong>
+              <span id="geral-acesso-absoluto" class="cartao-indicador__complemento">—</span>
+            </div>
             <small id="geral-acesso-ano">—</small>
           </article>
         </div>
@@ -103,7 +117,15 @@
         <div class="grade-graficos grade-graficos--dois">
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Unidades consumidoras residenciais</h3>
+              <div class="bloco-grafico__titulo-principal">
+                <h3>Unidades consumidoras residenciais total e unidades consumidoras residenciais de baixa renda</h3>
+                <button
+                  class="ajuda-indicador ajuda-indicador--grafico"
+                  type="button"
+                  aria-label="Entre 2023 e 2025, o número total de unidades consumidoras no Piauí aumentou, enquanto o de unidades residenciais classificadas como baixa renda diminuiu."
+                  data-ajuda="Entre 2023 e 2025, o número total de unidades consumidoras no Piauí aumentou, enquanto o de unidades residenciais classificadas como baixa renda diminuiu."
+                >!</button>
+              </div>
               <span>2023–2025</span>
             </div>
             <div id="grafico-unidades" class="grafico grafico--medio"></div>
@@ -117,7 +139,15 @@
           </article>
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Disponibilidade parcial ou irregular</h3>
+              <div class="bloco-grafico__titulo-principal">
+                <h3>Disponibilidade parcial ou irregular</h3>
+                <button
+                  class="ajuda-indicador ajuda-indicador--grafico"
+                  type="button"
+                  aria-label="A disponibilidade parcial ou irregular da energia elétrica refere-se a falhas no fornecimento contínuo e estável de eletricidade, como quedas de fase, oscilações de tensão ou apagões intermitentes. Os valores absolutos e percentuais são estimativas da PNAD Contínua 2025."
+                  data-ajuda="A disponibilidade parcial ou irregular da energia elétrica refere-se a falhas no fornecimento contínuo e estável de eletricidade, como quedas de fase, oscilações de tensão ou apagões intermitentes. Os valores absolutos e percentuais são estimativas da PNAD Contínua 2025."
+                >!</button>
+              </div>
               <span>2025</span>
             </div>
             <div id="grafico-disponibilidade" class="grafico grafico--medio"></div>
@@ -207,7 +237,15 @@
 
         <div class="cartoes cartoes--quatro">
           <article class="cartao-indicador cartao-indicador--azul">
-            <span>Beneficiários da Tarifa Social</span>
+            <span class="rotulo-com-ajuda">
+              Beneficiários da Tarifa Social
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="Quantidade de unidades consumidoras residenciais beneficiadas pela Tarifa Social de Energia Elétrica."
+                data-ajuda="Quantidade de unidades consumidoras residenciais beneficiadas pela Tarifa Social de Energia Elétrica."
+              >!</button>
+            </span>
             <strong id="tarifa-beneficiarias">—</strong>
             <small id="tarifa-beneficiarias-ano">—</small>
           </article>
@@ -217,12 +255,25 @@
               <button
                 class="ajuda-indicador"
                 type="button"
-                aria-label="Cobertura estimada da Tarifa Social: razão estimada entre as unidades consumidoras beneficiárias e as famílias potencialmente elegíveis."
-                data-ajuda="Razão estimada entre as unidades consumidoras beneficiárias da Tarifa Social e as famílias potencialmente elegíveis."
+                aria-label="O valor percentual representa o quanto a política está, de fato, inserida no público apto a recebê-la. Quanto mais próximo de 100%, mais a política está incluída na vida do público apto. Esse valor é a razão entre o público já beneficiado pela tarifa e as famílias inscritas no Cadastro Único que recebem até meio salário mínimo. Dessa forma, esse valor é uma estimativa."
+                data-ajuda="O valor percentual representa o quanto a política está, de fato, inserida no público apto a recebê-la. Quanto mais próximo de 100%, mais a política está incluída na vida do público apto. Esse valor é a razão entre o público já beneficiado pela tarifa e as famílias inscritas no Cadastro Único que recebem até meio salário mínimo. Dessa forma, esse valor é uma estimativa."
               >!</button>
             </span>
             <strong id="tarifa-cobertura">—</strong>
             <small id="tarifa-cobertura-recorte">município selecionado</small>
+          </article>
+          <article class="cartao-indicador">
+            <span class="rotulo-com-ajuda">
+              Famílias elegíveis
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="O valor representa o total de famílias aptas ao benefício da Tarifa Social."
+                data-ajuda="O valor representa o total de famílias aptas ao benefício da Tarifa Social."
+              >!</button>
+            </span>
+            <strong id="tarifa-elegiveis">—</strong>
+            <small id="tarifa-elegiveis-ano">—</small>
           </article>
           <article class="cartao-indicador cartao-indicador--vermelho">
             <span class="rotulo-com-ajuda">
@@ -237,11 +288,6 @@
             <strong id="tarifa-dependencia">—</strong>
             <small id="tarifa-dependencia-recorte">município selecionado</small>
           </article>
-          <article class="cartao-indicador">
-            <span>Famílias elegíveis</span>
-            <strong id="tarifa-elegiveis">—</strong>
-            <small id="tarifa-elegiveis-ano">—</small>
-          </article>
         </div>
 
         <div class="controle-grafico">
@@ -252,7 +298,7 @@
           </select>
         </div>
 
-        <div class="grade-graficos grade-graficos--mapa">
+        <div class="grade-graficos grade-graficos--mapa grade-graficos--mapa-tarifa">
           <article class="bloco-grafico bloco-grafico--mapa">
             <div class="bloco-grafico__titulo">
               <h3 id="tarifa-mapa-titulo">Cobertura estimada da Tarifa Social</h3>
@@ -262,33 +308,27 @@
           </article>
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3 id="tarifa-serie-titulo">Série municipal</h3>
-              <span id="tarifa-municipio">—</span>
+              <h3>Cobertura estimada da Tarifa Social — evolução</h3>
+              <span id="tarifa-municipio-cobertura">—</span>
             </div>
-            <div id="grafico-serie-tarifa" class="grafico grafico--medio"></div>
+            <div id="grafico-serie-cobertura" class="grafico grafico--serie-tarifa"></div>
+          </article>
+          <article class="bloco-grafico">
+            <div class="bloco-grafico__titulo">
+              <h3>Dependência tarifária — evolução</h3>
+              <span id="tarifa-municipio-dependencia">—</span>
+            </div>
+            <div id="grafico-serie-dependencia" class="grafico grafico--serie-tarifa"></div>
           </article>
         </div>
 
-        <div class="grade-graficos grade-graficos--dois">
+        <div class="grade-graficos">
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
               <h3>Ranking municipal</h3>
               <span id="tarifa-ranking-subtitulo">Cobertura · 2025</span>
             </div>
             <div id="grafico-ranking-tarifa" class="grafico grafico--alto"></div>
-          </article>
-          <article class="bloco-grafico">
-            <div class="bloco-grafico__titulo">
-              <h3>Síntese estadual</h3>
-              <span>2025</span>
-            </div>
-            <div class="quadro-estadual">
-              <div><span>Famílias elegíveis</span><strong id="estado-elegiveis">—</strong></div>
-              <div><span>Unidades beneficiárias</span><strong id="estado-beneficiarias">—</strong></div>
-              <div><span>Cobertura estimada</span><strong id="estado-cobertura">—</strong></div>
-              <div><span>Dependência tarifária</span><strong id="estado-dependencia">—</strong></div>
-            </div>
-            <div id="grafico-suspensoes" class="grafico grafico--pequeno"></div>
           </article>
         </div>
 
@@ -298,10 +338,27 @@
       <section id="aba-ivel" class="painel-aba" aria-labelledby="titulo-ivel" hidden>
         <div class="secao-titulo">
           <div>
-            <span class="rotulo-secao">Principal produto do Caderno 3</span>
-            <h2 id="titulo-ivel">Índice de Vulnerabilidade Elétrica — IVEL</h2>
+            <h2 id="titulo-ivel">Índice de Vulnerabilidade Elétrica (IVEL)</h2>
           </div>
           <span class="referencia">Referência: 2025</span>
+        </div>
+
+        <div class="controles-ivel" aria-label="Controles do IVEL">
+          <button id="alternar-comparacao" class="controle-ivel" type="button" aria-pressed="false">
+            Comparação
+          </button>
+          <button id="alternar-territorios" class="controle-ivel" type="button" aria-pressed="false">
+            Territórios de Desenvolvimento
+          </button>
+          <span id="estado-limites-ivel">Limites municipais</span>
+        </div>
+
+        <div id="painel-comparacao" class="painel-comparacao" hidden>
+          <div>
+            <strong>Comparação municipal</strong>
+            <span id="instrucao-comparacao">Selecione até três municípios no mapa, no ranking ou no campo Município.</span>
+          </div>
+          <div id="municipios-comparacao" class="municipios-comparacao" aria-live="polite"></div>
         </div>
 
         <div class="ivel-destaque">
@@ -323,14 +380,26 @@
                 <span>Qualidade do serviço</span>
                 <strong id="ivel-qualidade">—</strong>
               </div>
-              <div class="dimensao dimensao--vermelha">
+              <button
+                id="mostrar-renda"
+                class="dimensao dimensao--vermelha dimensao--interativa"
+                type="button"
+                aria-expanded="false"
+                aria-controls="detalhe-renda"
+                title="Mostrar o rendimento domiciliar médio mensal do município selecionado"
+              >
                 <span>Insuficiência de renda</span>
                 <strong id="ivel-renda">—</strong>
-              </div>
+              </button>
               <div class="dimensao dimensao--verde">
                 <span>Dependência tarifária</span>
                 <strong id="ivel-dependencia">—</strong>
               </div>
+            </div>
+            <div id="detalhe-renda" class="detalhe-renda" hidden>
+              <span>Rendimento domiciliar médio mensal</span>
+              <strong id="ivel-renda-media">—</strong>
+              <small id="ivel-renda-fonte">Censo 2022 (IBGE)</small>
             </div>
             <div class="perfil-rotulo">
               <span>Perfil</span>
@@ -341,7 +410,7 @@
           <article class="bloco-grafico bloco-grafico--mapa">
             <div class="bloco-grafico__titulo">
               <h3>Distribuição municipal do IVEL</h3>
-              <span>Clique em um município</span>
+              <span id="ivel-mapa-instrucao">Selecione um município</span>
             </div>
             <div class="legenda-ivel" aria-label="Classificação do IVEL">
               <span><i class="legenda-ivel__cor legenda-ivel__cor--muito-baixa"></i>Muito baixa</span>
@@ -357,10 +426,12 @@
         <div class="grade-graficos">
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Maiores valores do IVEL</h3>
-              <span>2025</span>
+              <h3>Municípios com maior vulnerabilidade elétrica</h3>
+              <span id="ivel-ranking-faixa">Faixa muito alta · 2025</span>
             </div>
-            <div id="grafico-ranking-ivel" class="grafico grafico--alto"></div>
+            <div class="grafico-com-rolagem">
+              <div id="grafico-ranking-ivel" class="grafico grafico--ranking-rolagem"></div>
+            </div>
           </article>
         </div>
 
@@ -369,11 +440,6 @@
         </p>
       </section>
     </main>
-
-    <footer class="rodape">
-      <span>Plano Estadual de Energia do Piauí — Caderno 3</span>
-      <span id="versao-dados">Base de dados</span>
-    </footer>
 
     <div id="carregamento" class="carregamento" aria-live="polite">
       <div class="carregamento__marca"></div>

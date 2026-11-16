@@ -1,18 +1,31 @@
 [projeto]
-versao_dados = "2026-11-12_v01"
+versao_dados = "2026-11-16_v03"
 municipios_esperados = 224
 
 [origem]
 caderno_3 = "H:/Meu Drive/SUMER/Caderno_3"
+caderno_3_alternativos = ["G:/Meu Drive/SUMER/Caderno_3"]
 
-# A malha municipal é a única fonte de 01_dados_brutos. Ela fornece apenas
-# a geometria necessária aos mapas; os indicadores vêm de 02 e 05.
+# As fontes brutas abaixo são estritamente seletivas: malha para os mapas,
+# moradores para os valores absolutos do acesso e vínculo município-território.
 
 [[arquivos]]
 id = "malha_municipal"
 grupo = "geografia"
 origem = "01_dados_brutos/PI_Municipios_2022.zip"
 destino = "geografia/PI_Municipios_2022.zip"
+
+[[arquivos]]
+id = "moradores_com_energia_absoluto"
+grupo = "bruto_selecionado"
+origem = "01_dados_brutos/moradores_em_domicilios_tabela6737.xlsx"
+destino = "brutos/moradores_em_domicilios_tabela6737.xlsx"
+
+[[arquivos]]
+id = "territorios_municipios"
+grupo = "bruto_selecionado"
+origem = "01_dados_brutos/territorios_municipios_pi.xlsx"
+destino = "brutos/territorios_municipios_pi.xlsx"
 
 [[arquivos]]
 id = "populacao_piaui"
@@ -121,3 +134,9 @@ id = "fruicao_comparativo"
 grupo = "intermediario_selecionado"
 origem = "02_dados_intermediarios/Fruicao_comparativo.xlsx"
 destino = "intermediarios/fruicao_comparativo.xlsx"
+
+[[arquivos]]
+id = "rendimento_domiciliar_municipal"
+grupo = "intermediario_selecionado"
+origem = "02_dados_intermediarios/rendimento_domiciliar_tabela10295_tratado.xlsx"
+destino = "intermediarios/rendimento_domiciliar_municipal.xlsx"

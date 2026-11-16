@@ -1,7 +1,7 @@
 {
-  "versao": "2026-11-12_v01",
+  "versao": "2026-11-16_v03",
   "status": "aprovado",
-  "fonte_externa_disponivel": false,
+  "fonte_externa_disponivel": true,
   "municipios": 224,
   "linhas": {
     "ivel": 224,
@@ -9,7 +9,8 @@
     "inclusao_tarifaria": 672,
     "dependencia_tarifaria": 672,
     "indicadores_municipais": 3360,
-    "geografia": 224
+    "geografia": 224,
+    "territorios_desenvolvimento": 12
   },
   "periodos_municipais": [
     2023,
@@ -22,8 +23,11 @@
     "códigos IBGE com sete caracteres",
     "períodos esperados",
     "escala do IVEL entre 0 e 100",
+    "rendimento domiciliar completo e não negativo",
     "D2 de referência completo e entre 0 e 100",
     "correspondência integral com a geografia",
-    "hashes das cópias importadas idênticos ao manifesto"
+    "12 Territórios de Desenvolvimento com cobertura integral",
+    "valores absolutos anuais de moradores com energia completos",
+    "hashes idênticos entre fontes e cópias importadas"
   ]
 }

@@ -45,7 +45,19 @@ def preparar_geografia(caminho_config: Path | None = None) -> dict[str, Any]:
         faltantes = geografia.loc[geografia["municipio"].isna(), "codigo_ibge"].tolist()
         raise ValueError(f"Municípios sem vínculo territorial: {faltantes}")
 
-    geografia = geografia.to_crs("EPSG:31983")
+    geografia_metrica = geografia.to_crs("EPSG:31983")
+    territorios = geografia_metrica[
+        ["territorio_desenvolvimento", "geometry"]
+    ].dissolve(by="territorio_desenvolvimento", as_index=False)
+    territorios["geometry"] = territorios.geometry.make_valid().simplify(
+        tolerance=250,
+        preserve_topology=True,
+    )
+    territorios = territorios.to_crs("EPSG:4326").sort_values(
+        "territorio_desenvolvimento"
+    )
+
+    geografia = geografia_metrica
     geografia["geometry"] = geografia.geometry.make_valid().simplify(
         tolerance=150,
         preserve_topology=True,
@@ -78,11 +90,38 @@ def preparar_geografia(caminho_config: Path | None = None) -> dict[str, Any]:
     canonico.write_text(geografia.to_json(drop_id=True), encoding="utf-8")
     shutil.copy2(canonico, publico)
 
+    canonico_territorios = garantir_destino_interno(
+        RAIZ_PROJETO
+        / "dados"
+        / "preparados"
+        / "geografia"
+        / "territorios_desenvolvimento_pi.geojson",
+        RAIZ_PROJETO,
+    )
+    publico_territorios = garantir_destino_interno(
+        RAIZ_PROJETO
+        / "site"
+        / "dados"
+        / "geografia"
+        / "territorios_desenvolvimento_pi.geojson",
+        RAIZ_PROJETO,
+    )
+    canonico_territorios.write_text(
+        territorios.to_json(drop_id=True),
+        encoding="utf-8",
+    )
+    shutil.copy2(canonico_territorios, publico_territorios)
+
     return {
         "versao": versao,
         "municipios": len(geografia),
+        "territorios_desenvolvimento": len(territorios),
         "crs": "EPSG:4326",
         "tolerancia_simplificacao_metros": 150,
         "arquivo_publico": str(publico.relative_to(RAIZ_PROJETO)).replace("\\", "/"),
+        "arquivo_territorios_publico": str(
+            publico_territorios.relative_to(RAIZ_PROJETO)
+        ).replace("\\", "/"),
         "tamanho_bytes": publico.stat().st_size,
+        "tamanho_territorios_bytes": publico_territorios.stat().st_size,
     }

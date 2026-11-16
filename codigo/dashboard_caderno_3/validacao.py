@@ -9,7 +9,12 @@ from typing import Any
 import geopandas as gpd
 import pandas as pd
 
-from dashboard_caderno_3.config import RAIZ_PROJETO, carregar_configuracao, versao_dados
+from dashboard_caderno_3.config import (
+    RAIZ_PROJETO,
+    carregar_configuracao,
+    resolver_raiz_caderno_3,
+    versao_dados,
+)
 from dashboard_caderno_3.util import escrever_json, sha256_arquivo
 
 
@@ -51,10 +56,25 @@ def validar_pacote(caminho_config: Path | None = None) -> dict[str, Any]:
         / "geografia"
         / "municipios_pi.geojson"
     )
+    territorios = gpd.read_file(
+        RAIZ_PROJETO
+        / "dados"
+        / "preparados"
+        / "geografia"
+        / "territorios_desenvolvimento_pi.geojson"
+    )
+    indicadores_gerais = json.loads(
+        (
+            RAIZ_PROJETO
+            / "dados"
+            / "preparados"
+            / "indicadores_gerais.json"
+        ).read_text(encoding="utf-8")
+    )
 
     manifesto_importacao = RAIZ_PROJETO / "dados" / "controle_importacao.json"
     manifesto = json.loads(manifesto_importacao.read_text(encoding="utf-8"))
-    raiz_origem = Path(configuracao["origem"]["caderno_3"]).resolve()
+    raiz_origem = resolver_raiz_caderno_3(configuracao)
     fonte_externa_disponivel = raiz_origem.is_dir()
     for item in manifesto["arquivos"]:
         origem = raiz_origem / item["origem_relativa"]
@@ -96,6 +116,25 @@ def validar_pacote(caminho_config: Path | None = None) -> dict[str, Any]:
         raise ValueError("A geografia não contém exatamente os 224 municípios esperados.")
     if set(geografia["codigo_ibge"]) != set(municipios["codigo_ibge"]):
         raise ValueError("Os códigos da geografia diferem do cadastro municipal.")
+    if municipios["territorio_desenvolvimento"].isna().any():
+        raise ValueError("Há municípios sem Território de Desenvolvimento.")
+    nomes_territorios = set(municipios["territorio_desenvolvimento"])
+    if len(nomes_territorios) != 12:
+        raise ValueError(
+            "Esperados 12 Territórios de Desenvolvimento; "
+            f"encontrados {len(nomes_territorios)}."
+        )
+    if (
+        len(territorios) != 12
+        or set(territorios["territorio_desenvolvimento"]) != nomes_territorios
+    ):
+        raise ValueError("A camada territorial não corresponde ao cadastro municipal.")
+
+    acesso = pd.DataFrame(indicadores_gerais["acesso_energia"])
+    if len(acesso) != 9 or acesso["estimativa_moradores"].isna().any():
+        raise ValueError("A série de acesso não contém os nove valores absolutos esperados.")
+    if not acesso["estimativa_moradores"].gt(0).all():
+        raise ValueError("Há valores absolutos não positivos na série de acesso.")
 
     colunas_escala_ivel = [
         "qualidade_servico",
@@ -106,6 +145,10 @@ def validar_pacote(caminho_config: Path | None = None) -> dict[str, Any]:
     for coluna in colunas_escala_ivel:
         if not ivel[coluna].between(0, 100, inclusive="both").all():
             raise ValueError(f"Valores fora da escala 0–100 em {coluna}.")
+
+    for coluna in ["rendimento_domiciliar_medio", "rendimento_domiciliar_mediana"]:
+        if ivel[coluna].isna().any() or not ivel[coluna].ge(0).all():
+            raise ValueError(f"Valores ausentes ou negativos em {coluna}.")
 
     referencia_continuidade = continuidade.drop_duplicates("codigo_ibge")
     if referencia_continuidade["continuidade_d2_referencia"].isna().any():
@@ -138,6 +181,7 @@ def validar_pacote(caminho_config: Path | None = None) -> dict[str, Any]:
             "dependencia_tarifaria": len(dependencia),
             "indicadores_municipais": len(indicadores),
             "geografia": len(geografia),
+            "territorios_desenvolvimento": len(territorios),
         },
         "periodos_municipais": [2023, 2024, 2025],
         "checagens": [
@@ -146,8 +190,11 @@ def validar_pacote(caminho_config: Path | None = None) -> dict[str, Any]:
             "códigos IBGE com sete caracteres",
             "períodos esperados",
             "escala do IVEL entre 0 e 100",
+            "rendimento domiciliar completo e não negativo",
             "D2 de referência completo e entre 0 e 100",
             "correspondência integral com a geografia",
+            "12 Territórios de Desenvolvimento com cobertura integral",
+            "valores absolutos anuais de moradores com energia completos",
             (
                 "hashes idênticos entre fontes e cópias importadas"
                 if fonte_externa_disponivel

@@ -4,6 +4,8 @@
     "municipio": "Acauã",
     "qualidade_servico": 7.141081685249747,
     "insuficiencia_renda": 87.56433661382358,
+    "rendimento_domiciliar_medio": 611.2,
+    "rendimento_domiciliar_mediana": 466.67,
     "dependencia_tarifaria_ivel": 61.99883127131545,
     "ivel_2025": 52.23474985679626,
     "classificacao_ivel": "Alta"
@@ -13,6 +15,8 @@
     "municipio": "Agricolândia",
     "qualidade_servico": 31.91812970020962,
     "insuficiencia_renda": 69.81531393725707,
+    "rendimento_domiciliar_medio": 728.51,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 36.70091157676828,
     "ivel_2025": 46.14478507141166,
     "classificacao_ivel": "Média"
@@ -22,6 +26,8 @@
     "municipio": "Água Branca",
     "qualidade_servico": 45.52379597397383,
     "insuficiencia_renda": 53.10723641468235,
+    "rendimento_domiciliar_medio": 838.94,
+    "rendimento_domiciliar_mediana": 619.0,
     "dependencia_tarifaria_ivel": 17.25477044866073,
     "ivel_2025": 38.6286009457723,
     "classificacao_ivel": "Baixa"
@@ -31,6 +37,8 @@
     "municipio": "Alagoinha do Piauí",
     "qualidade_servico": 23.10092776023642,
     "insuficiencia_renda": 83.07526063723397,
+    "rendimento_domiciliar_medio": 640.87,
+    "rendimento_domiciliar_mediana": 450.0,
     "dependencia_tarifaria_ivel": 43.61166778507572,
     "ivel_2025": 49.92928539418204,
     "classificacao_ivel": "Média"
@@ -40,6 +48,8 @@
     "municipio": "Alegrete do Piauí",
     "qualidade_servico": 15.30525528002178,
     "insuficiencia_renda": 81.34741272174178,
+    "rendimento_domiciliar_medio": 652.29,
+    "rendimento_domiciliar_mediana": 412.5,
     "dependencia_tarifaria_ivel": 44.62342983666636,
     "ivel_2025": 47.09203261280997,
     "classificacao_ivel": "Média"
@@ -49,6 +59,8 @@
     "municipio": "Alto Longá",
     "qualidade_servico": 27.01668655119796,
     "insuficiencia_renda": 65.90269159972397,
+    "rendimento_domiciliar_medio": 754.37,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 32.62153692131048,
     "ivel_2025": 41.84697169074413,
     "classificacao_ivel": "Baixa"
@@ -58,6 +70,8 @@
     "municipio": "Altos",
     "qualidade_servico": 27.73686021004148,
     "insuficiencia_renda": 53.45825280381912,
+    "rendimento_domiciliar_medio": 836.62,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 13.83865448487268,
     "ivel_2025": 31.67792249957776,
     "classificacao_ivel": "Muito baixa"
@@ -67,6 +81,8 @@
     "municipio": "Alvorada do Gurguéia",
     "qualidade_servico": 53.55817159485856,
     "insuficiencia_renda": 82.55932706527001,
+    "rendimento_domiciliar_medio": 644.28,
+    "rendimento_domiciliar_mediana": 466.67,
     "dependencia_tarifaria_ivel": 40.87853681313177,
     "ivel_2025": 58.99867849108679,
     "classificacao_ivel": "Muito alta"
@@ -76,6 +92,8 @@
     "municipio": "Amarante",
     "qualidade_servico": 61.4891403285329,
     "insuficiencia_renda": 64.27470179493446,
+    "rendimento_domiciliar_medio": 765.13,
+    "rendimento_domiciliar_mediana": 540.0,
     "dependencia_tarifaria_ivel": 29.23035894030643,
     "ivel_2025": 51.6647336879246,
     "classificacao_ivel": "Alta"
@@ -85,6 +103,8 @@
     "municipio": "Angical do Piauí",
     "qualidade_servico": 39.53775779856503,
     "insuficiencia_renda": 48.55612736932288,
+    "rendimento_domiciliar_medio": 869.02,
+    "rendimento_domiciliar_mediana": 694.8,
     "dependencia_tarifaria_ivel": 49.78039867165974,
     "ivel_2025": 45.95809461318256,
     "classificacao_ivel": "Média"
@@ -94,6 +114,8 @@
     "municipio": "Anísio de Abreu",
     "qualidade_servico": 10.03850217130209,
     "insuficiencia_renda": 68.03904996809084,
+    "rendimento_domiciliar_medio": 740.25,
+    "rendimento_domiciliar_mediana": 490.0,
     "dependencia_tarifaria_ivel": 38.54046017046583,
     "ivel_2025": 38.87267076995292,
     "classificacao_ivel": "Baixa"
@@ -103,6 +125,8 @@
     "municipio": "Antônio Almeida",
     "qualidade_servico": 15.23592838158234,
     "insuficiencia_renda": 42.85665005088232,
+    "rendimento_domiciliar_medio": 906.69,
+    "rendimento_domiciliar_mediana": 737.5,
     "dependencia_tarifaria_ivel": 8.381309212655259,
     "ivel_2025": 22.15796254837331,
     "classificacao_ivel": "Muito baixa"
@@ -112,6 +136,8 @@
     "municipio": "Aroazes",
     "qualidade_servico": 29.57491039176465,
     "insuficiencia_renda": 69.16774921936684,
+    "rendimento_domiciliar_medio": 732.79,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 53.05784004285908,
     "ivel_2025": 50.6001665513302,
     "classificacao_ivel": "Média"
@@ -121,6 +147,8 @@
     "municipio": "Aroeiras do Itaim",
     "qualidade_servico": 17.04982570461048,
     "insuficiencia_renda": 73.30278280346505,
+    "rendimento_domiciliar_medio": 705.46,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 54.39751951091034,
     "ivel_2025": 48.2500426729953,
     "classificacao_ivel": "Média"
@@ -130,6 +158,8 @@
     "municipio": "Arraial",
     "qualidade_servico": 18.86441420862256,
     "insuficiencia_renda": 76.59810045665421,
+    "rendimento_domiciliar_medio": 683.68,
+    "rendimento_domiciliar_mediana": 514.0,
     "dependencia_tarifaria_ivel": 43.06180711616393,
     "ivel_2025": 46.1747739271469,
     "classificacao_ivel": "Média"
@@ -139,6 +169,8 @@
     "municipio": "Assunção do Piauí",
     "qualidade_servico": 14.45535030414175,
     "insuficiencia_renda": 100.0,
+    "rendimento_domiciliar_medio": 499.26,
+    "rendimento_domiciliar_mediana": 333.33,
     "dependencia_tarifaria_ivel": 53.51680464426295,
     "ivel_2025": 55.9907183161349,
     "classificacao_ivel": "Alta"
@@ -148,6 +180,8 @@
     "municipio": "Avelino Lopes",
     "qualidade_servico": 0.0,
     "insuficiencia_renda": 77.4181473657582,
+    "rendimento_domiciliar_medio": 678.26,
+    "rendimento_domiciliar_mediana": 475.0,
     "dependencia_tarifaria_ivel": 27.56425737371055,
     "ivel_2025": 34.99413491315625,
     "classificacao_ivel": "Muito baixa"
@@ -157,6 +191,8 @@
     "municipio": "Baixa Grande do Ribeiro",
     "qualidade_servico": 45.92866621427305,
     "insuficiencia_renda": 56.54931523057092,
+    "rendimento_domiciliar_medio": 816.19,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 6.04542976518935,
     "ivel_2025": 36.17447040334444,
     "classificacao_ivel": "Muito baixa"
@@ -166,6 +202,8 @@
     "municipio": "Barra D'Alcântara",
     "qualidade_servico": 40.71688605052891,
     "insuficiencia_renda": 79.9887372155141,
+    "rendimento_domiciliar_medio": 661.27,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 54.5468171588957,
     "ivel_2025": 58.41748014164624,
     "classificacao_ivel": "Alta"
@@ -175,6 +213,8 @@
     "municipio": "Barras",
     "qualidade_servico": 20.32256205829037,
     "insuficiencia_renda": 67.83328173997617,
+    "rendimento_domiciliar_medio": 741.61,
+    "rendimento_domiciliar_mediana": 540.33,
     "dependencia_tarifaria_ivel": 86.66196745711399,
     "ivel_2025": 58.27260375179352,
     "classificacao_ivel": "Alta"
@@ -184,6 +224,8 @@
     "municipio": "Barreiras do Piauí",
     "qualidade_servico": 29.24340294158264,
     "insuficiencia_renda": 80.10372534298995,
+    "rendimento_domiciliar_medio": 660.51,
+    "rendimento_domiciliar_mediana": 470.67,
     "dependencia_tarifaria_ivel": 23.8609288746128,
     "ivel_2025": 44.40268571972846,
     "classificacao_ivel": "Baixa"
@@ -193,6 +235,8 @@
     "municipio": "Barro Duro",
     "qualidade_servico": 100.0,
     "insuficiencia_renda": 68.06325799492785,
+    "rendimento_domiciliar_medio": 740.09,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 18.91653393276494,
     "ivel_2025": 62.32659730923093,
     "classificacao_ivel": "Muito alta"
@@ -202,6 +246,8 @@
     "municipio": "Batalha",
     "qualidade_servico": 21.95342832075605,
     "insuficiencia_renda": 81.75894917797108,
+    "rendimento_domiciliar_medio": 649.57,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 61.05799112057912,
     "ivel_2025": 54.92345620643542,
     "classificacao_ivel": "Alta"
@@ -211,6 +257,8 @@
     "municipio": "Bela Vista do Piauí",
     "qualidade_servico": 13.21136647756783,
     "insuficiencia_renda": 75.40736813660837,
+    "rendimento_domiciliar_medio": 691.55,
+    "rendimento_domiciliar_mediana": 448.44,
     "dependencia_tarifaria_ivel": 70.36669464853208,
     "ivel_2025": 52.99514308756943,
     "classificacao_ivel": "Alta"
@@ -220,6 +268,8 @@
     "municipio": "Belém do Piauí",
     "qualidade_servico": 9.791257118069879,
     "insuficiencia_renda": 52.35981358608941,
+    "rendimento_domiciliar_medio": 843.88,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 51.59880183833953,
     "ivel_2025": 37.91662418083294,
     "classificacao_ivel": "Muito baixa"
@@ -229,6 +279,8 @@
     "municipio": "Beneditinos",
     "qualidade_servico": 35.25181691170054,
     "insuficiencia_renda": 81.24906761271637,
+    "rendimento_domiciliar_medio": 652.94,
+    "rendimento_domiciliar_mediana": 484.8,
     "dependencia_tarifaria_ivel": 56.62026937126756,
     "ivel_2025": 57.70705129856149,
     "classificacao_ivel": "Alta"
@@ -238,6 +290,8 @@
     "municipio": "Bertolínia",
     "qualidade_servico": 40.55159861477716,
     "insuficiencia_renda": 36.93627448755398,
+    "rendimento_domiciliar_medio": 945.82,
+    "rendimento_domiciliar_mediana": 706.0,
     "dependencia_tarifaria_ivel": 19.94006184814444,
     "ivel_2025": 32.4759783168252,
     "classificacao_ivel": "Muito baixa"
@@ -247,6 +301,8 @@
     "municipio": "Betânia do Piauí",
     "qualidade_servico": 13.08738165806577,
     "insuficiencia_renda": 93.17757283665726,
+    "rendimento_domiciliar_medio": 574.1,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 46.83189140548495,
     "ivel_2025": 51.032281966736,
     "classificacao_ivel": "Média"
@@ -256,6 +312,8 @@
     "municipio": "Boa Hora",
     "qualidade_servico": 25.67965174728197,
     "insuficiencia_renda": 86.78362774832974,
+    "rendimento_domiciliar_medio": 616.36,
+    "rendimento_domiciliar_mediana": 466.67,
     "dependencia_tarifaria_ivel": 71.47728740294038,
     "ivel_2025": 61.31352229951736,
     "classificacao_ivel": "Muito alta"
@@ -265,6 +323,8 @@
     "municipio": "Bocaina",
     "qualidade_servico": 15.99538426305022,
     "insuficiencia_renda": 43.81286711094455,
+    "rendimento_domiciliar_medio": 900.37,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 38.31762075388294,
     "ivel_2025": 32.70862404262591,
     "classificacao_ivel": "Muito baixa"
@@ -274,6 +334,8 @@
     "municipio": "Bom Jesus",
     "qualidade_servico": 35.01670790199667,
     "insuficiencia_renda": 9.0334975545355,
+    "rendimento_domiciliar_medio": 1130.24,
+    "rendimento_domiciliar_mediana": 706.0,
     "dependencia_tarifaria_ivel": 15.3230488493215,
     "ivel_2025": 19.79108476861789,
     "classificacao_ivel": "Muito baixa"
@@ -283,6 +345,8 @@
     "municipio": "Bom Princípio do Piauí",
     "qualidade_servico": 25.15106246810447,
     "insuficiencia_renda": 97.67875282666539,
+    "rendimento_domiciliar_medio": 544.35,
+    "rendimento_domiciliar_mediana": 403.0,
     "dependencia_tarifaria_ivel": 88.58373313597563,
     "ivel_2025": 70.4711828102485,
     "classificacao_ivel": "Muito alta"
@@ -292,6 +356,8 @@
     "municipio": "Bonfim do Piauí",
     "qualidade_servico": 11.19077583390689,
     "insuficiencia_renda": 83.60783722764837,
+    "rendimento_domiciliar_medio": 637.35,
+    "rendimento_domiciliar_mediana": 453.0,
     "dependencia_tarifaria_ivel": 56.78577536395964,
     "ivel_2025": 50.52812947517165,
     "classificacao_ivel": "Média"
@@ -301,6 +367,8 @@
     "municipio": "Boqueirão do Piauí",
     "qualidade_servico": 34.46845006162251,
     "insuficiencia_renda": 78.28358432518162,
+    "rendimento_domiciliar_medio": 672.54,
+    "rendimento_domiciliar_mediana": 503.43,
     "dependencia_tarifaria_ivel": 60.79736133327673,
     "ivel_2025": 57.84979857336029,
     "classificacao_ivel": "Alta"
@@ -310,6 +378,8 @@
     "municipio": "Brasileira",
     "qualidade_servico": 18.24622740391037,
     "insuficiencia_renda": 59.09569705348981,
+    "rendimento_domiciliar_medio": 799.36,
+    "rendimento_domiciliar_mediana": 604.8,
     "dependencia_tarifaria_ivel": 58.08598728514307,
     "ivel_2025": 45.14263724751441,
     "classificacao_ivel": "Baixa"
@@ -319,6 +389,8 @@
     "municipio": "Brejo do Piauí",
     "qualidade_servico": 16.99274918973839,
     "insuficiencia_renda": 79.74665694714392,
+    "rendimento_domiciliar_medio": 662.87,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 49.57560432385494,
     "ivel_2025": 48.77167015357909,
     "classificacao_ivel": "Média"
@@ -328,6 +400,8 @@
     "municipio": "Buriti dos Lopes",
     "qualidade_servico": 21.69080806600724,
     "insuficiencia_renda": 80.93133726048052,
+    "rendimento_domiciliar_medio": 655.04,
+    "rendimento_domiciliar_mediana": 484.8,
     "dependencia_tarifaria_ivel": 66.01129489673767,
     "ivel_2025": 56.21114674107514,
     "classificacao_ivel": "Alta"
@@ -337,6 +411,8 @@
     "municipio": "Buriti dos Montes",
     "qualidade_servico": 8.729517242065555,
     "insuficiencia_renda": 79.14296927789577,
+    "rendimento_domiciliar_medio": 666.86,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 54.55397381663089,
     "ivel_2025": 47.47548677886407,
     "classificacao_ivel": "Média"
@@ -346,6 +422,8 @@
     "municipio": "Cabeceiras do Piauí",
     "qualidade_servico": 28.29585368213822,
     "insuficiencia_renda": 85.72150057085555,
+    "rendimento_domiciliar_medio": 623.38,
+    "rendimento_domiciliar_mediana": 483.33,
     "dependencia_tarifaria_ivel": 70.95113296318603,
     "ivel_2025": 61.65616240539327,
     "classificacao_ivel": "Muito alta"
@@ -355,6 +433,8 @@
     "municipio": "Cajazeiras do Piauí",
     "qualidade_servico": 21.68764122406843,
     "insuficiencia_renda": 84.64726937996286,
+    "rendimento_domiciliar_medio": 630.48,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 40.72412263392589,
     "ivel_2025": 49.01967774598572,
     "classificacao_ivel": "Média"
@@ -364,6 +444,8 @@
     "municipio": "Cajueiro da Praia",
     "qualidade_servico": 33.26210524192663,
     "insuficiencia_renda": 53.85919824830724,
+    "rendimento_domiciliar_medio": 833.97,
+    "rendimento_domiciliar_mediana": 575.33,
     "dependencia_tarifaria_ivel": 0.0,
     "ivel_2025": 29.04043449674462,
     "classificacao_ivel": "Muito baixa"
@@ -373,6 +455,8 @@
     "municipio": "Caldeirão Grande do Piauí",
     "qualidade_servico": 7.676002346105198,
     "insuficiencia_renda": 72.58259400506375,
+    "rendimento_domiciliar_medio": 710.22,
+    "rendimento_domiciliar_mediana": 517.71,
     "dependencia_tarifaria_ivel": 39.49621428277227,
     "ivel_2025": 39.91827021131374,
     "classificacao_ivel": "Baixa"
@@ -382,6 +466,8 @@
     "municipio": "Campinas do Piauí",
     "qualidade_servico": 16.78922720124129,
     "insuficiencia_renda": 76.31214313964192,
+    "rendimento_domiciliar_medio": 685.57,
+    "rendimento_domiciliar_mediana": 533.33,
     "dependencia_tarifaria_ivel": 32.99331115577414,
     "ivel_2025": 42.03156049888579,
     "classificacao_ivel": "Baixa"
@@ -391,6 +477,8 @@
     "municipio": "Campo Alegre do Fidalgo",
     "qualidade_servico": 33.52692045507985,
     "insuficiencia_renda": 83.75157238699317,
+    "rendimento_domiciliar_medio": 636.4,
+    "rendimento_domiciliar_mediana": 503.0,
     "dependencia_tarifaria_ivel": 65.92334544059368,
     "ivel_2025": 61.06727942755557,
     "classificacao_ivel": "Muito alta"
@@ -400,6 +488,8 @@
     "municipio": "Campo Grande do Piauí",
     "qualidade_servico": 16.75082921177259,
     "insuficiencia_renda": 76.14571295513743,
+    "rendimento_domiciliar_medio": 686.67,
+    "rendimento_domiciliar_mediana": 520.0,
     "dependencia_tarifaria_ivel": 49.06865229864475,
     "ivel_2025": 47.32173148851825,
     "classificacao_ivel": "Média"
@@ -409,6 +499,8 @@
     "municipio": "Campo Largo do Piauí",
     "qualidade_servico": 18.96705298827986,
     "insuficiencia_renda": 100.0,
+    "rendimento_domiciliar_medio": 525.88,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 78.65898903584659,
     "ivel_2025": 65.87534734137547,
     "classificacao_ivel": "Muito alta"
@@ -418,6 +510,8 @@
     "municipio": "Campo Maior",
     "qualidade_servico": 17.32128463027924,
     "insuficiencia_renda": 22.85174187344113,
+    "rendimento_domiciliar_medio": 1038.91,
+    "rendimento_domiciliar_mediana": 706.0,
     "dependencia_tarifaria_ivel": 33.52094287458729,
     "ivel_2025": 24.56465645943588,
     "classificacao_ivel": "Muito baixa"
@@ -427,6 +521,8 @@
     "municipio": "Canavieira",
     "qualidade_servico": 38.36822555118398,
     "insuficiencia_renda": 65.75744343870184,
+    "rendimento_domiciliar_medio": 755.33,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 29.18746155402954,
     "ivel_2025": 44.43771018130511,
     "classificacao_ivel": "Baixa"
@@ -436,6 +532,8 @@
     "municipio": "Canto do Buriti",
     "qualidade_servico": 26.22780057621338,
     "insuficiencia_renda": 41.83991292372755,
+    "rendimento_domiciliar_medio": 913.41,
+    "rendimento_domiciliar_mediana": 633.33,
     "dependencia_tarifaria_ivel": 42.4828970837719,
     "ivel_2025": 36.85020352790428,
     "classificacao_ivel": "Muito baixa"
@@ -445,6 +543,8 @@
     "municipio": "Capitão de Campos",
     "qualidade_servico": 27.41056480706834,
     "insuficiencia_renda": 86.43715036422492,
+    "rendimento_domiciliar_medio": 618.65,
+    "rendimento_domiciliar_mediana": 516.67,
     "dependencia_tarifaria_ivel": 72.73641564753093,
     "ivel_2025": 62.19471027294139,
     "classificacao_ivel": "Muito alta"
@@ -454,6 +554,8 @@
     "municipio": "Capitão Gervásio Oliveira",
     "qualidade_servico": 37.25599891568702,
     "insuficiencia_renda": 77.53767449826597,
+    "rendimento_domiciliar_medio": 677.47,
+    "rendimento_domiciliar_mediana": 560.57,
     "dependencia_tarifaria_ivel": 33.64254638549469,
     "ivel_2025": 49.47873993314923,
     "classificacao_ivel": "Média"
@@ -463,6 +565,8 @@
     "municipio": "Caracol",
     "qualidade_servico": 20.23179792025085,
     "insuficiencia_renda": 82.67431519274585,
+    "rendimento_domiciliar_medio": 643.52,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 38.35284720656838,
     "ivel_2025": 47.0863201065217,
     "classificacao_ivel": "Média"
@@ -472,6 +576,8 @@
     "municipio": "Caraúbas do Piauí",
     "qualidade_servico": 34.59388206226291,
     "insuficiencia_renda": 96.13549111580546,
+    "rendimento_domiciliar_medio": 554.55,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 74.2319995216004,
     "ivel_2025": 68.32045756655627,
     "classificacao_ivel": "Muito alta"
@@ -481,6 +587,8 @@
     "municipio": "Caridade do Piauí",
     "qualidade_servico": 6.46262822618645,
     "insuficiencia_renda": 84.25842794889326,
+    "rendimento_domiciliar_medio": 633.05,
+    "rendimento_domiciliar_mediana": 515.4,
     "dependencia_tarifaria_ivel": 65.67661088280867,
     "ivel_2025": 52.13255568596279,
     "classificacao_ivel": "Alta"
@@ -490,6 +598,8 @@
     "municipio": "Castelo do Piauí",
     "qualidade_servico": 20.77000464415661,
     "insuficiencia_renda": 72.37228677191715,
+    "rendimento_domiciliar_medio": 711.61,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 48.14249866973234,
     "ivel_2025": 47.09493002860203,
     "classificacao_ivel": "Média"
@@ -499,6 +609,8 @@
     "municipio": "Caxingó",
     "qualidade_servico": 39.70195522412261,
     "insuficiencia_renda": 92.6934122999169,
+    "rendimento_domiciliar_medio": 577.3,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 80.35709529676672,
     "ivel_2025": 70.91748760693541,
     "classificacao_ivel": "Muito alta"
@@ -508,6 +620,8 @@
     "municipio": "Cocal",
     "qualidade_servico": 7.76825602803151,
     "insuficiencia_renda": 90.15459548538456,
+    "rendimento_domiciliar_medio": 594.08,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 71.14111562704846,
     "ivel_2025": 56.35465571348818,
     "classificacao_ivel": "Alta"
@@ -517,6 +631,8 @@
     "municipio": "Cocal de Telha",
     "qualidade_servico": 28.06624852237852,
     "insuficiencia_renda": 71.56888288126362,
+    "rendimento_domiciliar_medio": 716.92,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 58.435333353569,
     "ivel_2025": 52.69015491907038,
     "classificacao_ivel": "Alta"
@@ -526,6 +642,8 @@
     "municipio": "Cocal dos Alves",
     "qualidade_servico": 5.246919215334598,
     "insuficiencia_renda": 94.21700498897174,
+    "rendimento_domiciliar_medio": 567.23,
+    "rendimento_domiciliar_mediana": 403.0,
     "dependencia_tarifaria_ivel": 61.81465227610593,
     "ivel_2025": 53.75952549347075,
     "classificacao_ivel": "Alta"
@@ -535,6 +653,8 @@
     "municipio": "Coivaras",
     "qualidade_servico": 24.31201864868985,
     "insuficiencia_renda": 80.44868972541747,
+    "rendimento_domiciliar_medio": 658.23,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 44.58561951243924,
     "ivel_2025": 49.78210929551551,
     "classificacao_ivel": "Média"
@@ -544,6 +664,8 @@
     "municipio": "Colônia do Gurguéia",
     "qualidade_servico": 22.31990295739903,
     "insuficiencia_renda": 52.35376157938016,
+    "rendimento_domiciliar_medio": 843.92,
+    "rendimento_domiciliar_mediana": 628.0,
     "dependencia_tarifaria_ivel": 51.75368927888462,
     "ivel_2025": 42.14245127188794,
     "classificacao_ivel": "Baixa"
@@ -553,6 +675,8 @@
     "municipio": "Colônia do Piauí",
     "qualidade_servico": 19.95517688698828,
     "insuficiencia_renda": 71.64150696177465,
+    "rendimento_domiciliar_medio": 716.44,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 64.93466603767253,
     "ivel_2025": 52.17711662881182,
     "classificacao_ivel": "Alta"
@@ -562,6 +686,8 @@
     "municipio": "Conceição do Canindé",
     "qualidade_servico": 12.87449555840035,
     "insuficiencia_renda": 62.60283494150288,
+    "rendimento_domiciliar_medio": 776.18,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 46.99308858324896,
     "ivel_2025": 40.8234730277174,
     "classificacao_ivel": "Baixa"
@@ -571,6 +697,8 @@
     "municipio": "Coronel José Dias",
     "qualidade_servico": 18.11163139544114,
     "insuficiencia_renda": 70.36755954947655,
+    "rendimento_domiciliar_medio": 724.86,
+    "rendimento_domiciliar_mediana": 466.67,
     "dependencia_tarifaria_ivel": 55.52531561149811,
     "ivel_2025": 48.00150218547194,
     "classificacao_ivel": "Média"
@@ -580,6 +708,8 @@
     "municipio": "Corrente",
     "qualidade_servico": 44.42650968928251,
     "insuficiencia_renda": 36.85305939530173,
+    "rendimento_domiciliar_medio": 946.37,
+    "rendimento_domiciliar_mediana": 620.0,
     "dependencia_tarifaria_ivel": 12.17547571837451,
     "ivel_2025": 31.15168160098625,
     "classificacao_ivel": "Muito baixa"
@@ -589,6 +719,8 @@
     "municipio": "Cristalândia do Piauí",
     "qualidade_servico": 50.99882421083041,
     "insuficiencia_renda": 76.49067733756493,
+    "rendimento_domiciliar_medio": 684.39,
+    "rendimento_domiciliar_mediana": 426.0,
     "dependencia_tarifaria_ivel": 9.817808613456767,
     "ivel_2025": 45.76910338728404,
     "classificacao_ivel": "Baixa"
@@ -598,6 +730,8 @@
     "municipio": "Cristino Castro",
     "qualidade_servico": 36.16103420678214,
     "insuficiencia_renda": 50.36265137203537,
+    "rendimento_domiciliar_medio": 857.08,
+    "rendimento_domiciliar_mediana": 560.0,
     "dependencia_tarifaria_ivel": 28.1852176895764,
     "ivel_2025": 38.23630108946464,
     "classificacao_ivel": "Muito baixa"
@@ -607,6 +741,8 @@
     "municipio": "Curimatá",
     "qualidade_servico": 56.088346737904,
     "insuficiencia_renda": 75.17133987494742,
+    "rendimento_domiciliar_medio": 693.11,
+    "rendimento_domiciliar_mediana": 485.71,
     "dependencia_tarifaria_ivel": 29.2402804526467,
     "ivel_2025": 53.49998902183271,
     "classificacao_ivel": "Alta"
@@ -616,6 +752,8 @@
     "municipio": "Currais",
     "qualidade_servico": 32.75997984608419,
     "insuficiencia_renda": 79.42892659490805,
+    "rendimento_domiciliar_medio": 664.97,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 24.07073194524557,
     "ivel_2025": 45.41987946207927,
     "classificacao_ivel": "Baixa"
@@ -625,6 +763,8 @@
     "municipio": "Curralinhos",
     "qualidade_servico": 95.46774819171247,
     "insuficiencia_renda": 67.32188717304416,
+    "rendimento_domiciliar_medio": 744.99,
+    "rendimento_domiciliar_mediana": 574.0,
     "dependencia_tarifaria_ivel": 37.53836612478369,
     "ivel_2025": 66.77600049651345,
     "classificacao_ivel": "Muito alta"
@@ -634,6 +774,8 @@
     "municipio": "Curral Novo do Piauí",
     "qualidade_servico": 4.257988856595488,
     "insuficiencia_renda": 94.2351610090995,
+    "rendimento_domiciliar_medio": 567.11,
+    "rendimento_domiciliar_mediana": 435.5,
     "dependencia_tarifaria_ivel": 67.13971659424686,
     "ivel_2025": 55.21095548664729,
     "classificacao_ivel": "Alta"
@@ -643,6 +785,8 @@
     "municipio": "Demerval Lobão",
     "qualidade_servico": 32.8245462337654,
     "insuficiencia_renda": 49.56681248976839,
+    "rendimento_domiciliar_medio": 862.34,
+    "rendimento_domiciliar_mediana": 644.8,
     "dependencia_tarifaria_ivel": 37.10498320295274,
     "ivel_2025": 39.83211397549551,
     "classificacao_ivel": "Baixa"
@@ -652,6 +796,8 @@
     "municipio": "Dirceu Arcoverde",
     "qualidade_servico": 15.33176813065559,
     "insuficiencia_renda": 59.05938501323428,
+    "rendimento_domiciliar_medio": 799.6,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 28.12392561072663,
     "ivel_2025": 34.1716929182055,
     "classificacao_ivel": "Muito baixa"
@@ -661,6 +807,8 @@
     "municipio": "Dom Expedito Lopes",
     "qualidade_servico": 9.771986418298496,
     "insuficiencia_renda": 41.12728913371281,
+    "rendimento_domiciliar_medio": 918.12,
+    "rendimento_domiciliar_mediana": 706.0,
     "dependencia_tarifaria_ivel": 31.41547954222092,
     "ivel_2025": 27.43825169807741,
     "classificacao_ivel": "Muito baixa"
@@ -670,6 +818,8 @@
     "municipio": "Domingos Mourão",
     "qualidade_servico": 0.5981402624948349,
     "insuficiencia_renda": 90.62060000199718,
+    "rendimento_domiciliar_medio": 591.0,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 53.84776627151346,
     "ivel_2025": 48.35550217866849,
     "classificacao_ivel": "Média"
@@ -679,6 +829,8 @@
     "municipio": "Dom Inocêncio",
     "qualidade_servico": 13.90280406786649,
     "insuficiencia_renda": 66.75451154405154,
+    "rendimento_domiciliar_medio": 748.74,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 45.37191955735337,
     "ivel_2025": 42.0097450564238,
     "classificacao_ivel": "Baixa"
@@ -688,6 +840,8 @@
     "municipio": "Elesbão Veloso",
     "qualidade_servico": 16.86395468008725,
     "insuficiencia_renda": 59.90061394582068,
+    "rendimento_domiciliar_medio": 794.04,
+    "rendimento_domiciliar_mediana": 612.0,
     "dependencia_tarifaria_ivel": 25.00859066144047,
     "ivel_2025": 33.92438642911613,
     "classificacao_ivel": "Muito baixa"
@@ -697,6 +851,8 @@
     "municipio": "Eliseu Martins",
     "qualidade_servico": 48.76394510132016,
     "insuficiencia_renda": 45.90988743570129,
+    "rendimento_domiciliar_medio": 886.51,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 25.29206314844195,
     "ivel_2025": 39.98863189515447,
     "classificacao_ivel": "Baixa"
@@ -706,6 +862,8 @@
     "municipio": "Esperantina",
     "qualidade_servico": 21.62077047928953,
     "insuficiencia_renda": 54.91527341907217,
+    "rendimento_domiciliar_medio": 826.99,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 44.5047452794029,
     "ivel_2025": 40.34692972592153,
     "classificacao_ivel": "Baixa"
@@ -715,6 +873,8 @@
     "municipio": "Fartura do Piauí",
     "qualidade_servico": 27.88498159246821,
     "insuficiencia_renda": 92.94910958338289,
+    "rendimento_domiciliar_medio": 575.61,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 36.66569680494204,
     "ivel_2025": 52.49992932693105,
     "classificacao_ivel": "Alta"
@@ -724,6 +884,8 @@
     "municipio": "Flores do Piauí",
     "qualidade_servico": 62.37989017234983,
     "insuficiencia_renda": 84.72745846886048,
+    "rendimento_domiciliar_medio": 629.95,
+    "rendimento_domiciliar_mediana": 478.0,
     "dependencia_tarifaria_ivel": 52.1450619149469,
     "ivel_2025": 66.41747018538574,
     "classificacao_ivel": "Muito alta"
@@ -733,6 +895,8 @@
     "municipio": "Floresta do Piauí",
     "qualidade_servico": 13.65864559702726,
     "insuficiencia_renda": 70.02713417208099,
+    "rendimento_domiciliar_medio": 727.11,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 48.46896390522532,
     "ivel_2025": 44.05158122477786,
     "classificacao_ivel": "Baixa"
@@ -742,6 +906,8 @@
     "municipio": "Floriano",
     "qualidade_servico": 19.05567375011391,
     "insuficiencia_renda": 0.0,
+    "rendimento_domiciliar_medio": 1223.01,
+    "rendimento_domiciliar_mediana": 808.0,
     "dependencia_tarifaria_ivel": 6.804710313432066,
     "ivel_2025": 8.620128021181992,
     "classificacao_ivel": "Muito baixa"
@@ -751,6 +917,8 @@
     "municipio": "Francinópolis",
     "qualidade_servico": 8.780881342615174,
     "insuficiencia_renda": 77.26836019970415,
+    "rendimento_domiciliar_medio": 679.25,
+    "rendimento_domiciliar_mediana": 454.0,
     "dependencia_tarifaria_ivel": 39.25502749744587,
     "ivel_2025": 41.76808967992173,
     "classificacao_ivel": "Baixa"
@@ -760,6 +928,8 @@
     "municipio": "Francisco Ayres",
     "qualidade_servico": 11.89289196997451,
     "insuficiencia_renda": 73.88680145090812,
+    "rendimento_domiciliar_medio": 701.6,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 25.78982317942755,
     "ivel_2025": 37.18983886677006,
     "classificacao_ivel": "Muito baixa"
@@ -769,6 +939,8 @@
     "municipio": "Francisco Macedo",
     "qualidade_servico": 8.163993062171254,
     "insuficiencia_renda": 75.1138458112095,
+    "rendimento_domiciliar_medio": 693.49,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 44.20735017639685,
     "ivel_2025": 42.49506301659253,
     "classificacao_ivel": "Baixa"
@@ -778,6 +950,8 @@
     "municipio": "Francisco Santos",
     "qualidade_servico": 20.07497965320254,
     "insuficiencia_renda": 46.49088007978973,
+    "rendimento_domiciliar_medio": 882.67,
+    "rendimento_domiciliar_mediana": 637.33,
     "dependencia_tarifaria_ivel": 9.602501979546268,
     "ivel_2025": 25.38945390417951,
     "classificacao_ivel": "Muito baixa"
@@ -787,6 +961,8 @@
     "municipio": "Fronteiras",
     "qualidade_servico": 24.35731224830462,
     "insuficiencia_renda": 60.40444350436612,
+    "rendimento_domiciliar_medio": 790.71,
+    "rendimento_domiciliar_mediana": 554.0,
     "dependencia_tarifaria_ivel": 42.79475409973457,
     "ivel_2025": 42.51883661746843,
     "classificacao_ivel": "Baixa"
@@ -796,6 +972,8 @@
     "municipio": "Geminiano",
     "qualidade_servico": 12.24097324790307,
     "insuficiencia_renda": 78.98259110010054,
+    "rendimento_domiciliar_medio": 667.92,
+    "rendimento_domiciliar_mediana": 584.8,
     "dependencia_tarifaria_ivel": 100.0,
     "ivel_2025": 63.7411881160012,
     "classificacao_ivel": "Muito alta"
@@ -805,6 +983,8 @@
     "municipio": "Gilbués",
     "qualidade_servico": 51.40930530783427,
     "insuficiencia_renda": 66.97843579229396,
+    "rendimento_domiciliar_medio": 747.26,
+    "rendimento_domiciliar_mediana": 589.0,
     "dependencia_tarifaria_ivel": 37.16035962825175,
     "ivel_2025": 51.84936690946,
     "classificacao_ivel": "Alta"
@@ -814,6 +994,8 @@
     "municipio": "Guadalupe",
     "qualidade_servico": 30.99831116977719,
     "insuficiencia_renda": 28.29249590506106,
+    "rendimento_domiciliar_medio": 1002.95,
+    "rendimento_domiciliar_mediana": 762.4,
     "dependencia_tarifaria_ivel": 30.39042446550943,
     "ivel_2025": 29.89374384678256,
     "classificacao_ivel": "Muito baixa"
@@ -823,6 +1005,8 @@
     "municipio": "Guaribas",
     "qualidade_servico": 14.60143327460127,
     "insuficiencia_renda": 100.0,
+    "rendimento_domiciliar_medio": 511.07,
+    "rendimento_domiciliar_mediana": 375.0,
     "dependencia_tarifaria_ivel": 82.20742222510876,
     "ivel_2025": 65.60295183323667,
     "classificacao_ivel": "Muito alta"
@@ -832,6 +1016,8 @@
     "municipio": "Hugo Napoleão",
     "qualidade_servico": 46.94149741284755,
     "insuficiencia_renda": 59.73569676299349,
+    "rendimento_domiciliar_medio": 795.13,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 36.03643897584436,
     "ivel_2025": 47.5712110505618,
     "classificacao_ivel": "Média"
@@ -841,6 +1027,8 @@
     "municipio": "Ilha Grande",
     "qualidade_servico": 17.65087941869954,
     "insuficiencia_renda": 77.79942378844125,
+    "rendimento_domiciliar_medio": 675.74,
+    "rendimento_domiciliar_mediana": 533.33,
     "dependencia_tarifaria_ivel": 62.53897734878603,
     "ivel_2025": 52.66309351864228,
     "classificacao_ivel": "Alta"
@@ -850,6 +1038,8 @@
     "municipio": "Inhuma",
     "qualidade_servico": 13.06666813977987,
     "insuficiencia_renda": 55.65361823760124,
+    "rendimento_domiciliar_medio": 822.11,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 44.04815420203988,
     "ivel_2025": 37.58948019314033,
     "classificacao_ivel": "Muito baixa"
@@ -859,6 +1049,8 @@
     "municipio": "Ipiranga do Piauí",
     "qualidade_servico": 12.86114095988235,
     "insuficiencia_renda": 72.80803125498349,
+    "rendimento_domiciliar_medio": 708.73,
+    "rendimento_domiciliar_mediana": 504.0,
     "dependencia_tarifaria_ivel": 41.19058627597713,
     "ivel_2025": 42.28658616361432,
     "classificacao_ivel": "Baixa"
@@ -868,6 +1060,8 @@
     "municipio": "Isaías Coelho",
     "qualidade_servico": 18.06418493686785,
     "insuficiencia_renda": 88.22249234345503,
+    "rendimento_domiciliar_medio": 606.85,
+    "rendimento_domiciliar_mediana": 440.0,
     "dependencia_tarifaria_ivel": 55.31490135511434,
     "ivel_2025": 53.86719287847907,
     "classificacao_ivel": "Alta"
@@ -877,6 +1071,8 @@
     "municipio": "Itainópolis",
     "qualidade_servico": 17.46371752132469,
     "insuficiencia_renda": 61.50742172712778,
+    "rendimento_domiciliar_medio": 783.42,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 35.98289296065803,
     "ivel_2025": 38.31801073637017,
     "classificacao_ivel": "Muito baixa"
@@ -886,6 +1082,8 @@
     "municipio": "Itaueira",
     "qualidade_servico": 40.17891456004098,
     "insuficiencia_renda": 54.62629009870527,
+    "rendimento_domiciliar_medio": 828.9,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 36.58900388287796,
     "ivel_2025": 43.79806951387474,
     "classificacao_ivel": "Baixa"
@@ -895,6 +1093,8 @@
     "municipio": "Jacobina do Piauí",
     "qualidade_servico": 53.60271834012565,
     "insuficiencia_renda": 58.96860491259546,
+    "rendimento_domiciliar_medio": 800.2,
+    "rendimento_domiciliar_mediana": 633.33,
     "dependencia_tarifaria_ivel": 47.50182810015616,
     "ivel_2025": 53.35771711762575,
     "classificacao_ivel": "Alta"
@@ -904,6 +1104,8 @@
     "municipio": "Jaicós",
     "qualidade_servico": 18.11038648773756,
     "insuficiencia_renda": 69.82287894564364,
+    "rendimento_domiciliar_medio": 728.46,
+    "rendimento_domiciliar_mediana": 520.0,
     "dependencia_tarifaria_ivel": 39.08171886901341,
     "ivel_2025": 42.3383281007982,
     "classificacao_ivel": "Baixa"
@@ -913,6 +1115,8 @@
     "municipio": "Jardim do Mulato",
     "qualidade_servico": 39.92098492977372,
     "insuficiencia_renda": 74.41937804132252,
+    "rendimento_domiciliar_medio": 698.08,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 42.49909337574395,
     "ivel_2025": 52.27981878228005,
     "classificacao_ivel": "Alta"
@@ -922,6 +1126,8 @@
     "municipio": "Jatobá do Piauí",
     "qualidade_servico": 28.25672298643021,
     "insuficiencia_renda": 70.44169663166493,
+    "rendimento_domiciliar_medio": 724.37,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 83.51358481554165,
     "ivel_2025": 60.73733481121226,
     "classificacao_ivel": "Muito alta"
@@ -931,6 +1137,8 @@
     "municipio": "Jerumenha",
     "qualidade_servico": 23.74527904624848,
     "insuficiencia_renda": 35.01173635401102,
+    "rendimento_domiciliar_medio": 958.54,
+    "rendimento_domiciliar_mediana": 753.0,
     "dependencia_tarifaria_ivel": 32.07273343783341,
     "ivel_2025": 30.27658294603097,
     "classificacao_ivel": "Muito baixa"
@@ -940,6 +1148,8 @@
     "municipio": "João Costa",
     "qualidade_servico": 15.98889824535289,
     "insuficiencia_renda": 87.25265826829698,
+    "rendimento_domiciliar_medio": 613.26,
+    "rendimento_domiciliar_mediana": 485.71,
     "dependencia_tarifaria_ivel": 44.12065461709658,
     "ivel_2025": 49.12073704358215,
     "classificacao_ivel": "Média"
@@ -949,6 +1159,8 @@
     "municipio": "Joaquim Pires",
     "qualidade_servico": 24.04708207310707,
     "insuficiencia_renda": 87.26324928003817,
+    "rendimento_domiciliar_medio": 613.19,
+    "rendimento_domiciliar_mediana": 442.4,
     "dependencia_tarifaria_ivel": 71.5443353077659,
     "ivel_2025": 60.95155555363706,
     "classificacao_ivel": "Muito alta"
@@ -958,6 +1170,8 @@
     "municipio": "Joca Marques",
     "qualidade_servico": 17.85549381748009,
     "insuficiencia_renda": 97.45028957339103,
+    "rendimento_domiciliar_medio": 545.86,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 100.0,
     "ivel_2025": 71.7685944636237,
     "classificacao_ivel": "Muito alta"
@@ -967,6 +1181,8 @@
     "municipio": "José de Freitas",
     "qualidade_servico": 37.93038641285024,
     "insuficiencia_renda": 72.63554906376973,
+    "rendimento_domiciliar_medio": 709.87,
+    "rendimento_domiciliar_mediana": 568.67,
     "dependencia_tarifaria_ivel": 45.27371530481108,
     "ivel_2025": 51.94655026047701,
     "classificacao_ivel": "Alta"
@@ -976,6 +1192,8 @@
     "municipio": "Juazeiro do Piauí",
     "qualidade_servico": 16.67079522594679,
     "insuficiencia_renda": 59.26817924470356,
+    "rendimento_domiciliar_medio": 798.22,
+    "rendimento_domiciliar_mediana": 644.8,
     "dependencia_tarifaria_ivel": 61.16656240569319,
     "ivel_2025": 45.70184562544785,
     "classificacao_ivel": "Baixa"
@@ -985,6 +1203,8 @@
     "municipio": "Júlio Borges",
     "qualidade_servico": 0.0,
     "insuficiencia_renda": 87.47053050983014,
+    "rendimento_domiciliar_medio": 611.82,
+    "rendimento_domiciliar_mediana": 414.0,
     "dependencia_tarifaria_ivel": 29.56093261659408,
     "ivel_2025": 39.01048770880807,
     "classificacao_ivel": "Baixa"
@@ -994,6 +1214,8 @@
     "municipio": "Jurema",
     "qualidade_servico": 4.884666640411423,
     "insuficiencia_renda": 93.70863642539435,
+    "rendimento_domiciliar_medio": 570.59,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 96.0578953729201,
     "ivel_2025": 64.88373281290863,
     "classificacao_ivel": "Muito alta"
@@ -1003,6 +1225,8 @@
     "municipio": "Lagoinha do Piauí",
     "qualidade_servico": 83.4182618907833,
     "insuficiencia_renda": 82.20528467277862,
+    "rendimento_domiciliar_medio": 646.62,
+    "rendimento_domiciliar_mediana": 480.0,
     "dependencia_tarifaria_ivel": 25.63013661655177,
     "ivel_2025": 63.75122772670456,
     "classificacao_ivel": "Muito alta"
@@ -1012,6 +1236,8 @@
     "municipio": "Lagoa Alegre",
     "qualidade_servico": 39.36059047258696,
     "insuficiencia_renda": 68.81975883358469,
+    "rendimento_domiciliar_medio": 735.09,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 85.66447766244744,
     "ivel_2025": 64.61494232287303,
     "classificacao_ivel": "Muito alta"
@@ -1021,6 +1247,8 @@
     "municipio": "Lagoa do Barro do Piauí",
     "qualidade_servico": 33.81859216166603,
     "insuficiencia_renda": 60.28037736682641,
+    "rendimento_domiciliar_medio": 791.53,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 42.81950376729792,
     "ivel_2025": 45.63949109859679,
     "classificacao_ivel": "Baixa"
@@ -1030,6 +1258,8 @@
     "municipio": "Lagoa de São Francisco",
     "qualidade_servico": 0.09876527525424891,
     "insuficiencia_renda": 87.74135781006929,
+    "rendimento_domiciliar_medio": 610.03,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 74.95490311572613,
     "ivel_2025": 54.26500873368322,
     "classificacao_ivel": "Alta"
@@ -1039,6 +1269,8 @@
     "municipio": "Lagoa do Piauí",
     "qualidade_servico": 49.67306845779831,
     "insuficiencia_renda": 61.74042398543408,
+    "rendimento_domiciliar_medio": 781.88,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 40.3951634729699,
     "ivel_2025": 50.60288530540077,
     "classificacao_ivel": "Média"
@@ -1048,6 +1280,8 @@
     "municipio": "Lagoa do Sítio",
     "qualidade_servico": 18.33300936110131,
     "insuficiencia_renda": 75.21672992526683,
+    "rendimento_domiciliar_medio": 692.81,
+    "rendimento_domiciliar_mediana": 483.33,
     "dependencia_tarifaria_ivel": 59.34153203614731,
     "ivel_2025": 50.96375710750515,
     "classificacao_ivel": "Média"
@@ -1057,6 +1291,8 @@
     "municipio": "Landri Sales",
     "qualidade_servico": 19.38158939089761,
     "insuficiencia_renda": 64.10675860875264,
+    "rendimento_domiciliar_medio": 766.24,
+    "rendimento_domiciliar_mediana": 564.0,
     "dependencia_tarifaria_ivel": 30.55196124845927,
     "ivel_2025": 38.01343641603651,
     "classificacao_ivel": "Muito baixa"
@@ -1066,6 +1302,8 @@
     "municipio": "Luís Correia",
     "qualidade_servico": 35.35033349889916,
     "insuficiencia_renda": 74.92774660489992,
+    "rendimento_domiciliar_medio": 694.72,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 20.41706875664993,
     "ivel_2025": 43.56504962014967,
     "classificacao_ivel": "Baixa"
@@ -1075,6 +1313,8 @@
     "municipio": "Luzilândia",
     "qualidade_servico": 15.23242116320391,
     "insuficiencia_renda": 81.94656138595798,
+    "rendimento_domiciliar_medio": 648.33,
+    "rendimento_domiciliar_mediana": 502.4,
     "dependencia_tarifaria_ivel": 61.99732429558163,
     "ivel_2025": 53.05876894824784,
     "classificacao_ivel": "Alta"
@@ -1084,6 +1324,8 @@
     "municipio": "Madeiro",
     "qualidade_servico": 17.48599044552823,
     "insuficiencia_renda": 86.63081457892106,
+    "rendimento_domiciliar_medio": 617.37,
+    "rendimento_domiciliar_mediana": 482.4,
     "dependencia_tarifaria_ivel": 79.1250789630316,
     "ivel_2025": 61.08062799582697,
     "classificacao_ivel": "Muito alta"
@@ -1093,6 +1335,8 @@
     "municipio": "Manoel Emídio",
     "qualidade_servico": 14.25899956486007,
     "insuficiencia_renda": 60.41352151443001,
+    "rendimento_domiciliar_medio": 790.65,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 28.18198649985258,
     "ivel_2025": 34.28483585971422,
     "classificacao_ivel": "Muito baixa"
@@ -1102,6 +1346,8 @@
     "municipio": "Marcolândia",
     "qualidade_servico": 7.130705103393142,
     "insuficiencia_renda": 70.51432071217599,
+    "rendimento_domiciliar_medio": 723.89,
+    "rendimento_domiciliar_mediana": 533.33,
     "dependencia_tarifaria_ivel": 39.56720473279498,
     "ivel_2025": 39.07074351612138,
     "classificacao_ivel": "Baixa"
@@ -1111,6 +1357,8 @@
     "municipio": "Marcos Parente",
     "qualidade_servico": 30.03289587531986,
     "insuficiencia_renda": 55.60822818728183,
+    "rendimento_domiciliar_medio": 822.41,
+    "rendimento_domiciliar_mediana": 702.4,
     "dependencia_tarifaria_ivel": 7.570918088122003,
     "ivel_2025": 31.0706807169079,
     "classificacao_ivel": "Muito baixa"
@@ -1120,6 +1368,8 @@
     "municipio": "Massapê do Piauí",
     "qualidade_servico": 11.03016102763436,
     "insuficiencia_renda": 93.94163868370066,
+    "rendimento_domiciliar_medio": 569.05,
+    "rendimento_domiciliar_mediana": 450.0,
     "dependencia_tarifaria_ivel": 72.99400251602735,
     "ivel_2025": 59.32193407578745,
     "classificacao_ivel": "Muito alta"
@@ -1129,6 +1379,8 @@
     "municipio": "Matias Olímpio",
     "qualidade_servico": 9.362282323133456,
     "insuficiencia_renda": 85.35384116326834,
+    "rendimento_domiciliar_medio": 625.81,
+    "rendimento_domiciliar_mediana": 453.0,
     "dependencia_tarifaria_ivel": 84.81386620109775,
     "ivel_2025": 59.84332989583319,
     "classificacao_ivel": "Muito alta"
@@ -1138,6 +1390,8 @@
     "municipio": "Miguel Alves",
     "qualidade_servico": 45.75740282278271,
     "insuficiencia_renda": 95.15809203226084,
+    "rendimento_domiciliar_medio": 561.01,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 86.55013839534375,
     "ivel_2025": 75.8218777501291,
     "classificacao_ivel": "Muito alta"
@@ -1147,6 +1401,8 @@
     "municipio": "Miguel Leão",
     "qualidade_servico": 31.92263612171505,
     "insuficiencia_renda": 74.9353116132865,
+    "rendimento_domiciliar_medio": 694.67,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 32.64242236792636,
     "ivel_2025": 46.50012336764264,
     "classificacao_ivel": "Média"
@@ -1156,6 +1412,8 @@
     "municipio": "Milton Brandão",
     "qualidade_servico": 2.69113590564446,
     "insuficiencia_renda": 97.04934412890292,
+    "rendimento_domiciliar_medio": 548.51,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 77.14903429795197,
     "ivel_2025": 58.96317144416645,
     "classificacao_ivel": "Muito alta"
@@ -1165,6 +1423,8 @@
     "municipio": "Monsenhor Gil",
     "qualidade_servico": 77.07556160206434,
     "insuficiencia_renda": 59.04879400149309,
+    "rendimento_domiciliar_medio": 799.67,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 31.17416706015394,
     "ivel_2025": 55.76617422123712,
     "classificacao_ivel": "Alta"
@@ -1174,6 +1434,8 @@
     "municipio": "Monsenhor Hipólito",
     "qualidade_servico": 23.68843162566955,
     "insuficiencia_renda": 66.795362589339,
+    "rendimento_domiciliar_medio": 748.47,
+    "rendimento_domiciliar_mediana": 520.0,
     "dependencia_tarifaria_ivel": 65.91327988155223,
     "ivel_2025": 52.13235803218694,
     "classificacao_ivel": "Alta"
@@ -1183,6 +1445,8 @@
     "municipio": "Monte Alegre do Piauí",
     "qualidade_servico": 66.86691467786741,
     "insuficiencia_renda": 91.19856664273101,
+    "rendimento_domiciliar_medio": 587.18,
+    "rendimento_domiciliar_mediana": 403.0,
     "dependencia_tarifaria_ivel": 30.32984904790981,
     "ivel_2025": 62.79844345616942,
     "classificacao_ivel": "Muito alta"
@@ -1192,6 +1456,8 @@
     "municipio": "Morro Cabeça no Tempo",
     "qualidade_servico": 38.22402340391952,
     "insuficiencia_renda": 92.3408829091028,
+    "rendimento_domiciliar_medio": 579.63,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 20.03331402711143,
     "ivel_2025": 50.19940678004459,
     "classificacao_ivel": "Média"
@@ -1201,6 +1467,8 @@
     "municipio": "Morro do Chapéu do Piauí",
     "qualidade_servico": 19.63462907509505,
     "insuficiencia_renda": 90.53284590471299,
+    "rendimento_domiciliar_medio": 591.58,
+    "rendimento_domiciliar_mediana": 420.67,
     "dependencia_tarifaria_ivel": 73.90386939078792,
     "ivel_2025": 61.35711479019866,
     "classificacao_ivel": "Muito alta"
@@ -1210,6 +1478,8 @@
     "municipio": "Murici dos Portelas",
     "qualidade_servico": 27.26536727026226,
     "insuficiencia_renda": 91.29539875007907,
+    "rendimento_domiciliar_medio": 586.54,
+    "rendimento_domiciliar_mediana": 437.5,
     "dependencia_tarifaria_ivel": 32.650191811962,
     "ivel_2025": 50.40365261076778,
     "classificacao_ivel": "Média"
@@ -1219,6 +1489,8 @@
     "municipio": "Nazaré do Piauí",
     "qualidade_servico": 36.70178501683795,
     "insuficiencia_renda": 70.79573902415633,
+    "rendimento_domiciliar_medio": 722.03,
+    "rendimento_domiciliar_mediana": 564.8,
     "dependencia_tarifaria_ivel": 44.20626117750959,
     "ivel_2025": 50.56792840616796,
     "classificacao_ivel": "Média"
@@ -1228,6 +1500,8 @@
     "municipio": "Nazária",
     "qualidade_servico": 58.60568907088229,
     "insuficiencia_renda": 83.99970466207262,
+    "rendimento_domiciliar_medio": 634.76,
+    "rendimento_domiciliar_mediana": 516.0,
     "dependencia_tarifaria_ivel": 30.46038207159101,
     "ivel_2025": 57.68859193484863,
     "classificacao_ivel": "Alta"
@@ -1237,6 +1511,8 @@
     "municipio": "Nossa Senhora de Nazaré",
     "qualidade_servico": 36.81845591302891,
     "insuficiencia_renda": 65.20065882145042,
+    "rendimento_domiciliar_medio": 759.01,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 39.83966488104607,
     "ivel_2025": 47.2862598718418,
     "classificacao_ivel": "Média"
@@ -1246,6 +1522,8 @@
     "municipio": "Nossa Senhora dos Remédios",
     "qualidade_servico": 19.62426897413625,
     "insuficiencia_renda": 88.1090172176565,
+    "rendimento_domiciliar_medio": 607.6,
+    "rendimento_domiciliar_mediana": 433.33,
     "dependencia_tarifaria_ivel": 100.0,
     "ivel_2025": 69.24442873059759,
     "classificacao_ivel": "Muito alta"
@@ -1255,6 +1533,8 @@
     "municipio": "Novo Oriente do Piauí",
     "qualidade_servico": 55.92919387653373,
     "insuficiencia_renda": 70.45380064508345,
+    "rendimento_domiciliar_medio": 724.29,
+    "rendimento_domiciliar_mediana": 550.0,
     "dependencia_tarifaria_ivel": 40.23686263043034,
     "ivel_2025": 55.53995238401584,
     "classificacao_ivel": "Alta"
@@ -1264,6 +1544,8 @@
     "municipio": "Novo Santo Antônio",
     "qualidade_servico": 30.46955168481932,
     "insuficiencia_renda": 79.43043959658536,
+    "rendimento_domiciliar_medio": 664.96,
+    "rendimento_domiciliar_mediana": 537.2,
     "dependencia_tarifaria_ivel": 44.84085367192884,
     "ivel_2025": 51.58028165111117,
     "classificacao_ivel": "Alta"
@@ -1273,6 +1555,8 @@
     "municipio": "Oeiras",
     "qualidade_servico": 13.96019317597248,
     "insuficiencia_renda": 30.81315669946562,
+    "rendimento_domiciliar_medio": 986.29,
+    "rendimento_domiciliar_mediana": 670.67,
     "dependencia_tarifaria_ivel": 57.77823086129447,
     "ivel_2025": 34.18386024557753,
     "classificacao_ivel": "Muito baixa"
@@ -1282,6 +1566,8 @@
     "municipio": "Olho D'Água do Piauí",
     "qualidade_servico": 100.0,
     "insuficiencia_renda": 75.8885026699941,
+    "rendimento_domiciliar_medio": 688.37,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 36.18854875476641,
     "ivel_2025": 70.69235047492016,
     "classificacao_ivel": "Muito alta"
@@ -1291,6 +1577,8 @@
     "municipio": "Padre Marcos",
     "qualidade_servico": 10.67512307732656,
     "insuficiencia_renda": 72.44037184739628,
+    "rendimento_domiciliar_medio": 711.16,
+    "rendimento_domiciliar_mediana": 550.0,
     "dependencia_tarifaria_ivel": 68.46885398555997,
     "ivel_2025": 50.5281163034276,
     "classificacao_ivel": "Média"
@@ -1300,6 +1588,8 @@
     "municipio": "Paes Landim",
     "qualidade_servico": 37.1096704500242,
     "insuficiencia_renda": 72.68396511744378,
+    "rendimento_domiciliar_medio": 709.55,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 43.16021069611494,
     "ivel_2025": 50.98461542119431,
     "classificacao_ivel": "Média"
@@ -1309,6 +1599,8 @@
     "municipio": "Pajeú do Piauí",
     "qualidade_servico": 96.50792499248593,
     "insuficiencia_renda": 42.76738295192082,
+    "rendimento_domiciliar_medio": 907.28,
+    "rendimento_domiciliar_mediana": 706.0,
     "dependencia_tarifaria_ivel": 15.06225143844705,
     "ivel_2025": 51.44585312761793,
     "classificacao_ivel": "Média"
@@ -1318,6 +1610,8 @@
     "municipio": "Palmeira do Piauí",
     "qualidade_servico": 80.75143150983814,
     "insuficiencia_renda": 66.59262036457899,
+    "rendimento_domiciliar_medio": 749.81,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 17.30410815478353,
     "ivel_2025": 54.88272000973355,
     "classificacao_ivel": "Alta"
@@ -1327,6 +1621,8 @@
     "municipio": "Palmeirais",
     "qualidade_servico": 59.13573532937052,
     "insuficiencia_renda": 67.15848299189429,
+    "rendimento_domiciliar_medio": 746.07,
+    "rendimento_domiciliar_mediana": 504.0,
     "dependencia_tarifaria_ivel": 42.01018219713632,
     "ivel_2025": 56.10146683946704,
     "classificacao_ivel": "Alta"
@@ -1336,6 +1632,8 @@
     "municipio": "Paquetá",
     "qualidade_servico": 9.605820152537344,
     "insuficiencia_renda": 83.06466962549277,
+    "rendimento_domiciliar_medio": 640.94,
+    "rendimento_domiciliar_mediana": 580.0,
     "dependencia_tarifaria_ivel": 80.0653491474083,
     "ivel_2025": 57.57861297514614,
     "classificacao_ivel": "Alta"
@@ -1345,6 +1643,8 @@
     "municipio": "Parnaguá",
     "qualidade_servico": 46.21310854063641,
     "insuficiencia_renda": 78.8902979977844,
+    "rendimento_domiciliar_medio": 668.53,
+    "rendimento_domiciliar_mediana": 474.86,
     "dependencia_tarifaria_ivel": 42.34281586209902,
     "ivel_2025": 55.81540746683995,
     "classificacao_ivel": "Alta"
@@ -1354,6 +1654,8 @@
     "municipio": "Parnaíba",
     "qualidade_servico": 14.63479749461719,
     "insuficiencia_renda": 10.32257498360674,
+    "rendimento_domiciliar_medio": 1121.72,
+    "rendimento_domiciliar_mediana": 728.0,
     "dependencia_tarifaria_ivel": 5.558186245408104,
     "ivel_2025": 10.17185290787734,
     "classificacao_ivel": "Muito baixa"
@@ -1363,6 +1665,8 @@
     "municipio": "Passagem Franca do Piauí",
     "qualidade_servico": 100.0,
     "insuficiencia_renda": 62.55744489118346,
+    "rendimento_domiciliar_medio": 776.48,
+    "rendimento_domiciliar_mediana": 680.0,
     "dependencia_tarifaria_ivel": 63.4999465439592,
     "ivel_2025": 75.35246381171422,
     "classificacao_ivel": "Muito alta"
@@ -1372,6 +1676,8 @@
     "municipio": "Patos do Piauí",
     "qualidade_servico": 25.81033765733294,
     "insuficiencia_renda": 87.60972666414301,
+    "rendimento_domiciliar_medio": 610.9,
+    "rendimento_domiciliar_mediana": 420.0,
     "dependencia_tarifaria_ivel": 33.30936984624829,
     "ivel_2025": 48.90981138924141,
     "classificacao_ivel": "Média"
@@ -1381,6 +1687,8 @@
     "municipio": "Pau D'Arco do Piauí",
     "qualidade_servico": 31.48089195297553,
     "insuficiencia_renda": 98.41558464351714,
+    "rendimento_domiciliar_medio": 539.48,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 49.93612862657326,
     "ivel_2025": 59.94420174102198,
     "classificacao_ivel": "Muito alta"
@@ -1390,6 +1698,8 @@
     "municipio": "Paulistana",
     "qualidade_servico": 31.28037036391809,
     "insuficiencia_renda": 50.88614995238591,
+    "rendimento_domiciliar_medio": 853.62,
+    "rendimento_domiciliar_mediana": 597.25,
     "dependencia_tarifaria_ivel": 45.47858897637466,
     "ivel_2025": 42.54836976422622,
     "classificacao_ivel": "Baixa"
@@ -1399,6 +1709,8 @@
     "municipio": "Pavussu",
     "qualidade_servico": 23.27431604053959,
     "insuficiencia_renda": 87.39185442260982,
+    "rendimento_domiciliar_medio": 612.34,
+    "rendimento_domiciliar_mediana": 473.33,
     "dependencia_tarifaria_ivel": 75.13377832816269,
     "ivel_2025": 61.9333162637707,
     "classificacao_ivel": "Muito alta"
@@ -1408,6 +1720,8 @@
     "municipio": "Pedro II",
     "qualidade_servico": 0.7702420354682881,
     "insuficiencia_renda": 70.05588120394995,
+    "rendimento_domiciliar_medio": 726.92,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 60.4273755529915,
     "ivel_2025": 43.75116626413658,
     "classificacao_ivel": "Baixa"
@@ -1417,6 +1731,8 @@
     "municipio": "Pedro Laurentino",
     "qualidade_servico": 13.84969899756913,
     "insuficiencia_renda": 84.6079313363527,
+    "rendimento_domiciliar_medio": 630.74,
+    "rendimento_domiciliar_mediana": 475.0,
     "dependencia_tarifaria_ivel": 63.46427412906645,
     "ivel_2025": 53.97396815432943,
     "classificacao_ivel": "Alta"
@@ -1426,6 +1742,8 @@
     "municipio": "Nova Santa Rita",
     "qualidade_servico": 16.90906533205925,
     "insuficiencia_renda": 92.03223056693082,
+    "rendimento_domiciliar_medio": 581.67,
+    "rendimento_domiciliar_mediana": 403.0,
     "dependencia_tarifaria_ivel": 76.24156989499785,
     "ivel_2025": 61.7276219313293,
     "classificacao_ivel": "Muito alta"
@@ -1435,6 +1753,8 @@
     "municipio": "Picos",
     "qualidade_servico": 9.59336906447534,
     "insuficiencia_renda": 0.0,
+    "rendimento_domiciliar_medio": 1207.78,
+    "rendimento_domiciliar_mediana": 826.67,
     "dependencia_tarifaria_ivel": 8.33978409047186,
     "ivel_2025": 5.977717718315733,
     "classificacao_ivel": "Muito baixa"
@@ -1444,6 +1764,8 @@
     "municipio": "Pimenteiras",
     "qualidade_servico": 20.46404343574093,
     "insuficiencia_renda": 74.691718343239,
+    "rendimento_domiciliar_medio": 696.28,
+    "rendimento_domiciliar_mediana": 487.5,
     "dependencia_tarifaria_ivel": 41.30176002802122,
     "ivel_2025": 45.48584060233372,
     "classificacao_ivel": "Baixa"
@@ -1453,6 +1775,8 @@
     "municipio": "Pio IX",
     "qualidade_servico": 8.01693233235523,
     "insuficiencia_renda": 74.6266592711145,
+    "rendimento_domiciliar_medio": 696.71,
+    "rendimento_domiciliar_mediana": 522.4,
     "dependencia_tarifaria_ivel": 70.66569245244033,
     "ivel_2025": 51.10309468530335,
     "classificacao_ivel": "Média"
@@ -1462,6 +1786,8 @@
     "municipio": "Piracuruca",
     "qualidade_servico": 5.651859563065321,
     "insuficiencia_renda": 56.31328696890999,
+    "rendimento_domiciliar_medio": 817.75,
+    "rendimento_domiciliar_mediana": 540.0,
     "dependencia_tarifaria_ivel": 37.89059230810158,
     "ivel_2025": 33.28524628002563,
     "classificacao_ivel": "Muito baixa"
@@ -1471,6 +1797,8 @@
     "municipio": "Piripiri",
     "qualidade_servico": 17.15689759859929,
     "insuficiencia_renda": 37.34327193875136,
+    "rendimento_domiciliar_medio": 943.13,
+    "rendimento_domiciliar_mediana": 625.0,
     "dependencia_tarifaria_ivel": 37.9718116609075,
     "ivel_2025": 30.82399373275271,
     "classificacao_ivel": "Muito baixa"
@@ -1480,6 +1808,8 @@
     "municipio": "Porto",
     "qualidade_servico": 19.32635060774391,
     "insuficiencia_renda": 94.90088174711751,
+    "rendimento_domiciliar_medio": 562.71,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 82.65147282420041,
     "ivel_2025": 65.62623505968727,
     "classificacao_ivel": "Muito alta"
@@ -1489,6 +1819,8 @@
     "municipio": "Porto Alegre do Piauí",
     "qualidade_servico": 37.48600347884746,
     "insuficiencia_renda": 63.77541124142096,
+    "rendimento_domiciliar_medio": 768.43,
+    "rendimento_domiciliar_mediana": 533.33,
     "dependencia_tarifaria_ivel": 31.88045916997265,
     "ivel_2025": 44.38062463008036,
     "classificacao_ivel": "Baixa"
@@ -1498,6 +1830,8 @@
     "municipio": "Prata do Piauí",
     "qualidade_servico": 30.52289115466652,
     "insuficiencia_renda": 65.60916927432511,
+    "rendimento_domiciliar_medio": 756.31,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 74.2249903497795,
     "ivel_2025": 56.78568359292371,
     "classificacao_ivel": "Alta"
@@ -1507,6 +1841,8 @@
     "municipio": "Queimada Nova",
     "qualidade_servico": 33.78317924002651,
     "insuficiencia_renda": 75.34230906448386,
+    "rendimento_domiciliar_medio": 691.98,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 40.01350546174211,
     "ivel_2025": 49.71299792208416,
     "classificacao_ivel": "Média"
@@ -1516,6 +1852,8 @@
     "municipio": "Redenção do Gurguéia",
     "qualidade_servico": 48.18202528782265,
     "insuficiencia_renda": 74.54041817550763,
+    "rendimento_domiciliar_medio": 697.28,
+    "rendimento_domiciliar_mediana": 542.4,
     "dependencia_tarifaria_ivel": 60.59629225720339,
     "ivel_2025": 61.10624524017788,
     "classificacao_ivel": "Muito alta"
@@ -1525,6 +1863,8 @@
     "municipio": "Regeneração",
     "qualidade_servico": 30.60056588634448,
     "insuficiencia_renda": 75.47847921544209,
+    "rendimento_domiciliar_medio": 691.08,
+    "rendimento_domiciliar_mediana": 512.5,
     "dependencia_tarifaria_ivel": 60.6582958692478,
     "ivel_2025": 55.57911365701145,
     "classificacao_ivel": "Alta"
@@ -1534,6 +1874,8 @@
     "municipio": "Riacho Frio",
     "qualidade_servico": 46.22382876710472,
     "insuficiencia_renda": 87.28594430519789,
+    "rendimento_domiciliar_medio": 613.04,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 44.66556740049001,
     "ivel_2025": 59.39178015759754,
     "classificacao_ivel": "Muito alta"
@@ -1543,6 +1885,8 @@
     "municipio": "Ribeira do Piauí",
     "qualidade_servico": 20.95676256522735,
     "insuficiencia_renda": 72.58108100338643,
+    "rendimento_domiciliar_medio": 710.23,
+    "rendimento_domiciliar_mediana": 604.0,
     "dependencia_tarifaria_ivel": 35.24765096402069,
     "ivel_2025": 42.92849817754482,
     "classificacao_ivel": "Baixa"
@@ -1552,6 +1896,8 @@
     "municipio": "Ribeiro Gonçalves",
     "qualidade_servico": 31.50015079324413,
     "insuficiencia_renda": 55.63546221747347,
+    "rendimento_domiciliar_medio": 822.23,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 9.306225155244794,
     "ivel_2025": 32.14727938865413,
     "classificacao_ivel": "Muito baixa"
@@ -1561,6 +1907,8 @@
     "municipio": "Rio Grande do Piauí",
     "qualidade_servico": 23.69176905973298,
     "insuficiencia_renda": 63.40169982712449,
+    "rendimento_domiciliar_medio": 770.9,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 53.54326926907537,
     "ivel_2025": 46.87891271864428,
     "classificacao_ivel": "Média"
@@ -1570,6 +1918,8 @@
     "municipio": "Santa Cruz do Piauí",
     "qualidade_servico": 9.716170009729797,
     "insuficiencia_renda": 62.2518185523661,
+    "rendimento_domiciliar_medio": 778.5,
+    "rendimento_domiciliar_mediana": 605.0,
     "dependencia_tarifaria_ivel": 39.0155547707427,
     "ivel_2025": 36.99451444427953,
     "classificacao_ivel": "Muito baixa"
@@ -1579,6 +1929,8 @@
     "municipio": "Santa Cruz dos Milagres",
     "qualidade_servico": 27.98780224593729,
     "insuficiencia_renda": 83.81814446079497,
+    "rendimento_domiciliar_medio": 635.96,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 17.89349041299145,
     "ivel_2025": 43.23314570657457,
     "classificacao_ivel": "Baixa"
@@ -1588,6 +1940,8 @@
     "municipio": "Santa Filomena",
     "qualidade_servico": 67.93627944482849,
     "insuficiencia_renda": 60.33181942385506,
+    "rendimento_domiciliar_medio": 791.19,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 18.66144083579796,
     "ivel_2025": 48.97651323482717,
     "classificacao_ivel": "Média"
@@ -1597,6 +1951,8 @@
     "municipio": "Santa Luz",
     "qualidade_servico": 14.67337869231241,
     "insuficiencia_renda": 73.53578506177136,
+    "rendimento_domiciliar_medio": 703.92,
+    "rendimento_domiciliar_mediana": 564.8,
     "dependencia_tarifaria_ivel": 33.78578880405737,
     "ivel_2025": 40.66498418604704,
     "classificacao_ivel": "Baixa"
@@ -1606,6 +1962,8 @@
     "municipio": "Santana do Piauí",
     "qualidade_servico": 10.6008998079568,
     "insuficiencia_renda": 65.54562320387794,
+    "rendimento_domiciliar_medio": 756.73,
+    "rendimento_domiciliar_mediana": 650.0,
     "dependencia_tarifaria_ivel": 48.32532844683414,
     "ivel_2025": 41.49061715288963,
     "classificacao_ivel": "Baixa"
@@ -1615,6 +1973,8 @@
     "municipio": "Santa Rosa do Piauí",
     "qualidade_servico": 18.34800111350983,
     "insuficiencia_renda": 71.6899230154487,
+    "rendimento_domiciliar_medio": 716.12,
+    "rendimento_domiciliar_mediana": 554.0,
     "dependencia_tarifaria_ivel": 41.35073728221069,
     "ivel_2025": 43.79622047038975,
     "classificacao_ivel": "Baixa"
@@ -1624,6 +1984,8 @@
     "municipio": "Santo Antônio de Lisboa",
     "qualidade_servico": 19.13080368572181,
     "insuficiencia_renda": 64.41389794924731,
+    "rendimento_domiciliar_medio": 764.21,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 40.83062317225122,
     "ivel_2025": 41.45844160240679,
     "classificacao_ivel": "Baixa"
@@ -1633,6 +1995,8 @@
     "municipio": "Santo Antônio dos Milagres",
     "qualidade_servico": 39.42245795297129,
     "insuficiencia_renda": 90.25142759273264,
+    "rendimento_domiciliar_medio": 593.44,
+    "rendimento_domiciliar_mediana": 403.0,
     "dependencia_tarifaria_ivel": 39.55976179789544,
     "ivel_2025": 56.41121578119979,
     "classificacao_ivel": "Alta"
@@ -1642,6 +2006,8 @@
     "municipio": "Santo Inácio do Piauí",
     "qualidade_servico": 14.97547077852679,
     "insuficiencia_renda": 64.82543440547663,
+    "rendimento_domiciliar_medio": 761.49,
+    "rendimento_domiciliar_mediana": 630.0,
     "dependencia_tarifaria_ivel": 19.98894992318974,
     "ivel_2025": 33.26328503573105,
     "classificacao_ivel": "Muito baixa"
@@ -1651,6 +2017,8 @@
     "municipio": "São Braz do Piauí",
     "qualidade_servico": 12.66220063654078,
     "insuficiencia_renda": 73.00472147303427,
+    "rendimento_domiciliar_medio": 707.43,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 82.03190373689452,
     "ivel_2025": 55.89960861548985,
     "classificacao_ivel": "Alta"
@@ -1660,6 +2028,8 @@
     "municipio": "São Félix do Piauí",
     "qualidade_servico": 30.58443656359526,
     "insuficiencia_renda": 43.93390724512965,
+    "rendimento_domiciliar_medio": 899.57,
+    "rendimento_domiciliar_mediana": 704.0,
     "dependencia_tarifaria_ivel": 2.974105749627646,
     "ivel_2025": 25.83081651945085,
     "classificacao_ivel": "Muito baixa"
@@ -1669,6 +2039,8 @@
     "municipio": "São Francisco de Assis do Piauí",
     "qualidade_servico": 35.10539985937005,
     "insuficiencia_renda": 94.6209764368145,
+    "rendimento_domiciliar_medio": 564.56,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 58.28498004666326,
     "ivel_2025": 62.6704521142826,
     "classificacao_ivel": "Muito alta"
@@ -1678,6 +2050,8 @@
     "municipio": "São Francisco do Piauí",
     "qualidade_servico": 26.29535871444918,
     "insuficiencia_renda": 77.50741446471972,
+    "rendimento_domiciliar_medio": 677.67,
+    "rendimento_domiciliar_mediana": 524.0,
     "dependencia_tarifaria_ivel": 37.76253786351581,
     "ivel_2025": 47.18843701422824,
     "classificacao_ivel": "Média"
@@ -1687,6 +2061,8 @@
     "municipio": "São Gonçalo do Gurguéia",
     "qualidade_servico": 78.04355140411715,
     "insuficiencia_renda": 78.67696476128316,
+    "rendimento_domiciliar_medio": 669.94,
+    "rendimento_domiciliar_mediana": 461.86,
     "dependencia_tarifaria_ivel": 24.06473577407976,
     "ivel_2025": 60.26175064649336,
     "classificacao_ivel": "Muito alta"
@@ -1696,6 +2072,8 @@
     "municipio": "São Gonçalo do Piauí",
     "qualidade_servico": 46.54302877382416,
     "insuficiencia_renda": 64.80727838534887,
+    "rendimento_domiciliar_medio": 761.61,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 43.37201220017284,
     "ivel_2025": 51.57410645311529,
     "classificacao_ivel": "Alta"
@@ -1705,6 +2083,8 @@
     "municipio": "São João da Canabrava",
     "qualidade_servico": 16.41506318779232,
     "insuficiencia_renda": 58.72047263751602,
+    "rendimento_domiciliar_medio": 801.84,
+    "rendimento_domiciliar_mediana": 702.4,
     "dependencia_tarifaria_ivel": 36.95053890732538,
     "ivel_2025": 37.36202491087791,
     "classificacao_ivel": "Muito baixa"
@@ -1714,6 +2094,8 @@
     "municipio": "São João da Fronteira",
     "qualidade_servico": 5.906172206005974,
     "insuficiencia_renda": 90.4450918074288,
+    "rendimento_domiciliar_medio": 592.16,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 63.31786113531756,
     "ivel_2025": 53.22304171625078,
     "classificacao_ivel": "Alta"
@@ -1723,6 +2105,8 @@
     "municipio": "São João da Serra",
     "qualidade_servico": 39.70192440817645,
     "insuficiencia_renda": 73.47223899132418,
+    "rendimento_domiciliar_medio": 704.34,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 30.47559198382566,
     "ivel_2025": 47.8832517944421,
     "classificacao_ivel": "Média"
@@ -1732,6 +2116,8 @@
     "municipio": "São João da Varjota",
     "qualidade_servico": 13.40166554659755,
     "insuficiencia_renda": 88.28452541222488,
+    "rendimento_domiciliar_medio": 606.44,
+    "rendimento_domiciliar_mediana": 470.67,
     "dependencia_tarifaria_ivel": 58.62979982678841,
     "ivel_2025": 53.43866359520361,
     "classificacao_ivel": "Alta"
@@ -1741,6 +2127,8 @@
     "municipio": "São João do Arraial",
     "qualidade_servico": 14.51109580834462,
     "insuficiencia_renda": 94.88121272531244,
+    "rendimento_domiciliar_medio": 562.84,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 90.4611681628277,
     "ivel_2025": 66.61782556549493,
     "classificacao_ivel": "Muito alta"
@@ -1750,6 +2138,8 @@
     "municipio": "São João do Piauí",
     "qualidade_servico": 38.98213835169157,
     "insuficiencia_renda": 38.04227871367026,
+    "rendimento_domiciliar_medio": 938.51,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 22.67033193889467,
     "ivel_2025": 33.23158300141883,
     "classificacao_ivel": "Muito baixa"
@@ -1759,6 +2149,8 @@
     "municipio": "São José do Divino",
     "qualidade_servico": 20.26059144409791,
     "insuficiencia_renda": 77.83119682366484,
+    "rendimento_domiciliar_medio": 675.53,
+    "rendimento_domiciliar_mediana": 553.0,
     "dependencia_tarifaria_ivel": 81.20404900096193,
     "ivel_2025": 59.7652790895749,
     "classificacao_ivel": "Muito alta"
@@ -1768,6 +2160,8 @@
     "municipio": "São José do Peixe",
     "qualidade_servico": 19.08238986440072,
     "insuficiencia_renda": 52.9241632117274,
+    "rendimento_domiciliar_medio": 840.15,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 22.96475703447285,
     "ivel_2025": 31.65710337020033,
     "classificacao_ivel": "Muito baixa"
@@ -1777,6 +2171,8 @@
     "municipio": "São José do Piauí",
     "qualidade_servico": 18.57710935492409,
     "insuficiencia_renda": 71.43573873366,
+    "rendimento_domiciliar_medio": 717.8,
+    "rendimento_domiciliar_mediana": 602.4,
     "dependencia_tarifaria_ivel": 32.94281665866705,
     "ivel_2025": 40.98522158241705,
     "classificacao_ivel": "Baixa"
@@ -1786,6 +2182,8 @@
     "municipio": "São Julião",
     "qualidade_servico": 9.94329948791388,
     "insuficiencia_renda": 52.19792240661684,
+    "rendimento_domiciliar_medio": 844.95,
+    "rendimento_domiciliar_mediana": 620.0,
     "dependencia_tarifaria_ivel": 24.02150147718999,
     "ivel_2025": 28.72090779057357,
     "classificacao_ivel": "Muito baixa"
@@ -1795,6 +2193,8 @@
     "municipio": "São Lourenço do Piauí",
     "qualidade_servico": 13.47403248718514,
     "insuficiencia_renda": 60.12756419741773,
+    "rendimento_domiciliar_medio": 792.54,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 49.83323942776294,
     "ivel_2025": 41.14494537078861,
     "classificacao_ivel": "Baixa"
@@ -1804,6 +2204,8 @@
     "municipio": "São Luis do Piauí",
     "qualidade_servico": 15.59043156252015,
     "insuficiencia_renda": 85.12083890496203,
+    "rendimento_domiciliar_medio": 627.35,
+    "rendimento_domiciliar_mediana": 484.8,
     "dependencia_tarifaria_ivel": 46.99721775592751,
     "ivel_2025": 49.23616274113656,
     "classificacao_ivel": "Média"
@@ -1813,6 +2215,8 @@
     "municipio": "São Miguel da Baixa Grande",
     "qualidade_servico": 38.88254687472347,
     "insuficiencia_renda": 78.85247295585155,
+    "rendimento_domiciliar_medio": 668.78,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 22.46494289317599,
     "ivel_2025": 46.733320907917,
     "classificacao_ivel": "Média"
@@ -1822,6 +2226,8 @@
     "municipio": "São Miguel do Fidalgo",
     "qualidade_servico": 27.84521325869721,
     "insuficiencia_renda": 76.23044104906698,
+    "rendimento_domiciliar_medio": 686.11,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 35.13225291267329,
     "ivel_2025": 46.40263574014583,
     "classificacao_ivel": "Média"
@@ -1831,6 +2237,8 @@
     "municipio": "São Miguel do Tapuio",
     "qualidade_servico": 11.1851516935516,
     "insuficiencia_renda": 81.76348818300303,
+    "rendimento_domiciliar_medio": 649.54,
+    "rendimento_domiciliar_mediana": 470.67,
     "dependencia_tarifaria_ivel": 34.62632778888614,
     "ivel_2025": 42.52498922181359,
     "classificacao_ivel": "Baixa"
@@ -1840,6 +2248,8 @@
     "municipio": "São Pedro do Piauí",
     "qualidade_servico": 44.6101295005969,
     "insuficiencia_renda": 73.19233368102115,
+    "rendimento_domiciliar_medio": 706.19,
+    "rendimento_domiciliar_mediana": 478.0,
     "dependencia_tarifaria_ivel": 70.29291613011078,
     "ivel_2025": 62.69845977057628,
     "classificacao_ivel": "Muito alta"
@@ -1849,6 +2259,8 @@
     "municipio": "São Raimundo Nonato",
     "qualidade_servico": 12.06100954998765,
     "insuficiencia_renda": 18.41410795388019,
+    "rendimento_domiciliar_medio": 1068.24,
+    "rendimento_domiciliar_mediana": 685.71,
     "dependencia_tarifaria_ivel": 29.73086682442226,
     "ivel_2025": 20.06866144276337,
     "classificacao_ivel": "Muito baixa"
@@ -1858,6 +2270,8 @@
     "municipio": "Sebastião Barros",
     "qualidade_servico": 73.16319396143305,
     "insuficiencia_renda": 84.04055570736008,
+    "rendimento_domiciliar_medio": 634.49,
+    "rendimento_domiciliar_mediana": 452.0,
     "dependencia_tarifaria_ivel": 83.72656182676437,
     "ivel_2025": 80.3101038318525,
     "classificacao_ivel": "Muito alta"
@@ -1867,6 +2281,8 @@
     "municipio": "Sebastião Leal",
     "qualidade_servico": 30.63724160373762,
     "insuficiencia_renda": 56.85191556603365,
+    "rendimento_domiciliar_medio": 814.19,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 1.518823708755164,
     "ivel_2025": 29.66932695950881,
     "classificacao_ivel": "Muito baixa"
@@ -1876,6 +2292,8 @@
     "municipio": "Sigefredo Pacheco",
     "qualidade_servico": 24.09034992353564,
     "insuficiencia_renda": 80.19450544362877,
+    "rendimento_domiciliar_medio": 659.91,
+    "rendimento_domiciliar_mediana": 504.0,
     "dependencia_tarifaria_ivel": 69.6227202542367,
     "ivel_2025": 57.96919187380038,
     "classificacao_ivel": "Alta"
@@ -1885,6 +2303,8 @@
     "municipio": "Simões",
     "qualidade_servico": 15.65046925286996,
     "insuficiencia_renda": 74.34070195410223,
+    "rendimento_domiciliar_medio": 698.6,
+    "rendimento_domiciliar_mediana": 484.8,
     "dependencia_tarifaria_ivel": 54.93763663042507,
     "ivel_2025": 48.30960261246575,
     "classificacao_ivel": "Média"
@@ -1894,6 +2314,8 @@
     "municipio": "Simplício Mendes",
     "qualidade_servico": 27.0326188733668,
     "insuficiencia_renda": 50.41560643074136,
+    "rendimento_domiciliar_medio": 856.73,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 39.18361271575633,
     "ivel_2025": 38.87727933995482,
     "classificacao_ivel": "Baixa"
@@ -1903,6 +2325,8 @@
     "municipio": "Socorro do Piauí",
     "qualidade_servico": 35.21123164492755,
     "insuficiencia_renda": 93.94315168537798,
+    "rendimento_domiciliar_medio": 569.04,
+    "rendimento_domiciliar_mediana": 400.0,
     "dependencia_tarifaria_ivel": 47.05012287881165,
     "ivel_2025": 58.73483540303906,
     "classificacao_ivel": "Muito alta"
@@ -1912,6 +2336,8 @@
     "municipio": "Sussuapara",
     "qualidade_servico": 18.92577191459655,
     "insuficiencia_renda": 59.16378212896893,
+    "rendimento_domiciliar_medio": 798.91,
+    "rendimento_domiciliar_mediana": 604.8,
     "dependencia_tarifaria_ivel": 57.6805988404848,
     "ivel_2025": 45.25671762801676,
     "classificacao_ivel": "Baixa"
@@ -1921,6 +2347,8 @@
     "municipio": "Tamboril do Piauí",
     "qualidade_servico": 16.76537776572759,
     "insuficiencia_renda": 78.38192943420701,
+    "rendimento_domiciliar_medio": 671.89,
+    "rendimento_domiciliar_mediana": 460.57,
     "dependencia_tarifaria_ivel": 53.11811265297941,
     "ivel_2025": 49.421806617638,
     "classificacao_ivel": "Média"
@@ -1930,6 +2358,8 @@
     "municipio": "Tanque do Piauí",
     "qualidade_servico": 40.45210735036042,
     "insuficiencia_renda": 35.51102690752451,
+    "rendimento_domiciliar_medio": 955.24,
+    "rendimento_domiciliar_mediana": 709.0,
     "dependencia_tarifaria_ivel": 52.25108858981468,
     "ivel_2025": 42.73807428256654,
     "classificacao_ivel": "Baixa"
@@ -1939,6 +2369,8 @@
     "municipio": "Teresina",
     "qualidade_servico": 9.387045246059053,
     "insuficiencia_renda": 0.0,
+    "rendimento_domiciliar_medio": 1559.89,
+    "rendimento_domiciliar_mediana": 868.0,
     "dependencia_tarifaria_ivel": 0.0,
     "ivel_2025": 3.129015082019684,
     "classificacao_ivel": "Muito baixa"
@@ -1948,6 +2380,8 @@
     "municipio": "União",
     "qualidade_servico": 32.22107353408498,
     "insuficiencia_renda": 69.93938007479679,
+    "rendimento_domiciliar_medio": 727.69,
+    "rendimento_domiciliar_mediana": 537.33,
     "dependencia_tarifaria_ivel": 79.29070767312325,
     "ivel_2025": 60.48372042733501,
     "classificacao_ivel": "Muito alta"
@@ -1957,6 +2391,8 @@
     "municipio": "Uruçuí",
     "qualidade_servico": 32.56376624474122,
     "insuficiencia_renda": 22.50526448933631,
+    "rendimento_domiciliar_medio": 1041.2,
+    "rendimento_domiciliar_mediana": 737.33,
     "dependencia_tarifaria_ivel": 0.0,
     "ivel_2025": 18.35634357802584,
     "classificacao_ivel": "Muito baixa"
@@ -1966,6 +2402,8 @@
     "municipio": "Valença do Piauí",
     "qualidade_servico": 19.69490808133923,
     "insuficiencia_renda": 19.72890641146576,
+    "rendimento_domiciliar_medio": 1059.55,
+    "rendimento_domiciliar_mediana": 731.0,
     "dependencia_tarifaria_ivel": 29.80555449441754,
     "ivel_2025": 23.07645632907418,
     "classificacao_ivel": "Muito baixa"
@@ -1975,6 +2413,8 @@
     "municipio": "Várzea Branca",
     "qualidade_servico": 12.02122940792434,
     "insuficiencia_renda": 87.6641947245263,
+    "rendimento_domiciliar_medio": 610.54,
+    "rendimento_domiciliar_mediana": 404.0,
     "dependencia_tarifaria_ivel": 73.36443564632529,
     "ivel_2025": 57.68328659292531,
     "classificacao_ivel": "Alta"
@@ -1984,6 +2424,8 @@
     "municipio": "Várzea Grande",
     "qualidade_servico": 39.53489918814256,
     "insuficiencia_renda": 52.97711827043339,
+    "rendimento_domiciliar_medio": 839.8,
+    "rendimento_domiciliar_mediana": 606.0,
     "dependencia_tarifaria_ivel": 41.69157625646609,
     "ivel_2025": 44.73453123834734,
     "classificacao_ivel": "Baixa"
@@ -1993,6 +2435,8 @@
     "municipio": "Vera Mendes",
     "qualidade_servico": 22.42589980254929,
     "insuficiencia_renda": 89.39960764840505,
+    "rendimento_domiciliar_medio": 599.07,
+    "rendimento_domiciliar_mediana": 460.0,
     "dependencia_tarifaria_ivel": 41.56426859820733,
     "ivel_2025": 51.12992534972056,
     "classificacao_ivel": "Média"
@@ -2002,6 +2446,8 @@
     "municipio": "Vila Nova do Piauí",
     "qualidade_servico": 10.65437197494376,
     "insuficiencia_renda": 68.37644934213179,
+    "rendimento_domiciliar_medio": 738.02,
+    "rendimento_domiciliar_mediana": 600.0,
     "dependencia_tarifaria_ivel": 22.75339504939367,
     "ivel_2025": 33.92807212215641,
     "classificacao_ivel": "Muito baixa"
@@ -2011,6 +2457,8 @@
     "municipio": "Wall Ferraz",
     "qualidade_servico": 10.82528399676198,
     "insuficiencia_renda": 89.08641630120113,
+    "rendimento_domiciliar_medio": 601.14,
+    "rendimento_domiciliar_mediana": 500.0,
     "dependencia_tarifaria_ivel": 80.52090674275689,
     "ivel_2025": 60.14420234690667,
     "classificacao_ivel": "Muito alta"

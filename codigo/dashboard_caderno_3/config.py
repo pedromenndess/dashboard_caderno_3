@@ -20,3 +20,11 @@ def carregar_configuracao(caminho: Path | None = None) -> dict[str, Any]:
 def versao_dados(configuracao: dict[str, Any]) -> str:
     """Retorna a versão declarada para o pacote de dados."""
     return str(configuracao["projeto"]["versao_dados"])
+
+
+def resolver_raiz_caderno_3(configuracao: dict[str, Any]) -> Path:
+    """Usa o primeiro mapeamento disponível da origem, sem escrever nele."""
+    origem = configuracao["origem"]
+    candidatos = [origem["caderno_3"], *origem.get("caderno_3_alternativos", [])]
+    caminhos = [Path(candidato).resolve() for candidato in candidatos]
+    return next((caminho for caminho in caminhos if caminho.is_dir()), caminhos[0])

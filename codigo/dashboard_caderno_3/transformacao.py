@@ -60,11 +60,38 @@ def _ler_ivel() -> pd.DataFrame:
             "Classificação": "classificacao_ivel",
         }
     )
+
+    rendimento = pd.read_excel(
+        _arquivo_importado("intermediarios/rendimento_domiciliar_municipal.xlsx"),
+        sheet_name="Rendimento municipal",
+        dtype={"codigo_municipio": "string"},
+    )
+    rendimento["codigo_municipio"] = normalizar_codigo_ibge(
+        rendimento["codigo_municipio"]
+    )
+    rendimento = rendimento[
+        rendimento["codigo_municipio"].str.fullmatch(r"\d{7}", na=False)
+    ].copy()
+    rendimento = rendimento.rename(columns={"codigo_municipio": "codigo_ibge"})
+    dados = dados.merge(
+        rendimento[
+            [
+                "codigo_ibge",
+                "rendimento_domiciliar_medio",
+                "rendimento_domiciliar_mediana",
+            ]
+        ],
+        on="codigo_ibge",
+        how="left",
+        validate="one_to_one",
+    )
     colunas = [
         "codigo_ibge",
         "municipio",
         "qualidade_servico",
         "insuficiencia_renda",
+        "rendimento_domiciliar_medio",
+        "rendimento_domiciliar_mediana",
         "dependencia_tarifaria_ivel",
         "ivel_2025",
         "classificacao_ivel",
@@ -73,24 +100,41 @@ def _ler_ivel() -> pd.DataFrame:
 
 
 def _ler_municipios() -> tuple[pd.DataFrame, pd.DataFrame]:
-    arquivo = _arquivo_importado("produtos/acesso/luz_para_todos_municipal.xlsx")
-    dados = pd.read_excel(arquivo, dtype={"Código do município": "string"})
-    dados["Código do município"] = normalizar_codigo_ibge(dados["Código do município"])
-    dados = dados[dados["Código do município"].str.fullmatch(r"\d{7}", na=False)].copy()
-    dados = dados.rename(
+    territorios = pd.read_excel(
+        _arquivo_importado("brutos/territorios_municipios_pi.xlsx"),
+        dtype={"Cógido IBGE": "string"},
+    ).rename(
         columns={
-            "Código do município": "codigo_ibge",
+            "Cógido IBGE": "codigo_ibge",
             "Município": "municipio",
             "Território de Desenvolvimento": "territorio_desenvolvimento",
+        }
+    )
+    territorios["codigo_ibge"] = normalizar_codigo_ibge(territorios["codigo_ibge"])
+    territorios = territorios[
+        territorios["codigo_ibge"].str.fullmatch(r"\d{7}", na=False)
+    ].copy()
+    municipios = territorios[
+        ["codigo_ibge", "municipio", "territorio_desenvolvimento"]
+    ].drop_duplicates()
+
+    luz = pd.read_excel(
+        _arquivo_importado("produtos/acesso/luz_para_todos_municipal.xlsx"),
+        dtype={"Código do município": "string"},
+    ).rename(
+        columns={
+            "Código do município": "codigo_ibge",
             "Domicílios beneficiados (2023-2025)": "domicilios_beneficiados_2023_2025",
         }
     )
-    municipios = dados[
-        ["codigo_ibge", "municipio", "territorio_desenvolvimento"]
-    ].drop_duplicates()
-    luz = dados[
-        ["codigo_ibge", "municipio", "domicilios_beneficiados_2023_2025"]
-    ].copy()
+    luz["codigo_ibge"] = normalizar_codigo_ibge(luz["codigo_ibge"])
+    luz = luz[luz["codigo_ibge"].str.fullmatch(r"\d{7}", na=False)].copy()
+    luz = municipios[["codigo_ibge", "municipio"]].merge(
+        luz[["codigo_ibge", "domicilios_beneficiados_2023_2025"]],
+        on="codigo_ibge",
+        how="left",
+        validate="one_to_one",
+    )
     return (
         municipios.sort_values("codigo_ibge").reset_index(drop=True),
         luz.sort_values("codigo_ibge").reset_index(drop=True),
@@ -370,6 +414,30 @@ def _ler_indicadores_gerais(
     acesso = acesso.melt(id_vars="Território", var_name="ano", value_name="percentual")
     acesso = acesso.rename(columns={"Território": "recorte"})
     acesso["ano"] = acesso["ano"].astype(str).str.extract(r"(\d{4})").astype(int)
+
+    acesso_absoluto_bruto = pd.read_excel(
+        _arquivo_importado("brutos/moradores_em_domicilios_tabela6737.xlsx")
+    )
+    registros_absolutos: list[dict[str, Any]] = []
+    for ano in (2023, 2024, 2025):
+        coluna = f"Moradores em domicílios com energia elétrica (Mil pessoas) - {ano}"
+        for _, linha in acesso_absoluto_bruto.iterrows():
+            registros_absolutos.append(
+                {
+                    "recorte": linha["Local"],
+                    "ano": ano,
+                    "estimativa_moradores": int(linha[coluna]) * 1_000,
+                }
+            )
+    acesso_absoluto = pd.DataFrame(registros_absolutos)
+    acesso = acesso.merge(
+        acesso_absoluto,
+        on=["recorte", "ano"],
+        how="left",
+        validate="one_to_one",
+    )
+    if acesso["estimativa_moradores"].isna().any():
+        raise ValueError("Há valores absolutos ausentes na série de acesso à energia.")
 
     disponibilidade = pd.read_excel(
         _arquivo_importado("intermediarios/disponibilidade_comparativo.xlsx")

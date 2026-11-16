@@ -9,7 +9,12 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from dashboard_caderno_3.config import RAIZ_PROJETO, carregar_configuracao, versao_dados
+from dashboard_caderno_3.config import (
+    RAIZ_PROJETO,
+    carregar_configuracao,
+    resolver_raiz_caderno_3,
+    versao_dados,
+)
 from dashboard_caderno_3.util import (
     escrever_json,
     garantir_destino_interno,
@@ -28,7 +33,7 @@ def importar_fontes(
     """Copia somente fontes declaradas, sem escrever no Caderno 3."""
     configuracao = carregar_configuracao(caminho_config)
     versao = versao_dados(configuracao)
-    raiz_origem = Path(configuracao["origem"]["caderno_3"]).resolve()
+    raiz_origem = resolver_raiz_caderno_3(configuracao)
     if not raiz_origem.is_dir():
         raise FileNotFoundError(f"Caderno 3 não encontrado: {raiz_origem}")
 

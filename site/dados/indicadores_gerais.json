@@ -40,47 +40,56 @@
     {
       "recorte": "Brasil",
       "ano": 2023,
-      "percentual": 99.8
+      "percentual": 99.8,
+      "estimativa_moradores": 210535000
     },
     {
       "recorte": "Nordeste",
       "ano": 2023,
-      "percentual": 99.7
+      "percentual": 99.7,
+      "estimativa_moradores": 56647000
     },
     {
       "recorte": "Piauí",
       "ano": 2023,
-      "percentual": 99.5
+      "percentual": 99.5,
+      "estimativa_moradores": 3349000
     },
     {
       "recorte": "Brasil",
       "ano": 2024,
-      "percentual": 99.8
+      "percentual": 99.8,
+      "estimativa_moradores": 211499000
     },
     {
       "recorte": "Nordeste",
       "ano": 2024,
-      "percentual": 99.8
+      "percentual": 99.8,
+      "estimativa_moradores": 56820000
     },
     {
       "recorte": "Piauí",
       "ano": 2024,
-      "percentual": 99.6
+      "percentual": 99.6,
+      "estimativa_moradores": 3363000
     },
     {
       "recorte": "Brasil",
       "ano": 2025,
-      "percentual": 99.9
+      "percentual": 99.9,
+      "estimativa_moradores": 212365000
     },
     {
       "recorte": "Nordeste",
       "ano": 2025,
-      "percentual": 99.8
+      "percentual": 99.8,
+      "estimativa_moradores": 56956000
     },
     {
       "recorte": "Piauí",
       "ano": 2025,
-      "percentual": 99.8
+      "percentual": 99.8,
+      "estimativa_moradores": 3378000
     }
   ],
   "disponibilidade_2025": [

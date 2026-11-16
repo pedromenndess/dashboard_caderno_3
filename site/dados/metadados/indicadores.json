@@ -33,6 +33,17 @@
     "fonte": "IBGE, Censo Demográfico 2022; resultado aprovado do Caderno 3."
   },
   {
+    "id": "rendimento_domiciliar_medio",
+    "rotulo": "Rendimento domiciliar médio mensal",
+    "unidade": "R$",
+    "periodos": [
+      "2022"
+    ],
+    "escala": "valor monetário",
+    "sentido": "Média municipal do rendimento domiciliar mensal por pessoa.",
+    "fonte": "IBGE, Censo Demográfico 2022; base tratada do Caderno 3."
+  },
+  {
     "id": "dependencia_tarifaria_ivel",
     "rotulo": "Dependência tarifária — dimensão do IVEL",
     "unidade": "pontos",
