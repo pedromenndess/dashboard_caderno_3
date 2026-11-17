@@ -124,6 +124,10 @@ select {
   grid-template-columns: 120px minmax(210px, 1fr);
 }
 
+.filtros--ivel {
+  grid-template-columns: 120px minmax(235px, 1fr) minmax(235px, 0.9fr) minmax(190px, 0.62fr);
+}
+
 .campo {
   min-width: 0;
   position: relative;
@@ -402,6 +406,10 @@ select {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.cartoes--dois {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .cartao-indicador {
   background: var(--branco);
   border: 1px solid var(--linha);
@@ -667,6 +675,10 @@ select {
   border-color: var(--linha);
   min-height: 38px;
   min-width: 310px;
+}
+
+.controle-grafico--ranking {
+  margin: 12px 0 10px;
 }
 
 .controles-ivel {
@@ -988,6 +1000,14 @@ select {
     grid-template-columns: 130px minmax(260px, 1fr);
   }
 
+  .filtros--ivel {
+    grid-template-columns: 130px minmax(240px, 1fr) minmax(240px, 1fr);
+  }
+
+  .filtros--ivel .filtro-resumo {
+    grid-column: 1 / -1;
+  }
+
   .filtro-resumo {
     border-left: 0;
     grid-column: 1 / -1;
@@ -1010,6 +1030,7 @@ select {
   }
 
   .filtros,
+  .cartoes--dois,
   .cartoes--quatro,
   .grade-graficos--dois,
   .grade-graficos--mapa,

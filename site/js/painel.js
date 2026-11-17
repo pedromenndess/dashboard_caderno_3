@@ -1,6 +1,6 @@
 "use strict";
 
-const VERSAO_FRONTEND = "20261116-03";
+const VERSAO_FRONTEND = "20261117-02";
 
 const CORES = {
   azul: "#366091",
@@ -24,15 +24,33 @@ const CONFIG_PLOTLY = {
   editable: false,
 };
 
+const CONFIG_MAPA = {
+  ...CONFIG_PLOTLY,
+  displayModeBar: true,
+  modeBarButtonsToRemove: [
+    "toImage",
+    "sendDataToCloud",
+    "resetGeo",
+    "hoverClosestGeo",
+    "toggleHover",
+    "panGeo",
+    "pan2d",
+    "select2d",
+    "lasso2d",
+  ],
+};
+
 const estado = {
   ano: 2025,
   codigoMunicipio: null,
   aba: "geral",
   indicadorTarifa: "cobertura",
+  ordemQualidade: "crescente",
   detalheRendaAberto: false,
   comparacaoAtiva: false,
   municipiosComparacao: [],
   territoriosAtivos: false,
+  territorioSelecionado: null,
   avisoComparacao: "",
 };
 
@@ -81,12 +99,16 @@ async function iniciar() {
     dados.municipiosOrdenados = [...municipios].sort((a, b) =>
       a.municipio.localeCompare(b.municipio, "pt-BR"),
     );
+    dados.territoriosOrdenados = [...new Set(
+      municipios.map((item) => item.territorio_desenvolvimento).filter(Boolean),
+    )].sort((a, b) => a.localeCompare(b, "pt-BR"));
 
     aplicarParametrosUrl();
 
     configurarEventos();
     document.getElementById("filtro-ano").value = String(estado.ano);
     atualizarCampoMunicipio();
+    atualizarCampoTerritorio();
     ativarAba(estado.aba);
   } catch (erro) {
     console.error(erro);
@@ -115,6 +137,14 @@ function aplicarParametrosUrl() {
   }
 
   if (parametros.get("territorios") === "1") estado.territoriosAtivos = true;
+  const nomeTerritorio = normalizarBusca(parametros.get("territorio") || "");
+  const territorio = dados.territoriosOrdenados.find(
+    (item) => normalizarBusca(item) === nomeTerritorio,
+  );
+  if (territorio) {
+    estado.territorioSelecionado = territorio;
+    estado.territoriosAtivos = true;
+  }
   const comparar = (parametros.get("comparar") || "")
     .split(",")
     .map((nome) => normalizarBusca(nome))
@@ -169,8 +199,8 @@ function configurarEventos() {
   campo.addEventListener("keydown", (evento) => {
     if (evento.key === "Enter") {
       const primeira = normalizarBusca(campo.value)
-        ? document.querySelector(".sugestao:not(.sugestao--todos)")
-        : document.querySelector(".sugestao");
+        ? document.querySelector("#sugestoes-municipio .sugestao:not(.sugestao--todos)")
+        : document.querySelector("#sugestoes-municipio .sugestao");
       if (primeira) {
         evento.preventDefault();
         selecionarMunicipio(primeira.dataset.codigo);
@@ -182,15 +212,53 @@ function configurarEventos() {
     }
   });
 
+  const gatilhoTerritorios = document.getElementById("abrir-territorios");
+  const campoTerritorio = document.getElementById("filtro-territorio");
+  gatilhoTerritorios.addEventListener("click", () => {
+    const aberto = document.getElementById("menu-territorios").classList.contains("aberto");
+    if (aberto) {
+      fecharSugestoesTerritorios();
+      return;
+    }
+    campoTerritorio.value = "";
+    mostrarSugestoesTerritorios("");
+    campoTerritorio.focus();
+  });
+  campoTerritorio.addEventListener("input", () =>
+    mostrarSugestoesTerritorios(campoTerritorio.value));
+  campoTerritorio.addEventListener("keydown", (evento) => {
+    if (evento.key === "Enter") {
+      const primeira = normalizarBusca(campoTerritorio.value)
+        ? document.querySelector("#sugestoes-territorios .sugestao:not(.sugestao--todos)")
+        : document.querySelector("#sugestoes-territorios .sugestao");
+      if (primeira) {
+        evento.preventDefault();
+        selecionarTerritorio(primeira.dataset.territorio || null);
+      }
+    }
+    if (evento.key === "Escape") {
+      fecharSugestoesTerritorios();
+      gatilhoTerritorios.focus();
+    }
+  });
+
   document.addEventListener("click", (evento) => {
     if (!evento.target.closest(".campo--municipio")) {
       fecharSugestoes();
+    }
+    if (!evento.target.closest(".campo--territorio")) {
+      fecharSugestoesTerritorios();
     }
   });
 
   document.getElementById("indicador-tarifa").addEventListener("change", (evento) => {
     estado.indicadorTarifa = evento.target.value;
     renderizarTarifa();
+  });
+
+  document.getElementById("ordem-ranking-qualidade").addEventListener("change", (evento) => {
+    estado.ordemQualidade = evento.target.value;
+    renderizarQualidade();
   });
 
   document.getElementById("mostrar-renda").addEventListener("click", () => {
@@ -235,8 +303,12 @@ function ativarAba(nome) {
 
 function atualizarVisibilidadeFiltros() {
   const visaoGeral = estado.aba === "geral";
+  const visaoIvel = estado.aba === "ivel";
   document.getElementById("campo-municipio").hidden = visaoGeral;
-  document.querySelector(".filtros").classList.toggle("filtros--geral", visaoGeral);
+  document.getElementById("campo-territorio").hidden = !visaoIvel;
+  const filtros = document.querySelector(".filtros");
+  filtros.classList.toggle("filtros--geral", visaoGeral);
+  filtros.classList.toggle("filtros--ivel", visaoIvel);
 }
 
 function renderizarAbaAtual() {
@@ -261,6 +333,8 @@ function normalizarBusca(valor) {
 function mostrarSugestoes(termo) {
   const alvo = normalizarBusca(termo);
   const correspondencias = dados.municipiosOrdenados
+    .filter((item) => estado.aba !== "ivel" || !estado.territorioSelecionado
+      || item.territorio_desenvolvimento === estado.territorioSelecionado)
     .filter((item) => normalizarBusca(item.municipio).includes(alvo))
     .sort((a, b) => {
       const aComeca = normalizarBusca(a.municipio).startsWith(alvo) ? 0 : 1;
@@ -318,8 +392,92 @@ function fecharSugestoes() {
   document.getElementById("abrir-municipios").setAttribute("aria-expanded", "false");
 }
 
+function mostrarSugestoesTerritorios(termo) {
+  const alvo = normalizarBusca(termo);
+  const correspondencias = dados.territoriosOrdenados
+    .filter((item) => normalizarBusca(item).includes(alvo))
+    .sort((a, b) => {
+      const aComeca = normalizarBusca(a).startsWith(alvo) ? 0 : 1;
+      const bComeca = normalizarBusca(b).startsWith(alvo) ? 0 : 1;
+      return aComeca - bComeca || a.localeCompare(b, "pt-BR");
+    });
+  const lista = document.getElementById("sugestoes-territorios");
+  lista.replaceChildren();
+
+  const todos = document.createElement("button");
+  todos.type = "button";
+  todos.className = "sugestao sugestao--todos";
+  todos.dataset.territorio = "";
+  todos.setAttribute("role", "option");
+  todos.setAttribute("aria-selected", String(!estado.territorioSelecionado));
+  const marcadorTodos = document.createElement("span");
+  marcadorTodos.className = "sugestao__marcador";
+  const nomeTodos = document.createElement("strong");
+  nomeTodos.textContent = "Todos os territórios";
+  todos.append(marcadorTodos, nomeTodos);
+  todos.addEventListener("click", () => selecionarTerritorio(null));
+  lista.appendChild(todos);
+
+  correspondencias.forEach((territorio) => {
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.className = "sugestao";
+    botao.dataset.territorio = territorio;
+    botao.setAttribute("role", "option");
+    botao.setAttribute("aria-selected", String(territorio === estado.territorioSelecionado));
+    const marcador = document.createElement("span");
+    marcador.className = "sugestao__marcador";
+    const nome = document.createElement("strong");
+    nome.textContent = territorio;
+    botao.append(marcador, nome);
+    botao.addEventListener("click", () => selecionarTerritorio(territorio));
+    lista.appendChild(botao);
+  });
+
+  if (!correspondencias.length && alvo) {
+    const vazio = document.createElement("p");
+    vazio.className = "sugestoes__vazio";
+    vazio.textContent = "Nenhum território encontrado.";
+    lista.appendChild(vazio);
+  }
+  document.getElementById("menu-territorios").classList.add("aberto");
+  document.getElementById("abrir-territorios").setAttribute("aria-expanded", "true");
+}
+
+function fecharSugestoesTerritorios() {
+  document.getElementById("menu-territorios").classList.remove("aberto");
+  document.getElementById("abrir-territorios").setAttribute("aria-expanded", "false");
+}
+
+function selecionarTerritorio(territorio) {
+  if (territorio && !dados.territoriosOrdenados.includes(territorio)) return;
+  estado.territorioSelecionado = territorio || null;
+  estado.territoriosAtivos = Boolean(territorio) || estado.territoriosAtivos;
+  const municipio = dados.municipiosPorCodigo.get(estado.codigoMunicipio);
+  if (territorio && municipio?.territorio_desenvolvimento !== territorio) {
+    estado.codigoMunicipio = null;
+  }
+  atualizarCampoTerritorio();
+  atualizarCampoMunicipio();
+  atualizarResumoSelecao();
+  atualizarControlesIvel();
+  fecharSugestoesTerritorios();
+  renderizarIvel();
+}
+
+function atualizarCampoTerritorio() {
+  const rotulo = estado.territorioSelecionado || "Todos os territórios";
+  document.getElementById("territorio-selecionado").textContent = rotulo;
+}
+
 function selecionarMunicipio(codigo) {
   if (codigo && !dados.municipiosPorCodigo.has(codigo)) return;
+  const municipio = dados.municipiosPorCodigo.get(codigo);
+  if (codigo && estado.territorioSelecionado
+    && municipio?.territorio_desenvolvimento !== estado.territorioSelecionado) {
+    estado.territorioSelecionado = null;
+    atualizarCampoTerritorio();
+  }
   if (estado.aba === "ivel" && estado.comparacaoAtiva) {
     if (!codigo) {
       estado.municipiosComparacao = [];
@@ -404,7 +562,13 @@ function atualizarCampoMunicipio() {
 
 function atualizarResumoSelecao() {
   const municipio = dados.municipiosPorCodigo.get(estado.codigoMunicipio);
-  const recorte = estado.aba === "geral" ? "Piauí" : (municipio?.municipio ?? "Todos os municípios");
+  const recorte = estado.aba === "geral"
+    ? "Piauí"
+    : (municipio?.municipio ?? (
+      estado.aba === "ivel" && estado.territorioSelecionado
+        ? estado.territorioSelecionado
+        : "Todos os municípios"
+    ));
   document.getElementById("resumo-selecao").textContent = `${recorte} · ${estado.ano}`;
 }
 
@@ -590,28 +754,40 @@ function renderizarGeral() {
   };
   Plotly.react(
     "grafico-disponibilidade",
-    [{
-      x: disponibilidade.map((item) => item.percentual),
-      y: disponibilidade.map((item) => item.recorte),
-      text: disponibilidade.map(
-        (item) => `${percentual(item.percentual, 1)} · ${numero(item.estimativa_domicilios)}`,
-      ),
-      customdata: disponibilidade.map((item) => numero(item.estimativa_domicilios)),
-      type: "bar",
-      orientation: "h",
-      marker: {
-        color: disponibilidade.map((item) => corDisponibilidade[normalizarBusca(item.recorte)]),
+    [
+      {
+        x: disponibilidade.map((item) => item.percentual),
+        y: disponibilidade.map((item) => item.recorte),
+        text: disponibilidade.map((item) => numero(item.estimativa_domicilios)),
+        customdata: disponibilidade.map((item) => numero(item.estimativa_domicilios)),
+        type: "bar",
+        orientation: "h",
+        marker: {
+          color: disponibilidade.map((item) => corDisponibilidade[normalizarBusca(item.recorte)]),
+        },
+        textposition: "inside",
+        insidetextanchor: "middle",
+        textfont: { color: "#ffffff", size: 12 },
+        cliponaxis: false,
+        hovertemplate: "%{y}<br><b>%{x:.1f}%</b><br>Estimativa: %{customdata} domicílios<extra></extra>",
       },
-      textposition: "inside",
-      insidetextanchor: "middle",
-      textfont: { color: "#ffffff", size: 12 },
-      cliponaxis: false,
-      hovertemplate: "%{y}<br><b>%{x:.1f}%</b><br>Estimativa: %{customdata} domicílios<extra></extra>",
-    }],
+      {
+        x: disponibilidade.map((item) => item.percentual + 0.05),
+        y: disponibilidade.map((item) => item.recorte),
+        text: disponibilidade.map((item) => percentual(item.percentual, 1)),
+        type: "scatter",
+        mode: "text",
+        textposition: "middle right",
+        textfont: { color: CORES.texto, size: 12 },
+        cliponaxis: false,
+        hoverinfo: "skip",
+        showlegend: false,
+      },
+    ],
     layoutBase({
       showlegend: false,
-      margin: { l: 85, r: 18, t: 18, b: 20 },
-      xaxis: { ...eixoBasico(), range: [0, 2.45], visible: false },
+      margin: { l: 85, r: 56, t: 18, b: 20 },
+      xaxis: { ...eixoBasico(), range: [0, 2.7], visible: false },
       yaxis: {
         ...eixoBasico(),
         autorange: "reversed",
@@ -640,28 +816,48 @@ function renderizarGeral() {
   });
   Plotly.react(
     "grafico-fruicao",
-    [{
-      x: fruicao.map((item) => item.rotulo),
-      y: fruicao.map((item) => item.percentual),
-      text: fruicao.map((item) => numero(item.estimativa_domicilios)),
-      customdata: fruicao.map((item) => [
-        percentual(item.percentual, 1),
-        numero(item.estimativa_domicilios),
-      ]),
-      type: "bar",
-      marker: { color: CORES.azul },
-      textposition: "inside",
-      insidetextanchor: "middle",
-      textfont: { color: "#ffffff", size: 12 },
-      cliponaxis: false,
-      hovertemplate: "%{x}<br><b>%{customdata[1]} domicílios</b><br>%{customdata[0]}<extra></extra>",
-    }],
+    [
+      {
+        x: fruicao.map((item) => item.rotulo),
+        y: fruicao.map((item) => item.percentual),
+        text: fruicao.map((item) =>
+          normalizarBusca(item.rotulo).includes("geladeira")
+            ? ""
+            : numero(item.estimativa_domicilios)),
+        customdata: fruicao.map((item) => [
+          percentual(item.percentual, 1),
+          numero(item.estimativa_domicilios),
+        ]),
+        type: "bar",
+        marker: { color: CORES.azul },
+        textposition: "inside",
+        insidetextanchor: "middle",
+        textfont: { color: "#ffffff", size: 12 },
+        cliponaxis: false,
+        hovertemplate: "%{x}<br><b>%{customdata[1]} domicílios</b><br>%{customdata[0]}<extra></extra>",
+      },
+      {
+        x: fruicao.map((item) => item.rotulo),
+        y: fruicao.map((item) => item.percentual + 2.2),
+        text: fruicao.map((item) =>
+          normalizarBusca(item.rotulo).includes("geladeira")
+            ? `${numero(item.estimativa_domicilios)} (${percentual(item.percentual, 1)})`
+            : percentual(item.percentual, 1)),
+        type: "scatter",
+        mode: "text",
+        textposition: "top center",
+        textfont: { color: CORES.texto, size: 12 },
+        cliponaxis: false,
+        hoverinfo: "skip",
+        showlegend: false,
+      },
+    ],
     layoutBase({
       showlegend: false,
       uniformtext: { minsize: 10, mode: "show" },
       margin: { l: 50, r: 20, t: 18, b: 86 },
       xaxis: { ...eixoBasico(), type: "category", tickfont: { size: 12 } },
-      yaxis: { ...eixoBasico("%"), range: [0, 85] },
+      yaxis: { ...eixoBasico("%"), range: [0, 90] },
     }),
     CONFIG_PLOTLY,
   );
@@ -690,12 +886,9 @@ function renderizarQualidade() {
           registrosReferencia,
           "continuidade_d2_referencia",
         ),
-        dec_referencia: media(registrosReferencia, "dec_referencia"),
-        fec_referencia: media(registrosReferencia, "fec_referencia"),
         classificacao_continuidade_referencia: null,
       }
     : registrosReferencia.find((item) => item.codigo_ibge === estado.codigoMunicipio);
-  const municipio = dados.municipiosPorCodigo.get(estado.codigoMunicipio);
   const ranking = [...registrosReferencia].sort(
     (a, b) => a.continuidade_d2_referencia - b.continuidade_d2_referencia,
   );
@@ -704,13 +897,11 @@ function renderizarQualidade() {
     : ranking.findIndex((item) => item.codigo_ibge === estado.codigoMunicipio) + 1;
 
   document.getElementById("qualidade-referencia").textContent = "Referência: 2023–2025";
-  document.getElementById("qualidade-ranking-ano").textContent = "2023–2025";
-  document.getElementById("qualidade-municipio").textContent = todos
-    ? "Média dos 224 municípios"
-    : municipio.municipio;
-  document.getElementById("qualidade-serie-titulo").textContent = todos
-    ? "Série estadual"
-    : "Série municipal";
+  const ordemCrescente = estado.ordemQualidade === "crescente";
+  document.getElementById("qualidade-ranking-ano").textContent = ordemCrescente
+    ? "Ordem crescente · mais favoráveis · 2023–2025"
+    : "Ordem decrescente · mais desfavoráveis · 2023–2025";
+  document.getElementById("ordem-ranking-qualidade").value = estado.ordemQualidade;
   document.getElementById("qualidade-d2").textContent = numero(
     registro.continuidade_d2_referencia,
     2,
@@ -718,57 +909,29 @@ function renderizarQualidade() {
   document.getElementById("qualidade-classe").textContent = todos
     ? "média municipal"
     : registro.classificacao_continuidade_referencia;
-  document.getElementById("qualidade-dec").textContent = numero(registro.dec_referencia, 2);
-  document.getElementById("qualidade-fec").textContent = numero(registro.fec_referencia, 2);
   document.getElementById("qualidade-posicao").textContent = posicao ? `${posicao}ª` : "—";
 
   criarMapaCoropletico({
     id: "mapa-qualidade",
     registros: registrosReferencia,
     campoValor: "continuidade_d2_referencia",
-    tituloValor: "D2 de referência",
+    tituloValor: "Indicador de qualidade do serviço elétrico",
     unidade: "pontos",
     escala: [[0, "#eff3ff"], [0.25, "#bdd7e7"], [0.5, "#6baed6"], [0.75, "#3182bd"], [1, "#08519c"]],
     reversa: false,
     campoClasse: "classificacao_continuidade_referencia",
   });
 
-  const serie = todos
-    ? [2023, 2024, 2025].map((anoSerie) => {
-        const registrosSerie = dados.continuidade.filter((item) => Number(item.ano) === anoSerie);
-        return { ano: anoSerie, continuidade_d2: media(registrosSerie, "continuidade_d2") };
-      })
-    : dados.continuidade.filter((item) => item.codigo_ibge === estado.codigoMunicipio);
-  Plotly.react(
-    "grafico-serie-qualidade",
-    [
-      {
-        x: serie.map((item) => String(item.ano)),
-        y: serie.map((item) => item.continuidade_d2),
-        text: serie.map((item) => numero(item.continuidade_d2, 2)),
-        name: "Indicador",
-        type: "scatter",
-        mode: "lines+markers",
-        line: { color: CORES.azul, width: 4 },
-        marker: { size: 9 },
-        hovertemplate: "%{x}<br><b>%{text}</b><extra></extra>",
-      },
-    ],
-    layoutBase({
-      showlegend: false,
-      xaxis: { ...eixoBasico(), type: "category" },
-      yaxis: { ...eixoBasico("pontos"), range: [0, 100] },
-    }),
-    CONFIG_PLOTLY,
-  );
-
+  const graficoRanking = document.getElementById("grafico-ranking-qualidade");
+  graficoRanking.style.height = `${Math.max(360, registrosReferencia.length * 28)}px`;
   criarRanking({
     id: "grafico-ranking-qualidade",
-    registros: ranking.slice(0, 15),
+    registros: registrosReferencia,
     campoValor: "continuidade_d2_referencia",
     cor: CORES.azul,
     unidade: "pontos",
-    menoresPrimeiro: true,
+    menoresPrimeiro: ordemCrescente,
+    fonteMunicipios: 12,
   });
 }
 
@@ -819,7 +982,11 @@ function renderizarTarifa() {
     ? agregarDependencia(dependenciasAno, ano)
     : registroDependencia(estado.codigoMunicipio, ano);
   document.getElementById("tarifa-referencia").textContent = `Ano: ${ano}`;
-  document.getElementById("tarifa-elegiveis").textContent = numero(inclusao.familias_elegiveis);
+  const aptasNaoBeneficiadas = Math.max(
+    0,
+    Number(inclusao.familias_elegiveis) - Number(inclusao.unidades_beneficiarias),
+  );
+  document.getElementById("tarifa-elegiveis").textContent = numero(aptasNaoBeneficiadas);
   document.getElementById("tarifa-beneficiarias").textContent = numero(inclusao.unidades_beneficiarias);
   document.getElementById("tarifa-cobertura").textContent = percentual(
     inclusao.cobertura_tarifa_social_percentual,
@@ -1050,6 +1217,11 @@ function renderizarIvel() {
     CONFIG_PLOTLY,
   );
 
+  const codigosTerritorio = estado.territorioSelecionado
+    ? new Set(dados.municipios
+      .filter((item) => item.territorio_desenvolvimento === estado.territorioSelecionado)
+      .map((item) => item.codigo_ibge))
+    : null;
   criarMapaCoropletico({
     id: "mapa-ivel",
     registros: dados.ivel,
@@ -1067,6 +1239,7 @@ function renderizarIvel() {
     campoClasse: "classificacao_ivel",
     rotuloClasse: "Vulnerabilidade elétrica",
     exibirTerritorios: estado.territoriosAtivos,
+    codigosDestacados: codigosTerritorio,
     coresClasses: {
       "Muito baixa": "#fff7bc",
       Baixa: "#fec44f",
@@ -1145,6 +1318,7 @@ function criarMapaCoropletico({
   coresClasses = null,
   rotuloClasse = null,
   exibirTerritorios = false,
+  codigosDestacados = null,
 }) {
   const classes = coresClasses ? Object.keys(coresClasses) : [];
   const valores = coresClasses
@@ -1188,6 +1362,27 @@ function criarMapaCoropletico({
     hovertemplate: "%{text}<extra></extra>",
   }];
 
+  if (codigosDestacados) {
+    const indicesDestacados = registros
+      .map((item, indice) => codigosDestacados.has(item.codigo_ibge) ? indice : -1)
+      .filter((indice) => indice >= 0);
+    traces[0].locations = indicesDestacados.map((indice) => registros[indice].codigo_ibge);
+    traces[0].z = indicesDestacados.map((indice) => valores[indice]);
+    traces[0].text = indicesDestacados.map((indice) => textos[indice]);
+    traces.unshift({
+      type: "choropleth",
+      geojson: dados.geografia,
+      featureidkey: "properties.codigo_ibge",
+      locations: registros.map((item) => item.codigo_ibge),
+      z: registros.map(() => 0),
+      colorscale: [[0, "#d6dee5"], [1, "#d6dee5"]],
+      showscale: false,
+      marker: { line: { color: "#ffffff", width: 0.45 } },
+      opacity: 0.28,
+      hoverinfo: "skip",
+    });
+  }
+
   if (exibirTerritorios && dados.territorios) {
     const limites = extrairLinhasGeojson(dados.territorios);
     traces.push({
@@ -1195,7 +1390,7 @@ function criarMapaCoropletico({
       mode: "lines",
       lon: limites.longitude,
       lat: limites.latitude,
-      line: { color: "#102f49", width: 2.3 },
+      line: { color: "#102f49", width: 1.0 },
       hoverinfo: "skip",
       showlegend: false,
     });
@@ -1205,6 +1400,7 @@ function criarMapaCoropletico({
     id,
     traces,
     layoutBase({
+      dragmode: "pan",
       margin: { l: 4, r: 4, t: 4, b: 4 },
       geo: {
         fitbounds: "locations",
@@ -1213,7 +1409,7 @@ function criarMapaCoropletico({
         projection: { type: "mercator" },
       },
     }),
-    CONFIG_PLOTLY,
+    CONFIG_MAPA,
   );
   registrarClique(id, (ponto) => {
     if (ponto.location) selecionarMunicipio(ponto.location);

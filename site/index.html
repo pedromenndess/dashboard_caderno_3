@@ -8,7 +8,7 @@
     <link rel="icon" href="recursos/logo_seplan.png" type="image/png">
     <link rel="stylesheet" href="css/estilos.css?v=20261116-03">
     <script src="bibliotecas/plotly-4.1.1.min.js" charset="utf-8"></script>
-    <script src="js/painel.js?v=20261116-03" defer></script>
+    <script src="js/painel.js?v=20261117-02" defer></script>
   </head>
   <body>
     <header class="cabecalho">
@@ -58,6 +58,36 @@
                 >
               </div>
               <div id="sugestoes-municipio" class="sugestoes" role="listbox" aria-label="Municípios"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="campo-territorio" class="campo campo--territorio" hidden>
+          <label for="abrir-territorios">Território de Desenvolvimento</label>
+          <div class="seletor-municipio">
+            <button
+              id="abrir-territorios"
+              class="seletor-municipio__gatilho"
+              type="button"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-controls="menu-territorios"
+            >
+              <span id="territorio-selecionado">Todos os territórios</span>
+              <span class="seletor-municipio__seta" aria-hidden="true">⌄</span>
+            </button>
+            <div id="menu-territorios" class="menu-municipios">
+              <div class="menu-municipios__busca">
+                <span aria-hidden="true">⌕</span>
+                <input
+                  id="filtro-territorio"
+                  type="search"
+                  placeholder="Procurar território"
+                  autocomplete="off"
+                  aria-label="Procurar território de desenvolvimento"
+                >
+              </div>
+              <div id="sugestoes-territorios" class="sugestoes" role="listbox" aria-label="Territórios de Desenvolvimento"></div>
             </div>
           </div>
         </div>
@@ -168,58 +198,58 @@
         <div class="secao-titulo">
           <div>
             <span class="rotulo-secao">Indicadores municipais</span>
-            <h2 id="titulo-qualidade">Qualidade e continuidade</h2>
+            <h2 id="titulo-qualidade">Qualidade do serviço elétrico</h2>
           </div>
           <span class="referencia" id="qualidade-referencia">Referência: 2023–2025</span>
         </div>
 
-        <div class="cartoes cartoes--quatro">
+        <div class="cartoes cartoes--dois">
           <article class="cartao-indicador cartao-indicador--azul">
-            <span>Indicador D2 de referência</span>
+            <span class="rotulo-com-ajuda">
+              Indicador de qualidade do serviço elétrico
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="O indicador combina o DEC e o FEC para avaliar a qualidade do fornecimento de energia elétrica quanto à sua continuidade. O DEC expressa o total médio de horas sem fornecimento por unidade consumidora, enquanto o FEC indica o número médio de interrupções por unidade consumidora no período analisado."
+                data-ajuda="O indicador combina o DEC e o FEC para avaliar a qualidade do fornecimento de energia elétrica quanto à sua continuidade. O DEC expressa o total médio de horas sem fornecimento por unidade consumidora, enquanto o FEC indica o número médio de interrupções por unidade consumidora no período analisado."
+              >!</button>
+            </span>
             <strong id="qualidade-d2">—</strong>
             <small id="qualidade-classe">—</small>
           </article>
           <article class="cartao-indicador">
-            <span>DEC de referência</span>
-            <strong id="qualidade-dec">—</strong>
-            <small>horas</small>
-          </article>
-          <article class="cartao-indicador">
-            <span>FEC de referência</span>
-            <strong id="qualidade-fec">—</strong>
-            <small>interrupções</small>
-          </article>
-          <article class="cartao-indicador">
             <span>Posição estadual</span>
             <strong id="qualidade-posicao">—</strong>
-            <small>menor valor = melhor posição</small>
+            <small>posição calculada pelo indicador de qualidade</small>
           </article>
         </div>
 
-        <div class="grade-graficos grade-graficos--mapa">
+        <div class="grade-graficos">
           <article class="bloco-grafico bloco-grafico--mapa">
             <div class="bloco-grafico__titulo">
-              <h3>D2 de referência por município</h3>
-              <span>Clique em um município</span>
+              <h3>Indicador de qualidade do serviço elétrico por município</h3>
+              <span>Selecione um município</span>
             </div>
             <div id="mapa-qualidade" class="grafico grafico--mapa"></div>
-          </article>
-          <article class="bloco-grafico">
-            <div class="bloco-grafico__titulo">
-              <h3 id="qualidade-serie-titulo">Série municipal</h3>
-              <span id="qualidade-municipio">—</span>
-            </div>
-            <div id="grafico-serie-qualidade" class="grafico grafico--medio"></div>
           </article>
         </div>
 
         <div class="grade-graficos">
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Menores valores do D2 de referência</h3>
-              <span id="qualidade-ranking-ano">2023–2025</span>
+              <h3>Indicador de qualidade do serviço elétrico por município</h3>
+              <span id="qualidade-ranking-ano">Ordem crescente · mais favoráveis · 2023–2025</span>
             </div>
-            <div id="grafico-ranking-qualidade" class="grafico grafico--alto"></div>
+            <div class="controle-grafico controle-grafico--ranking">
+              <label for="ordem-ranking-qualidade">Ordenação</label>
+              <select id="ordem-ranking-qualidade">
+                <option value="crescente">Crescente — mais favoráveis</option>
+                <option value="decrescente">Decrescente — mais desfavoráveis</option>
+              </select>
+            </div>
+            <div class="grafico-com-rolagem">
+              <div id="grafico-ranking-qualidade" class="grafico grafico--ranking-rolagem"></div>
+            </div>
           </article>
         </div>
 
@@ -251,6 +281,19 @@
           </article>
           <article class="cartao-indicador cartao-indicador--verde">
             <span class="rotulo-com-ajuda">
+              Famílias aptas ao benefício, mas que ainda não recebem
+              <button
+                class="ajuda-indicador"
+                type="button"
+                aria-label="Diferença entre o total de famílias elegíveis e as unidades consumidoras beneficiadas pela Tarifa Social."
+                data-ajuda="Diferença entre o total de famílias elegíveis e as unidades consumidoras beneficiadas pela Tarifa Social."
+              >!</button>
+            </span>
+            <strong id="tarifa-elegiveis">—</strong>
+            <small id="tarifa-elegiveis-ano">—</small>
+          </article>
+          <article class="cartao-indicador">
+            <span class="rotulo-com-ajuda">
               Cobertura estimada
               <button
                 class="ajuda-indicador"
@@ -261,19 +304,6 @@
             </span>
             <strong id="tarifa-cobertura">—</strong>
             <small id="tarifa-cobertura-recorte">município selecionado</small>
-          </article>
-          <article class="cartao-indicador">
-            <span class="rotulo-com-ajuda">
-              Famílias elegíveis
-              <button
-                class="ajuda-indicador"
-                type="button"
-                aria-label="O valor representa o total de famílias aptas ao benefício da Tarifa Social."
-                data-ajuda="O valor representa o total de famílias aptas ao benefício da Tarifa Social."
-              >!</button>
-            </span>
-            <strong id="tarifa-elegiveis">—</strong>
-            <small id="tarifa-elegiveis-ano">—</small>
           </article>
           <article class="cartao-indicador cartao-indicador--vermelho">
             <span class="rotulo-com-ajuda">
@@ -302,20 +332,20 @@
           <article class="bloco-grafico bloco-grafico--mapa">
             <div class="bloco-grafico__titulo">
               <h3 id="tarifa-mapa-titulo">Cobertura estimada da Tarifa Social</h3>
-              <span>Clique em um município</span>
+              <span>Selecione um município</span>
             </div>
             <div id="mapa-tarifa" class="grafico grafico--mapa"></div>
           </article>
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Cobertura estimada da Tarifa Social — evolução</h3>
+              <h3>Evolução da cobertura estimada da Tarifa Social</h3>
               <span id="tarifa-municipio-cobertura">—</span>
             </div>
             <div id="grafico-serie-cobertura" class="grafico grafico--serie-tarifa"></div>
           </article>
           <article class="bloco-grafico">
             <div class="bloco-grafico__titulo">
-              <h3>Dependência tarifária — evolução</h3>
+              <h3>Evolução da dependência tarifária</h3>
               <span id="tarifa-municipio-dependencia">—</span>
             </div>
             <div id="grafico-serie-dependencia" class="grafico grafico--serie-tarifa"></div>
